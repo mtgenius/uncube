@@ -1,0 +1,14 @@
+{
+  "title": "Ante",
+  "cards": [
+    { "name": "Amulet of Quoz", "tcgplayer-set-url": "ice-age" },
+    { "name": "Bronze Tablet", "tcgplayer-set-url": "fourth-edition" },
+    { "name": "Contract from Below", "tcgplayer-set-url": "revised-edition" },
+    { "name": "Darkpact", "tcgplayer-set-url": "revised-edition" },
+    { "name": "Demonic Attorney", "tcgplayer-set-url": "revised-edition" },
+    { "name": "Jeweled Bird", "tcgplayer-set-url": "chronicles" },
+    { "name": "Rebirth", "tcgplayer-set-url": "fourth-edition" },
+    { "name": "Tempest Efreet", "tcgplayer-set-url": "fourth-edition" },
+    { "name": "Timmerian Fiends", "tcgplayer-set-url": "homelands" }
+  ]
+}

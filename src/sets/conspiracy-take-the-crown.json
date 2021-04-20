@@ -1,0 +1,32 @@
+{
+  "title": "Conspiracy: Take the Crown",
+  "cards": [
+    { "name": "Adriana's Valor" },
+    { "name": "Hold the Perimeter" },
+    { "name": "Assemble the Rank and Vile" },
+    { "name": "Emissary's Ploy" },
+    { "name": "Weight Advantage" },
+    { "name": "Natural Unity" },
+    { "name": "Incendiary Dissent" },
+    { "name": "Hymn of the Wilds" },
+    { "name": "Sovereign's Realm" },
+    { "name": "Echoing Boon" },
+    { "name": "Summoner's Bond" },
+    { "name": "Hired Heist" },
+    { "name": "Regicide" },
+    { "name": "Paliano Vanguard", "premium": true },
+    { "name": "Caller of the Untamed", "premium": true },
+    { "name": "Spire Phantasm", "premium": true },
+    { "name": "Garbage Fire", "premium": true },
+    { "name": "Leovold's Operative", "premium": true },
+    { "name": "Arcane Savant", "premium": true },
+    { "name": "Custodi Peacekeeper", "premium": true },
+    { "name": "Smuggler Captain", "premium": true },
+    { "name": "Pyretic Hunter", "premium": true },
+    { "name": "Noble Banneret", "premium": true },
+    { "name": "Animus of Predation", "premium": true },
+    { "name": "Illusionary Informant", "premium": true },
+    { "name": "Volatile Chimera", "premium": true },
+    { "name": "Archdemon of Paliano", "premium": true }
+  ]
+}

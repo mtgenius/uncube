@@ -1,0 +1,27 @@
+{
+  "title": "Unsanctioned",
+  "cards": [
+    { "name": "Underdome" },
+    { "name": "Pippa, Duchess of Dice" },
+    { "name": "Look at Me, I'm R&D", "tcgplayer": "look-at-me-im-randd" },
+    { "name": "Abstract Iguanart" },
+    { "name": "Alexander Clamilton" },
+    { "name": "B.O.B. (Bevy of Beebles)" },
+    { "name": "Acornelia, Fashionable Filcher" },
+    { "name": "Boomstacker" },
+    { "name": "Rings a Bell" },
+    { "name": "Flavor Judge" },
+    { "name": "Booster Tutor" },
+    { "name": "Goblin S.W.A.T." },
+    { "name": "Timmy, Power Gamer" },
+    { "name": "Syr Cadian, Knight Owl" },
+    { "name": "Stet, Draconic Proofreader" },
+    { "name": "Infernius Spawnington III, Esq." },
+    { "name": "Pointy Finger of Doom" },
+    { "name": "Spirit of the Season" },
+    {
+      "name": "Surgeon ~~General~~ Commander",
+      "tcgplayer": "surgeon-~general~-commander"
+    }
+  ]
+}

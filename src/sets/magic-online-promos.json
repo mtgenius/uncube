@@ -1,0 +1,22 @@
+{
+  "title": "Magic Online Promos",
+  "digital": true,
+  "cards": [
+    { "name": "Breeding Pool" },
+    { "name": "Overgrown Tomb" },
+    { "name": "Hallowed Fountain" },
+    { "name": "Watery Grave" },
+    { "name": "Undiscovered Paradise" },
+    { "name": "Ash Barrens" },
+    { "name": "Steam Vents" },
+    { "name": "Sacred Foundry" },
+    { "name": "The Tabernacle at Pendrell Vale" },
+    { "name": "Godless Shrine" },
+    { "name": "Temple Garden" },
+    { "name": "Blood Crypt" },
+    { "name": "Twilight Mire" },
+    { "name": "Stomping Ground" },
+    { "name": "Fire-Lit Thicket" },
+    { "name": "Cascading Cataracts" }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Heroes of the Realm",
+  "digital": true,
+  "cards": [
+    { "name": "Chandra, Gremlin Wrangler", "premium": true },
+    { "name": "Diabolical Salvation", "premium": true },
+    { "name": "Dungeon Master", "premium": true },
+    { "name": "Inzerva, Master of Insights", "premium": true },
+    { "name": "Kharis & the Beholder", "premium": true },
+    { "name": "M'Odo, the Gnarled Oracle" },
+    { "name": "Nira, Hellkite Duelist" },
+    { "name": "Sol, Advocate Eternal" },
+    { "name": "The Legend of Arena", "premium": true },
+    { "name": "Collectigull", "premium": true },
+    { "name": "Topdeck the Halls", "premium": true },
+    { "name": "Myntasha, Honored One", "premium": true },
+    { "name": "Champions of Archery", "premium": true },
+    { "name": "War of the Spark", "premium": true },
+    { "name": "Keepr of the Secret Lair", "premium": true }
+  ]
+}

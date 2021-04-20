@@ -1,0 +1,27 @@
+{
+  "title": "Hero's Path",
+  "tcgplayer-url": "heros-path-promos",
+  "cards": [
+    { "name": "The Philosopher" },
+    { "name": "Cloak of the Philosopher" },
+    { "name": "Lash of the Tyrant" },
+    { "name": "The Harvester" },
+    { "name": "The Destined" },
+    { "name": "The Vanquisher" },
+    { "name": "The Champion" },
+    { "name": "Spear of the General" },
+    { "name": "The Warrior" },
+    { "name": "The Protector" },
+    { "name": "The Avenger" },
+    { "name": "The Hunter" },
+    { "name": "The Explorer" },
+    { "name": "Bow of the Hunter" },
+    { "name": "The Savant" },
+    { "name": "The Tyrant" },
+    { "name": "The General" },
+    { "name": "The Slayer" },
+    { "name": "The Warmonger" },
+    { "name": "Axe of the Warmonger" },
+    { "name": "The Provider" }
+  ]
+}

@@ -4,6 +4,6 @@
   "author": "Charles Stover <uncube@mtgeni.us>",
   "private": true,
   "scripts": {
-    "generate-readme": "node ./scripts/generate-readme.js"
+    "build": "node ./scripts/build.js"
   }
 }

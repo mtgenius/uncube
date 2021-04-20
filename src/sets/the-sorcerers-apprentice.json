@@ -1,0 +1,11 @@
+{
+  "title": "The Sorcerer's Apprentice",
+  "digital": true,
+  "cards": [
+    { "name": "Enthrall", "premium": true },
+    { "name": "Drake Stone", "premium": true },
+    { "name": "Concentrate", "premium": true },
+    { "name": "Illusory Thoughts" },
+    { "name": "Distract" }
+  ]
+}

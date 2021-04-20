@@ -1,6 +1,6 @@
-module.exports = function getCardUrl({ name }) {
+module.exports = function mapStringToUrl(str) {
   return encodeURIComponent(
-    name
+    str
       .toLowerCase()
       .replace(/['!.\(\)\?"]/g, '')
       .replace(/[^\w\d]+/g, '-'),
