@@ -1,5 +1,5 @@
 const GITHUB_REPOSITORY = require('../constants/github-repository');
-const mapCardToNameMarkdown = require('../map/map-card-to-name-markdown');
+const PREMIUM_ICON_MARKDOWN = require('../constants/premium-icon-markdown');
 const mapCardToUrl = require('../map/map-card-to-url');
 
 module.exports = class RunnableMapDigitalCardToNameMarkdown {
@@ -9,8 +9,11 @@ module.exports = class RunnableMapDigitalCardToNameMarkdown {
   }
 
   run(card) {
-    const name = mapCardToNameMarkdown(card);
-    const url = mapCardToUrl(card);
-    return `[${name}](${GITHUB_REPOSITORY}/raw/master/cards/${this._setUrl}/${url}.png)`;
+    const urlId = mapCardToUrl(card);
+    const url = `${GITHUB_REPOSITORY}/raw/master/cards/${this._setUrl}/${urlId}.png`;
+    if (card.premium) {
+      return `[${card.name}](${url}) ${PREMIUM_ICON_MARKDOWN}`;
+    }
+    return `[${card.name}](${url})`;
   }
 };
