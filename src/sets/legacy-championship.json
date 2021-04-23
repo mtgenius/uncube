@@ -2,17 +2,17 @@
   "title": "Legacy Championship",
   "digital": true,
   "cards": [
-    { "name": "Scrubland" },
-    { "name": "Tundra" },
-    { "name": "Tropical Island" },
-    { "name": "Gaea's Cradle" },
-    { "name": "City of Traitors" },
-    { "name": "Bayou" },
-    { "name": "Underground Sea" },
-    { "name": "Savannah" },
     { "name": "Badlands" },
-    { "name": "Volcanic Island" },
+    { "name": "Bayou" },
+    { "name": "City of Traitors" },
+    { "name": "Gaea's Cradle" },
+    { "name": "Plateau" },
+    { "name": "Savannah" },
+    { "name": "Scrubland" },
     { "name": "Taiga" },
-    { "name": "Plateau" }
+    { "name": "Tropical Island" },
+    { "name": "Tundra" },
+    { "name": "Underground Sea" },
+    { "name": "Volcanic Island" }
   ]
 }

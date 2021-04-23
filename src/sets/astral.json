@@ -2,12 +2,12 @@
   "title": "Astral",
   "digital": true,
   "cards": [
-    { "name": "Goblin Polka Band" },
+    { "name": "Assembly Worker" },
     { "name": "Call from the Grave", "premium": true },
+    { "name": "Gem Bazaar" },
+    { "name": "Goblin Polka Band" },
     { "name": "Necropolis of Azar", "premium": true },
     { "name": "Prismatic Dragon", "premium": true },
-    { "name": "Rainbow Knights" },
-    { "name": "Gem Bazaar" },
-    { "name": "Assembly Worker" }
+    { "name": "Rainbow Knights" }
   ]
 }

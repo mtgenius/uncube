@@ -15,9 +15,6 @@
     { "name": "Elvish Impersonators" },
     { "name": "Ricochet" },
     { "name": "Temp of the Damned" },
-    {
-      "name": "The Ultimate Nightmare of Wizards of the Coast Customer Service"
-    },
     { "name": "Chicken Egg" },
     { "name": "Hungry Hungry Heifer" },
     { "name": "Goblin Bookie" },
@@ -55,6 +52,9 @@
     { "name": "Free-for-All" },
     { "name": "Jack-in-the-Mox" },
     { "name": "Mine, Mine, Mine!" },
-    { "name": "Timmy, Power Gamer" }
+    { "name": "Timmy, Power Gamer" },
+    {
+      "name": "The Ultimate Nightmare of Wizards of the Coast Customer Service"
+    }
   ]
 }

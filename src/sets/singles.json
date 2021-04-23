@@ -1,6 +1,11 @@
 {
   "title": "Singles",
   "cards": [
+    { "name": "1996 World Champion", "digital": true },
+    { "name": "Gleemox", "digital": true },
+    { "name": "Magic Guru", "digital": true },
+    { "name": "Nalathni Dragon", "tcgplayer-set-url": "media-promos" },
+    { "name": "Painful Hedgehogs", "digital": true },
     {
       "name": "Steamflogger Boss",
       "premium": true,
@@ -74,11 +79,6 @@
       "name": "Robot Chicken",
       "digital": true,
       "premium": true
-    },
-    { "name": "1996 World Champion", "digital": true },
-    { "name": "Magic Guru", "digital": true },
-    { "name": "Painful Hedgehogs", "digital": true },
-    { "name": "Gleemox", "digital": true },
-    { "name": "Nalathni Dragon", "tcgplayer-set-url": "media-promos" }
+    }
   ]
 }
