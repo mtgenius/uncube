@@ -1,0 +1,20 @@
+{
+  "title": "Unstable (Augments)",
+  "tcgplayer-url": "unstable",
+  "cards": [
+    { "name": "Bat-" },
+    { "name": "Half-Kitten, Half-" },
+    { "name": "Half-Orc, Half-" },
+    { "name": "Half-Shark, Half-" },
+    { "name": "Half-Squirrel, Half-" },
+    { "name": "Humming-" },
+    { "name": "Monkey-" },
+    { "name": "Multi-Headed" },
+    { "name": "Ninja" },
+    { "name": "Rhino-" },
+    { "name": "Robo-" },
+    { "name": "Serpentine" },
+    { "name": "Steam-Powered" },
+    { "name": "Zombified" }
+  ]
+}

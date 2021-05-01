@@ -34,5 +34,7 @@ those cards.
 * [Unglued](https://github.com/mtgenius/uncube/blob/master/sets/unglued.md)
 * [Unhinged](https://github.com/mtgenius/uncube/blob/master/sets/unhinged.md)
 * [Unsanctioned](https://github.com/mtgenius/uncube/blob/master/sets/unsanctioned.md)
+* [Unstable (Augments)](https://github.com/mtgenius/uncube/blob/master/sets/unstable-augments.md)
+* [Unstable (Contraptions)](https://github.com/mtgenius/uncube/blob/master/sets/unstable-contraptions.md)
 * [Unstable](https://github.com/mtgenius/uncube/blob/master/sets/unstable.md)
 * [Vintage Masters](https://github.com/mtgenius/uncube/blob/master/sets/vintage-masters.md)

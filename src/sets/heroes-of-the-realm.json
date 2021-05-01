@@ -18,11 +18,11 @@
     { "name": "Sol, Advocate Eternal" },
     { "name": "The Cinematic Phoenix", "premium": true },
     { "name": "The Legend of Arena", "premium": true },
+    { "name": "War of the Spark", "premium": true },
     {
       "name": "The Legend of Arena",
       "premium": true,
       "id": "the-legend-of-arena-2"
-    },
-    { "name": "War of the Spark", "premium": true }
+    }
   ]
 }
