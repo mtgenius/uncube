@@ -27,6 +27,7 @@ those cards.
 * [Legacy Championship](https://github.com/mtgenius/uncube/blob/master/sets/legacy-championship.md)
 * [Magic Online Promos](https://github.com/mtgenius/uncube/blob/master/sets/magic-online-promos.md)
 * [Magic: The Gathering Arena](https://github.com/mtgenius/uncube/blob/master/sets/magic-the-gathering-arena.md)
+* [Mirror, Mirror](https://github.com/mtgenius/uncube/blob/master/sets/mirror-mirror.md)
 * [Mystery Booster: Convention Edition](https://github.com/mtgenius/uncube/blob/master/sets/mystery-booster-convention-edition.md)
 * [Singles](https://github.com/mtgenius/uncube/blob/master/sets/singles.md)
 * [The Sorcerer's Apprentice](https://github.com/mtgenius/uncube/blob/master/sets/the-sorcerers-apprentice.md)
