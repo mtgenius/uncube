@@ -3,6 +3,7 @@
 | Card name | TCGPlayer |
 | :-------- | --------: |
 | [1996 World Champion](https://github.com/mtgenius/uncube/raw/master/cards/singles/1996-world-champion.png) | - |
+| [Danny Trejo](https://github.com/mtgenius/uncube/raw/master/cards/singles/danny-trejo.png) | - |
 | [Evan Goldberg](https://github.com/mtgenius/uncube/raw/master/cards/singles/evan-goldberg.png) [![premium](https://user-images.githubusercontent.com/343837/83360751-a631d080-a338-11ea-80c6-110971103bf4.png)](https://github.com/mtgenius/uncube) | - |
 | [Forest Gump](https://github.com/mtgenius/uncube/raw/master/cards/singles/forest-gump.png) [![premium](https://user-images.githubusercontent.com/343837/83360751-a631d080-a338-11ea-80c6-110971103bf4.png)](https://github.com/mtgenius/uncube) | - |
 | [Gleemox](https://github.com/mtgenius/uncube/raw/master/cards/singles/gleemox.png) | - |
