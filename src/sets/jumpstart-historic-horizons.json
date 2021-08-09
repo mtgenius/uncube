@@ -1,0 +1,32 @@
+{
+  "title": "Jumpstart: Historic Horizons",
+  "digital": true,
+  "cards": [
+    { "name": "Baffling Defenses", "premium": true },
+    { "name": "Boneyard Aberration", "premium": true },
+    { "name": "Bounty of the Deep", "premium": true },
+    { "name": "Davriel, Soul Broker", "premium": true },
+    { "name": "Davriel's Withering" },
+    { "name": "Ethereal Grasp", "premium": true },
+    { "name": "Faceless Agent", "premium": true },
+    { "name": "Kiora, the Tide's Fury", "premium": true },
+    { "name": "Leonin Sanctifier", "premium": true },
+    { "name": "Longtusk Stalker" },
+    { "name": "Lumbering Lightshield", "premium": true },
+    { "name": "Managorger Phoenix" },
+    { "name": "Manor Guardian", "premium": true },
+    { "name": "Mentor of Evos Isle", "premium": true },
+    { "name": "Plaguecrafter's Familiar", "premium": true },
+    { "name": "Pool of Vigorous Growth", "premium": true },
+    { "name": "Sarkhan, Wanderer to Shiv", "premium": true },
+    { "name": "Sarkhan's Scorn", "premium": true },
+    { "name": "Scion of Shiv", "premium": true },
+    { "name": "Shoreline Scout" },
+    { "name": "Skyshroud Ambush", "premium": true },
+    { "name": "Static Discharge", "premium": true },
+    { "name": "Subversive Acolyte" },
+    { "name": "Tome of the Infinite", "premium": true },
+    { "name": "Veteran Charger", "premium": true },
+    { "name": "Wingsteed Trainer", "premium": true }
+  ]
+}

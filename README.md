@@ -24,6 +24,7 @@ those cards.
 * [Happy Holidays](https://github.com/mtgenius/uncube/blob/master/sets/happy-holidays.md)
 * [Heroes of the Realm](https://github.com/mtgenius/uncube/blob/master/sets/heroes-of-the-realm.md)
 * [Hero's Path](https://github.com/mtgenius/uncube/blob/master/sets/heros-path.md)
+* [Jumpstart: Historic Horizons](https://github.com/mtgenius/uncube/blob/master/sets/jumpstart-historic-horizons.md)
 * [Legacy Championship](https://github.com/mtgenius/uncube/blob/master/sets/legacy-championship.md)
 * [Magic Online Promos](https://github.com/mtgenius/uncube/blob/master/sets/magic-online-promos.md)
 * [Magic: The Gathering Arena](https://github.com/mtgenius/uncube/blob/master/sets/magic-the-gathering-arena.md)
