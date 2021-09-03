@@ -39,4 +39,5 @@ those cards.
 * [Unstable (Augments)](https://github.com/mtgenius/uncube/blob/master/sets/unstable-augments.md)
 * [Unstable (Contraptions)](https://github.com/mtgenius/uncube/blob/master/sets/unstable-contraptions.md)
 * [Unstable](https://github.com/mtgenius/uncube/blob/master/sets/unstable.md)
+* [Vintage Championship](https://github.com/mtgenius/uncube/blob/master/sets/vintage-championship.md)
 * [Vintage Masters](https://github.com/mtgenius/uncube/blob/master/sets/vintage-masters.md)

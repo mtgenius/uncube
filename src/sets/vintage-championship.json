@@ -1,0 +1,9 @@
+{
+  "title": "Vintage Championship",
+  "digital": true,
+  "cards": [
+    { "name": "Library of Alexandria" },
+    { "name": "Mishra's Workshop" },
+    { "name": "Tolarian Academy" }
+  ]
+}
