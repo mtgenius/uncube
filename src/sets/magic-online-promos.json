@@ -17,6 +17,10 @@
     { "name": "The Tabernacle at Pendrell Vale" },
     { "name": "Twilight Mire" },
     { "name": "Undiscovered Paradise" },
-    { "name": "Watery Grave" }
+    { "name": "Urza's Mine", "banned": "Synergy" },
+    { "name": "Urza's Power Plant", "banned": "Synergy" },
+    { "name": "Urza's Tower", "banned": "Synergy" },
+    { "name": "Watery Grave" },
+    { "name": "Wooded Foothills" }
   ]
 }

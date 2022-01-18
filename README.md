@@ -15,6 +15,8 @@ those cards.
 
 ## Sets
 
+* [Alchemy: Innistrad](https://github.com/mtgenius/uncube/blob/master/sets/alchemy-innistrad.md)
+* [Amonkhet Remastered](https://github.com/mtgenius/uncube/blob/master/sets/amonkhet-remastered.md)
 * [Ante](https://github.com/mtgenius/uncube/blob/master/sets/ante.md)
 * [Astral](https://github.com/mtgenius/uncube/blob/master/sets/astral.md)
 * [Conspiracy: Take the Crown](https://github.com/mtgenius/uncube/blob/master/sets/conspiracy-take-the-crown.md)

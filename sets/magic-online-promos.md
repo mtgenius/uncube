@@ -18,3 +18,4 @@
 | [Twilight Mire](https://github.com/mtgenius/uncube/raw/master/cards/magic-online-promos/twilight-mire.png) |
 | [Undiscovered Paradise](https://github.com/mtgenius/uncube/raw/master/cards/magic-online-promos/undiscovered-paradise.png) |
 | [Watery Grave](https://github.com/mtgenius/uncube/raw/master/cards/magic-online-promos/watery-grave.png) |
+| [Wooded Foothills](https://github.com/mtgenius/uncube/raw/master/cards/magic-online-promos/wooded-foothills.png) |

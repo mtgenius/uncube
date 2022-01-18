@@ -11,6 +11,9 @@ module.exports = function mapDigitalSetDefinitionToSetContent(setDefinition) {
   rows.push('| :-------- |');
 
   for (const card of setDefinition.cards) {
+    if (Object.prototype.hasOwnProperty.call(card, 'banned')) {
+      continue;
+    }
     const name = mapDigitalCardToNameMarkdown.run(card);
     rows.push(`| ${name} |`);
   }

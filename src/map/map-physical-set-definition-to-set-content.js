@@ -14,6 +14,9 @@ module.exports = function mapPhysicalSetDefinitionToSetContent(setDefinition) {
   rows.push('| :-------- | --------: |');
 
   for (const card of setDefinition.cards) {
+    if (Object.prototype.hasOwnProperty.call(card, 'banned')) {
+      continue;
+    }
     if (card.digital) {
       const name = mapDigitalCardToNameMarkdown.run(card);
       rows.push(`| ${name} | - |`);
