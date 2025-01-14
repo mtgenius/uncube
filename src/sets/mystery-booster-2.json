@@ -1,0 +1,39 @@
+{
+  "title": "Mystery Booster 2",
+  "tcgplayer-url": "mystery-booster-2",
+  "cards": [
+    {
+      "name": "Forsaken Crossroads",
+      "premium": true
+    },
+    {
+      "name": "Oracle of the Alpha",
+      "banned": "Conjure",
+      "premium": true
+    },
+    {
+      "name": "Rusko, Clockmaker",
+      "banned": "Conjure",
+      "premium": true
+    },
+    {
+      "name": "Sanguine Brushstroke",
+      "banned": "Conjure",
+      "premium": true
+    },
+    {
+      "name": "Sigardian Evangel",
+      "banned": "Conjure",
+      "premium": true
+    },
+    {
+      "name": "Tenacious Pup",
+      "premium": true
+    },
+    {
+      "name": "Toralf's Disciple",
+      "banned": "Conjure",
+      "premium": true
+    }
+  ]
+}

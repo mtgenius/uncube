@@ -2,17 +2,74 @@
   "title": "Happy Holidays",
   "tcgplayer-url": "special-occasion",
   "cards": [
-    { "name": "Bog Humbugs", "premium": true },
-    { "name": "Decorated Knight", "premium": true },
-    { "name": "Evil Presents", "premium": true },
-    { "name": "Fruitcake Elemental", "premium": true },
-    { "name": "Gifts Given", "premium": true },
-    { "name": "Naughty // Nice", "premium": true },
-    { "name": "Season's Beatings", "premium": true },
-    { "name": "Snow Mercy", "premium": true },
-    { "name": "Some Disassembly Required", "premium": true },
-    { "name": "Stocking Tiger", "premium": true },
-    { "name": "Topdeck the Halls", "premium": true },
-    { "name": "Yule Ooze", "premium": true }
+    {
+      "name": "Bog Humbugs",
+      "premium": true
+    },
+    {
+      "name": "Chaos Wrap",
+      "banned": "Dexterity",
+      "premium": true
+    },
+    {
+      "name": "Decorated Knight",
+      "premium": true
+    },
+    {
+      "name": "Eggnogger's 'Stache",
+      "banned": "Food",
+      "premium": true
+    },
+    {
+      "name": "Euroakus",
+      "premium": true
+    },
+    {
+      "name": "Evil Presents",
+      "premium": true
+    },
+    {
+      "name": "Fruitcake Elemental",
+      "premium": true
+    },
+    {
+      "name": "Gifts Given",
+      "premium": true
+    },
+    {
+      "name": "Mountain Mover",
+      "premium": true
+    },
+    {
+      "name": "Naughty // Nice",
+      "premium": true
+    },
+    {
+      "name": "Season's Beatings",
+      "premium": true
+    },
+    {
+      "name": "Snow Mercy",
+      "premium": true
+    },
+    {
+      "name": "Some Disassembly Required",
+      "premium": true
+    },
+    {
+      "name": "Stocking Tiger",
+      "premium": true
+    },
+    {
+      "name": "The Secret Lair"
+    },
+    {
+      "name": "Topdeck the Halls",
+      "premium": true
+    },
+    {
+      "name": "Yule Ooze",
+      "premium": true
+    }
   ]
 }

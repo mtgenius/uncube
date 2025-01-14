@@ -10,7 +10,7 @@ module.exports = class RunnableMapDigitalCardToNameMarkdown {
 
   run(card) {
     const urlId = mapCardToUrl(card);
-    const url = `${GITHUB_REPOSITORY}/raw/master/cards/${this._setUrl}/${urlId}.png`;
+    const url = `${GITHUB_REPOSITORY}/raw/main/cards/${this._setUrl}/${urlId}.png`;
     if (card.premium) {
       return `[${card.name}](${url}) ${PREMIUM_ICON_MARKDOWN}`;
     }

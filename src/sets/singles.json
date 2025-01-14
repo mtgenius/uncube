@@ -1,43 +1,16 @@
 {
   "title": "Singles",
   "cards": [
-    { "name": "1996 World Champion", "digital": true },
-    { "name": "Danny Trejo", "digital": true },
-    { "name": "Gleemox", "digital": true },
-    { "name": "Magic Guru", "digital": true },
-    { "name": "Nalathni Dragon", "tcgplayer-set-url": "media-promos" },
-    { "name": "Painful Hedgehogs", "digital": true },
     {
-      "name": "Steamflogger Boss",
-      "premium": true,
-      "tcgplayer-set-id": "future-sight"
-    },
-    {
-      "name": "Rarity",
-      "premium": true,
-      "tcgplayer-set-id": "ponies-the-galloping"
-    },
-    {
-      "name": "Nightmare Moon",
-      "premium": true,
-      "tcgplayer-set-id": "ponies-the-galloping"
-    },
-    {
-      "name": "Princess Twilight Sparkle",
-      "premium": true,
-      "tcgplayer-set-id": "ponies-the-galloping"
-    },
-    {
-      "name": "Grimlock, Dinobot Leader // Grimlock, Ferocious King",
-      "premium": true,
-      "tcgplayer-set-id": "media-promos"
-    },
-    {
-      "name": "Mastermind Emblem",
+      "name": "1996 World Champion",
       "digital": true
     },
     {
-      "name": "Joseph Gordon-Levitt",
+      "name": "Danny Trejo",
+      "digital": true
+    },
+    {
+      "name": "Deb Thomas",
       "digital": true,
       "premium": true
     },
@@ -47,7 +20,21 @@
       "premium": true
     },
     {
-      "name": "Urza's Lawn Ornament",
+      "name": "Forest Gump",
+      "digital": true,
+      "premium": true
+    },
+    {
+      "name": "Gleemox",
+      "digital": true
+    },
+    {
+      "name": "Grimlock, Dinobot Leader // Grimlock, Ferocious King",
+      "premium": true,
+      "tcgplayer-set-id": "media-promos"
+    },
+    {
+      "name": "Joseph Gordon-Levitt",
       "digital": true,
       "premium": true
     },
@@ -57,12 +44,43 @@
       "premium": true
     },
     {
+      "name": "Magic Guru",
+      "digital": true
+    },
+    {
+      "name": "Mastermind Emblem",
+      "digital": true
+    },
+    {
       "name": "Mishra's Buick",
       "digital": true,
       "premium": true
     },
     {
-      "name": "Seth Rogan",
+      "name": "Nalathni Dragon",
+      "tcgplayer-set-url": "media-promos"
+    },
+    {
+      "name": "Nightmare Moon",
+      "premium": true,
+      "tcgplayer-set-id": "ponies-the-galloping"
+    },
+    {
+      "name": "Painful Hedgehogs",
+      "digital": true
+    },
+    {
+      "name": "Princess Twilight Sparkle",
+      "premium": true,
+      "tcgplayer-set-id": "ponies-the-galloping"
+    },
+    {
+      "name": "Rarity",
+      "premium": true,
+      "tcgplayer-set-id": "ponies-the-galloping"
+    },
+    {
+      "name": "Robot Chicken",
       "digital": true,
       "premium": true
     },
@@ -72,12 +90,17 @@
       "premium": true
     },
     {
-      "name": "Forest Gump",
+      "name": "Seth Rogan",
       "digital": true,
       "premium": true
     },
     {
-      "name": "Robot Chicken",
+      "name": "Steamflogger Boss",
+      "premium": true,
+      "tcgplayer-set-id": "future-sight"
+    },
+    {
+      "name": "Urza's Lawn Ornament",
       "digital": true,
       "premium": true
     }
