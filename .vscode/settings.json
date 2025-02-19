@@ -1,0 +1,8 @@
+{
+  "eslint.validate": [
+    "github-actions-workflow",
+    "javascript",
+    "javascriptreact",
+    "yaml"
+  ]
+}

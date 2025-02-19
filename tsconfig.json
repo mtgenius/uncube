@@ -1,0 +1,7 @@
+{
+  "include": ["**/*.d.ts", "**/*.ts"],
+
+  "compilerOptions": {
+    "lib": ["ESNext"]
+  }
+}

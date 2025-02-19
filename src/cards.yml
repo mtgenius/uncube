@@ -1,0 +1,2460 @@
+cards:
+  "\"Ach! Hans, Run!\"":
+    sets:
+      - premium: true
+        proxy: true
+        scryfallId: UNH
+  A Girl and Her Dogs:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+    tokens:
+      1/1 white legendary Dog creature: 4
+  AWOL:
+    sets:
+      - id: UNH
+        premium: false
+        proxy: false
+  Abian, Luvion Usurper:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CMB1
+    tokens:
+      3/2 red and green Spirit creature: 2
+  Acornelia, Fashionable Filcher:
+    markers:
+      Acorn Stash: 1
+    sets:
+      - premium: true
+        proxy: false
+        set: ULST
+  Adriana's Valor:
+    sets:
+      - id: CN2
+        premium: false
+        proxy: false
+  Advantageous Proclamation:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+  Aesthetic Consultation:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Alexander Clamilton:
+    sets:
+      - id: ULST
+        premium: true
+        proxy: false
+  Amateur Auteur:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 3a
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 3b
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 3c
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 3d
+  Ambiguity:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Amulet of Quoz:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: ICE
+  Animus of Predation:
+    sets:
+      - id: CN2
+        premium: true
+        proxy: false
+  Applejack:
+    sets:
+      - id: SLD
+        premium: true
+        proxy: false
+    tokens:
+      Food: 2
+  Arcane Savant:
+    sets:
+      - id: CN2
+        premium: true
+        proxy: false
+  Artful Looter:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Ass Whuppin':
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+      - premium: true
+        proxy: false
+        scryfallId: PUNH
+  Assemble the Rank and Vile:
+    sets:
+      - id: CN2
+        premium: false
+        proxy: false
+    tokens:
+      2/2 black Zombie creature: 2
+  Avatar of Me:
+    sets:
+      - id: UND
+        premium: true
+        proxy: false
+        scryfallId: ULST
+  B-I-N-G-O:
+    sets:
+      - id: UND
+        premium: true
+        proxy: false
+        scryfallId: ULST
+  B.O.B. (Bevy of Beebles):
+    sets:
+      - id: UND
+        premium: true
+        proxy: false
+        scryfallId: ULST
+    tokens:
+      1/1 blue Beeble creature: 4
+  Backup Plan:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+  Bad Ass:
+    sets:
+      - id: UNH
+        premium: false
+        proxy: false
+      - id: UNH
+        premium: true
+        proxy: false
+        scryfallVariant: 49★
+  Baloth Packhunter:
+    sets:
+      - count: 4
+        premium: false
+        proxy: true
+        scryfallId: ANB
+  Beast in Show:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 103a
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 103b
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 103c
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 103d
+  Blast from the Past:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: ULST
+    tokens:
+      1/1 red Goblin creature: 1
+  Bloodletter:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Bog Humbugs:
+    sets:
+      - id: H18
+        premium: true
+        proxy: false
+        scryfallId: HHO
+  Bone Rattler:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CMB1
+    tokens:
+      Reassembling Skeleton: 4
+  Booster Tutor:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Bosom Buddy:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Boulder Jockey:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+    tokens:
+      3/3 colorless Construct artifact creature named Boulder: 2
+  Box of Free-Range Goblins:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+    tokens:
+      1/1 red Goblin creature: 6
+  Brago's Favor:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+  Bronze Calendar:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Bronze Tablet:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: 4ED
+  Brushstroke Paintermage:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Burning Cinder Fury of Crimson Chaos Fire:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Bursting Beebles:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  By Gnome Means:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+    tokens:
+      1/1 colorless Gnome artifact creature: 2
+  Caller of the Untamed:
+    sets:
+      - id: CN2
+        premium: true
+        proxy: false
+  Carnivorous Death Parrot:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Celestine Cave Witch:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CMB1
+    tokens:
+      1/1 black Insect creature: 2
+      'black Aura Curse enchantment with "Enchant player" and "At the beginning of your upkeep, you lose 1 life."': 3
+  Champions of Archery:
+    sets:
+      - id: H19
+        premium: true
+        proxy: true
+        scryfallId: PH19
+  Chandra, Gremlin Wrangler:
+    sets:
+      - id: HTR
+        premium: true
+        proxy: true
+        scryfallId: PH17
+    tokens:
+      2/2 red Gremlin creature: 2
+  Chaos Wrap:
+    banned: |
+      Do not encourage players to damage the uncube's sleeves.
+      Do not encourage players to remove uncube cards from their sleeves.
+    sets:
+      - id: H22
+        premium: true
+        proxy: true
+        scryfallId: HHO
+  Cheap Ass:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Cheatyface:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Checks and Balances:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Chicken Egg:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UGL
+    tokens:
+      4/4 red Giant Bird creature: 2
+  Chicken a la King:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Chittering Doom:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+    tokens:
+      1/1 green Squirrel creature: 2
+  "Circle of Protection: Art":
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+      - premium: true
+        proxy: false
+        scryfallId: PAL04
+  City of Ass:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Clam-I-Am:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Clambassadors:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Cleanse:
+    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    sets:
+      - premium: false
+        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        scryfallId: LEG
+  Cleaver Blow:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+    tokens:
+      1/1 white Spirit creature with flying: 1
+  Collectigull:
+    sets:
+      - id: H19
+        premium: true
+        proxy: true
+        scryfallId: PH19
+  Collector Protector:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Common Black Removal:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+    tokens:
+      Food: 1
+      Treasure: 1
+  Compound Fracture:
+    sets:
+      - count: 4
+        premium: false
+        proxy: true
+        scryfallId: ANB
+  Concentrate:
+    sets:
+      - id: The Sorcerer's Apprentice
+        premium: false
+        proxy: true
+  Confront the Assault:
+    sets:
+      - id: ANB
+        premium: false
+        proxy: true
+    tokens:
+      1/1 white Spirit creature with flying: 3
+  Contract from Below:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: 3ED
+  Crow Storm:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+    tokens:
+      1/2 blue Bird creature with flying named Storm Crow: 2
+  Crusade:
+    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    sets:
+      - premium: false
+        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        scryfallId: 4ED
+      - premium: false
+        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        scryfallId: 6ED
+      - premium: false
+        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        scryfallId: DDF
+  Curse of the Fire Penguin:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Darkpact:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: 3ED
+  Dead Bunny Isle:
+    sets:
+      - id: Unglued 2
+        premium: false
+        proxy: true
+  Deal Broker:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: CNS
+  Decorated Knight:
+    sets:
+      - id: H19
+        premium: true
+        proxy: false
+        scryfallId: HHO
+  Demonic Attorney:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: 3ED
+  Denied!:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Diabolical Salvation:
+    sets:
+      - id: HTR
+        premium: true
+        proxy: true
+        scryfallId: PH17
+    tokens:
+      "4/4 red Devil creature with haste and \"When this creature dies, create a Treasure token": 4
+  Discord, Lord of Disharmony:
+    sets:
+      - id: SLD
+        premium: true
+        proxy: false
+  Distract:
+    sets:
+      - id: The Sorcerer's Apprentice
+        premium: false
+        proxy: true
+  Domesticated Mammoth:
+    sets:
+      - id: CMB1
+        premium: false
+        proxy: false
+    tokens:
+      Pacifism: 1
+  Double Header:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Double Stroke:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+  Drake Stone:
+    sets:
+      - id: The Sorcerer's Apprentice
+        premium: false
+        proxy: true
+  Drawn Together:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Duh:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Dumb Ass:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Dungeon Master:
+    sets:
+      - id: HTR
+        premium: true
+        proxy: true
+        scryfallId: PH17
+    tokens:
+      1/1 black Skeleton creature with "When this creature dies, each opponent gains 2 life.": 6
+      1/1 blue Wizard creature with flying: 2
+      2/2 black Rogue creature with hexproof: 2
+      3/3 red Fighter creature with first strike: 2
+  Dwarven Confluencer:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+    tokens:
+      Mana Confluence: 6
+  Earl of Squirrel:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+      - premium: true
+        proxy: false
+        scryfallId: PUST
+    tokens:
+      1/1 green Squirrel creature: 2
+  Echoing Boon:
+    sets:
+      - id: CN2
+        premium: false
+        proxy: false
+  Eggnogger's 'Stache:
+    banned: Do not encourage players to drink beverages near the uncube.
+    sets:
+      - id: H24
+        premium: true
+        proxy: true
+        scryfallId: HHO
+  Elvish Champion:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: PMOA
+    tokens:
+      '1/1 green Elf creature with "{T}: Add {G}."': 1
+  Elvish House Party:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Elvish Impersonators:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Emcee:
+    sets:
+      - id: UNH
+        premium: false
+        proxy: false
+      - id: UNH
+        premium: true
+        proxy: false
+        scryfallVariant: 9★
+  Emissary's Ploy:
+    sets:
+      - id: CN2
+        premium: false
+        proxy: false
+  Endangered Species Act:
+    sets:
+      - id: Unglued 2
+        premium: false
+        proxy: true
+  Enthrall:
+    sets:
+      - id: The Sorcerer's Apprentice
+        premium: false
+        proxy: true
+  Erase (Not the Urza's Legacy One):
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Euroakus:
+    sets:
+      - id: H20
+        premium: true
+        proxy: true
+        scryfallId: PH20
+    tokens:
+      1/1 blue Human Wizard creature: 2
+  Everythingamajig:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 147a
+        tcgplayerId: 153198
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 147b
+        tcgplayerId: 154441
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 147c
+        tcgplayerId: 154443
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 147d
+        tcgplayerId: 154445
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 147e
+        tcgplayerId: 154448
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 147f
+        tcgplayerId: 154452
+    tokens:
+      0/1 white Goat creature: 2
+  Evil Boros Charm:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CMB1
+    tokens:
+      1/1 colorless Spirit creature with lifelink and haste: 1
+  Evil Presents:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: HHO
+  Extremely Slow Zombie:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 54a
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 54b
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 54c
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 54d
+  Eye to Eye:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Fabled Path of Searo Point:
+    sets:
+      - id: H19
+        premium: false
+        proxy: true
+        scryfallId: PH19
+  Face to Face:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Fascist Art Director:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  First Come First Served:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Flaccify:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Flock of Rabid Sheep:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UGL
+    tokens:
+      2/2 green Rabid Sheep creature: 2
+  Fluttershy:
+    sets:
+      - id: SLD
+        premium: true
+        proxy: false
+  Forbidden Orchard:
+    sets:
+      - id: EXP
+        premium: false
+        proxy: true
+    tokens:
+      1/1 colorless Spirit creature: 6
+  Form of the Squirrel:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+    tokens:
+      1/1 green Squirrel creature: 1
+  Forsaken Crossroads:
+    sets:
+      - id: MB2
+        premium: true
+        proxy: true
+  Fowl Play:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Fraction Jackson:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Framed!:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Frankie Peanuts:
+    sets:
+      - id: UND
+        premium: true
+        proxy: false
+        scryfallId: ULST
+  Frazzled Editor:
+    sets:
+      - id: UNH
+        premium: false
+        proxy: false
+      - id: UNH
+        premium: true
+        proxy: false
+        scryfallVariant: 77★
+  Free-Range Chicken:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Fruitcake Elemental:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: HHO
+  Fungus Park:
+    sets:
+      - id: Unglued 2
+        premium: false
+        proxy: true
+  Garbage Elemental:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 82a
+        tcgplayerId: 152909
+      - banned: The uncube does not contain enough Contraptions to support this card.
+        id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 82b
+        tcgplayerId: 154458
+      - id: UST
+        premium: true
+        proxy: true
+        scryfallVariant: 82c
+        tcgplayerId: 154462
+      - id: UST
+        premium: true
+        proxy: true
+        scryfallVariant: 82d
+        tcgplayerId: 154463
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 82e
+        tcgplayerId: 154464
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 82f
+        tcgplayerId: 154466
+    tokens:
+      1/1 red Goblin creature: 5
+  Gem Bazaar:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: PAST
+  Generated Horizons:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CMB1
+    tokens:
+      Forest land: 4
+  Giant Fan:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Gifts Given:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: HHO
+  Gleemox:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: PRM
+  Gnome-Made Engine:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+    tokens:
+      1/1 colorless Gnome artifact creature: 2
+  Goblin Bookie:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Goblin Bowling Team:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Goblin Secret Agent:
+    sets:
+      - id: UNH
+        premium: true
+        proxy: false
+  Goblin Tutor:
+    sets:
+      - count: 2
+        id: UGL
+        premium: false
+        proxy: false
+      - count: 2
+        id: UND
+        premium: false
+        proxy: false
+  Granny's Payback:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: PAL04
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Graphic Violence:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Greater Morphling:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Grimlock, Dinobot Leader:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: H17
+  Head to Head:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Hired Heist:
+    sets:
+      - id: CN2
+        premium: false
+        proxy: false
+  Hold the Perimeter:
+    sets:
+      - id: CN2
+        premium: false
+        proxy: false
+    tokens:
+      1/1 red Goblin creature with "This creature can't block.": 3
+      1/2 white Soldier creature with defender: 1
+  Homarid Leper:
+    sets:
+      - id: Extra Pulled
+        premium: false
+        proxy: true
+  Hungry Hungry Heifer:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Hurloon Wrangler:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Hymn of the Wilds:
+    sets:
+      - id: CN2
+        premium: false
+        proxy: false
+  Illusory Thoughts:
+    sets:
+      - id: The Sorcerer's Apprentice
+        premium: false
+        proxy: true
+  Imaginary Friends:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CMB1
+    tokens:
+      0/0 white Spirit creature with flying: 3
+  Immediate Action:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+  Imprison:
+    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    sets:
+      - premium: false
+        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        scryfallId: LEG
+  Incendiary Dissent:
+    sets:
+      - id: CN2
+        premium: false
+        proxy: false
+  Incoming!:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Indicate:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+  Ineffable Blessing:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 113a
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 113b
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 113c
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 113d
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 113e
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 113f
+  Infernal Spawn of Evil:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Infernal Spawn of Infernal Spawn of Evil:
+    sets:
+      - id: UND
+        premium: true
+        proxy: false
+        scryfallId: ULST
+  Infernal Spawnington III, Esq.:
+    sets:
+      - id: UND
+        premium: true
+        proxy: false
+        scryfallId: ULST
+  Invoke Prejudice:
+    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    sets:
+      - premium: false
+        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        scryfallId: LEG
+  Inzerva, Master of Insights:
+    emblems:
+      - |
+        Your opponents play with their hands revealed.
+        Whenever an opponent draws a card, this emblem deals 1 damage to them.
+    sets:
+      - id: HTR
+        premium: true
+        proxy: true
+        scryfallId: PH17
+  Islands:
+    sets:
+      - id: Extra Pulled
+        premium: false
+        proxy: true
+  Iterative Analysis:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+  Jack-in-the-Mox:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Jalum Grifter:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Jeskai Baller:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+    tokens:
+      1/1 white Athlete creature: 2
+  Jeweled Bird:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CHR
+  Jihad:
+    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    sets:
+      - premium: false
+        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        scryfallId: ARN
+  Johnny, Combo Player:
+    sets:
+      - premium: true
+        proxy: true
+        scryfallId: UNH
+  Jumbo Imp:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Katerina of Myra's Marvels:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNF
+        scryfallVariant: 302
+      - premium: true
+        proxy: false
+        scryfallId: UNF
+        scryfallVariant: 496
+    tokens:
+      white 2/2 Cat creature with flying: 2
+  Keeper of the Secret Lair:
+    sets:
+      - id: H19
+        premium: true
+        proxy: true
+        scryfallId: PH19
+  Kharis & the Beholder:
+    sets:
+      - id: H18
+        premium: true
+        proxy: true
+        scryfallId: PH18
+    tokens:
+      1/1 white Human creature: 2
+  Knight of the Hokey Pokey:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Knight of the Kitchen Sink:
+    sets:
+      - id: UST
+        premium: false
+        proxy: false
+        scryfallId: 12a
+      - id: UST
+        premium: false
+        proxy: false
+        scryfallId: 12b
+      - banned: Open mouths are too difficult to identify in artwork.
+        id: UST
+        premium: false
+        proxy: false
+        scryfallId: 12c
+      - id: UST
+        premium: false
+        proxy: false
+        scryfallId: 12d
+      - id: UST
+        premium: false
+        proxy: false
+        scryfallId: 12e
+      - id: UST
+        premium: false
+        proxy: false
+        scryfallId: 12f
+  Kozilek, Compleated:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+  Krazy Kow:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Labro Bot:
+    banned: The uncube does not contain enough host cards or cards with augment to support this card.
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+  Ladies' Knight:
+    sets:
+      - id: UNH
+        premium: true
+        proxy: false
+  Land Aid '04:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Last-Minute Chopping:
+    sets:
+      - id: H21
+        premium: true
+        proxy: false
+        scryfallId: HHO
+  Lazotep Archway:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+    tokens:
+      '4/4 black Zombie creature with "Lazotep Archway enterse the battlefield tapped." and "{T}: Add {W} or {B}." named Lazotep Archway': 1
+  Letter Bomb:
+    sets:
+      - id: UNH
+        premium: false
+        proxy: false
+      - id: UNH
+        premium: true
+        proxy: true
+        scryfallVariant: 122★
+  Lexivore:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Little Girl:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Look at Me, I'm R&D:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Look atMe, I'm the DCI:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Loose Lips:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Lore Seeker:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: CNS
+  M'Odo, the Gnarled Oracle:
+    sets:
+      - id: HTR
+        premium: false
+        proxy: true
+        scryfallId: PH17
+  Maestros' Totally Safe Hideout:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+    tokens:
+      Maestros' Totally Safe Hideout: 3
+  Maggot Farm:
+    sets:
+      - id: Unglued 2
+        premium: false
+        proxy: true
+  Magic Guru:
+    oracle: When Magic Guru enters the battlefield, its owner and the opponent it enchants each receive a prize booster pack. (Yes, to keep.)
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: PGRU
+    source: https://www.cardmarket.com/en/Magic/Cards/Magic-Guru
+  Magical Hacker:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Mana Flair:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Mana Screw:
+    sets:
+      - id: UNH
+        premium: false
+        proxy: false
+      - id: UNH
+        premium: true
+        proxy: false
+        scryfallVariant: 123★
+  Mana of Measure:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Map to Lorthos's Temple:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+    tokens:
+      "Lorthos, the Tidemaker": 1
+  Marchesa's Surprise Party:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+  Master of the Wild Hunt:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: PMOA
+    tokens:
+      2/2 green Wolf creature: 2
+      2/3 green Antelope creature with forestwalk: 2
+      3/2 green Cat creature with shroud: 2
+      4/4 green Rhino creature with trample: 2
+  Meddling Kids:
+    sets:
+      - premium: true
+        proxy: true
+        scryfallId: UNH
+  Mesa Chicken:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Mine, Mine, Mine!:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Mirror Mirror:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Mise:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: PAL04
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Miss Demeanor:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Moniker Mage:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Monkey Monkey Money:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Mons's Goblin Waiter:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Mother of Goons:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Mothers Yamazaki:
+    sets:
+      - count: 4
+        premium: false
+        proxy: false
+        scryfallId: MB2
+  Mountain Mover:
+    sets:
+      - id: H20
+        premium: true
+        proxy: true
+        scryfallId: PH20
+  Mox Lotus:
+    sets:
+      - premium: true
+        proxy: true
+        scryfallId: UNH
+  Mucus Valley:
+    sets:
+      - id: Unglued 2
+        premium: false
+        proxy: true
+  Muzzio's Preparations:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+  My First Tome:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Myntasha, Honored One:
+    sets:
+      - id: H19
+        premium: true
+        proxy: true
+        scryfallId: PH19
+  Natural Unity:
+    sets:
+      - id: CN2
+        premium: false
+        proxy: false
+  Naughty // Nice:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: HHO
+  Necro-Impotence:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Night of the Flying Merfolk:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+    tokens:
+      1/1 blue Merfolk creature: 2
+  Nightmare Moon:
+    sets:
+      - id: PTG
+        premium: true
+        proxy: false
+  Nimble Pilferer:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: ANB
+  Noble Banneret:
+    sets:
+      - id: CN2
+        premium: true
+        proxy: false
+  Novellamental:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 41a
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 41b
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 41c
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 41d
+  Now I Know My ABC's:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Old Fogey:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  Omnipresent Impostor:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+  Once More with Feeling:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Optimus Prime, Inspiring Leader:
+    sets:
+      - id: H18
+        premium: true
+        proxy: true
+        scryfallId: PH18
+  Orb of Mellowness:
+    sets:
+      - id: Extra Pulled
+        premium: false
+        proxy: true
+  Organ Harvest:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Our Market Research Shows That Players Like Really Long Card Names So We Made this Card to Have the Absolute Longest Card Name Ever Elemental:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Paliano Vanguard:
+    sets:
+      - id: CN2
+        premium: true
+        proxy: false
+  Paliano, the High City:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+  Paper Tiger:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Peacekeeper:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: PMOA
+    tokens:
+      Arrest: 6
+  Persecute Artist:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Pick Your Poison:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CMB1
+    tokens:
+      1/1 black Snake creature with deathtouch: 2
+  Pinkie Pie:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: SLD
+    tokens:
+      Treasure: 2
+  Pippa, Duchess of Dice:
+    sets:
+      - id: UND
+        premium: true
+        proxy: false
+        scryfallId: ULST
+  Plane-Merge Elf:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CMB1
+    tokens:
+      1/1 green Elf Warrior creature: 2
+  Pointy Finger of Doom:
+    sets:
+      - id: UNH
+        premium: true
+        proxy: false
+  Pool of Goo:
+    sets:
+      - id: Unglued 2
+        premium: false
+        proxy: true
+  Poultrygeist:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Power Play:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+  Pradesh Gypsies:
+    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    sets:
+      - premium: false
+        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        scryfallId: 6ED
+  Princess Twilight Sparkle:
+    sets:
+      - id: PTG
+        premium: true
+        proxy: false
+  Prismatic Wardrobe:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Punctuate:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Pygmy Giant:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Question Elemental?:
+    sets:
+      - id: UNH
+        premium: false
+        proxy: false
+      - id: UNH
+        premium: true
+        proxy: false
+        scryfallVariant: 43★
+  Questionable Cuisine:
+    banned: This card is not accessible to visually-impaired players.
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+  Rain of Typos:
+    sets:
+      - id: Extra Pulled
+        premium: false
+        proxy: true
+  Rainbow Dash:
+    sets:
+      - id: SLD
+        premium: true
+        proxy: false
+  Rainbow Knights:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: PAST
+  Rare-B-Gone:
+    sets:
+      - premium: true
+        proxy: true
+        scryfallId: UNH
+  Rarity:
+    sets:
+      - id: PTG
+        premium: true
+        proxy: false
+  Rebirth:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: 4ED
+  Regicide:
+    sets:
+      - id: CN2
+        premium: false
+        proxy: false
+  Remodel:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Richard Garfield, Ph.D.:
+    sets:
+      - id: ULST
+        premium: true
+        proxy: false
+      - id: UNH
+        premium: false
+        proxy: false
+        scryfallVariant: 44
+      - id: UNH
+        premium: true
+        proxy: true
+        scryfallVariant: 44★
+  Ricochet:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  River's Favor:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: ANB
+  Robot Chicken:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: PCEL
+    tokens:
+      0/1 colorless Egg artifact creature: 2
+  Rock Lobster:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Rocket-Powered Turbo Slug:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Rod of Spanking:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Rule with an Even Hand:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+  Rules Lawyer:
+    sets:
+      - id: J17
+        premium: true
+        proxy: false
+      - id: UST
+        premium: true
+        proxy: false
+  S.N.O.T.:
+    sets:
+      - count: 4
+        premium: false
+        proxy: false
+        scryfallId: UNH
+  Sarkhan's Scorn:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: J21
+  Saute:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Scissors Lizard:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Season's Beatings:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: HHO
+  Seasonal Sequels:
+    sets:
+      - id: H23
+        premium: true
+        proxy: false
+        scryfallId: HHO
+  Second City:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: PF25
+    tokens:
+      Deep Dish Pizza: 2
+  Secret Summoning:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+  Secrets of Paradise:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+  Sentinel Dispatch:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+    tokens:
+      1/1 colorless Construct artifact creature with defender: 1
+  Sex Appeal:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Shrine Keeper:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: ANB
+      - mana: 1B
+        premium: false
+        proxy: true
+        scryfallId: ANB
+  Six-y Beast:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Skeletons in the Closet:
+    sets:
+      - id: Unglued 2
+        premium: false
+        proxy: true
+  Slivdrazi Monstrosity:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CMB1
+    tokens:
+      '1/1 colorless Eldrazi Sliver creature with "Sacrifice this creature: Add {C}."': 2
+  Sliver Queen, Brood Mother:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: PMOA
+    tokens:
+      1/1 colorless Sliver creature: 2
+  Sly Spy:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 67a
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 67b
+      - banned: Do not limit players' bodily agency.
+        id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 67c
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 67d
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 67e
+        tcgplayerId: 154433
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 67f
+  Smart Ass:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Smelt // Herd // Saw:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CMB1
+    tokens:
+      1/2 red Half creature: 2
+      2/2 green Elk creature: 3
+  Smuggler Captain:
+    sets:
+      - id: CN2
+        premium: true
+        proxy: false
+  Snow Mercy:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: HHO
+  Sol, Advocate Eternal:
+    sets:
+      - id: H18
+        premium: false
+        proxy: true
+        scryfallId: PH18
+  Some Disassembly Required:
+    sets:
+      - id: H17
+        premium: true
+        proxy: false
+        scryfallId: HHO
+  Soulhunter Rakshasa:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: ANB
+  Sovereign's Realm:
+    sets:
+      - id: CN2
+        premium: false
+        proxy: false
+  Spark Fiend:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Spatula for the Ages:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Squee Triumphant:
+    sets:
+      - id: Extra Pulled
+        premium: false
+        proxy: true
+  Squirrel Dealer:
+    banned: Playing should not require a person outside the game.
+    sets:
+      - id: UST
+        premium: false
+        proxy: false
+  Squirrel Farm:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UGL
+    tokens:
+      1/1 green Squirrel creature: 2
+  Standing Army:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Start // Fire:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CMB1
+    tokens:
+      1/1 white Warrior creature with vigilance: 2
+  Staying Power:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Stocking Tiger:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: HHO
+  Stone-Throwing Devils:
+    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    sets:
+      - premium: false
+        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        scryfallId: ARN
+  Strategy, Schmategy:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Subversive Acolyte:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: J21
+      - mana: BB
+        oracle: |
+          {2}, Pay 2 life: Choose one. Activate only once.
+          * ~ becomes a Human Cleric. It gets +1/+2 and gains lifelink.
+          * ~ becomes a Phyrexian. It gets +3/+3 and gains trample and "Whenever this creature is dealt damage, sacrifice that many permanents."
+        premium: false
+        proxy: true
+        scryfallId: J21
+  Summoner's Bond:
+    sets:
+      - id: CN2
+        premium: false
+        proxy: false
+  Super Secret Tech:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Supersize:
+    sets:
+      - id: UNH
+        premium: true
+        proxy: false
+  Surgeon Commander:
+    sets:
+      - id: UND
+        premium: true
+        proxy: false
+        scryfallId: ULST
+  Sword of Dungeons & Dragons:
+    sets:
+      - id: H17
+        premium: true
+        proxy: true
+      - id: ULST
+        premium: true
+        proxy: false
+    tokens:
+      4/4 gold Dragon creature with flying: 2
+  Symbol Status:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+    tokens:
+      1/1 colorless Expansion-Symbol creature: 2
+  Syr Cadian, Knight Owl:
+    sets:
+      - id: UND
+        premium: true
+        proxy: false
+        scryfallId: ULST
+  Tactical Advantage:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: ANB
+  Tainted Monkey:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Target Minotaur:
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 98a
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 98b
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 98c
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 98d
+  Target Target:
+    oracle: Target permanent targeted by target spell can't be the target of spells or abilities.
+    sets:
+      - id: Extra Pulled
+        premium: false
+        proxy: true
+  Team Spirit:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Temp of the Damned:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Tempest Efreet:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: 4ED
+  Teysa, Orzhov Scion:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: PMOA
+    tokens:
+      1/1 white Spirit creature with flying: 2
+  The Big Idea:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UST
+    tokens:
+      1/1 red Brainiac creature: 6
+  The Cinematic Phoenix:
+    sets:
+      - id: H19
+        premium: true
+        proxy: true
+        scryfallId: PH19
+  The Fallen Apart:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  The Heron Moon:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+    tokens:
+      Emrakul, the Promised End: 1
+  The Legend of Arena:
+    sets:
+      - id: H18
+        premium: true
+        proxy: true
+        scryfallId: PH18
+        scryfallVariant: 4
+      - id: H18
+        premium: true
+        proxy: true
+        scryfallId: PH18
+        scryfallVariant: 4†
+        tcgplayerId: 206016
+  The Secret Lair:
+    sets:
+      - id: H20
+        premium: false
+        proxy: true
+        scryfallId: PH20
+  The Ultimate Nightmare of Wizards of the Coast Customer Service:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UGL
+  Tibalt the Chaotic:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CMB1
+    tokens:
+      '1/1 red Devil creature with "When this creature dies, it deals 1 damage to any target."': 2
+      4/4 red Hellion creature: 2
+  "Time Walk Variant #23":
+    banned: Do not encourage players to sacrifice a kidney.
+    sets:
+      - id: Extra Pulled
+        premium: false
+        proxy: true
+  Timmerian Fiends:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: HML
+  Timmy, Power Gamer:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Togglodyte:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Topdeck the Halls:
+    sets:
+      - id: H20
+        premium: true
+        proxy: false
+        scryfallId: HHO
+  Topsy Turvy:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Toy Boat:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Truss, Chief Engineer:
+    sets:
+      - id: UNF
+        premium: false
+        proxy: false
+        scryfallVariant: 181
+      - id: UNF
+        premium: false
+        proxy: false
+        scryfallVariant: 272
+  Uktabi Kong:
+    sets:
+      - premium: true
+        proxy: true
+        scryfallId: UNH
+    tokens:
+      1/1 green Ape creature: 2
+  Unexpected Potential:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+  Urza's Contact Lenses:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Urza's Hot Tub:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Urza's Science Fair Project:
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
+  Very Cryptic Command:
+    sets:
+      - banned: The uncube does not contain enough Contraptions to support this card.
+        id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 49a
+        tcgplayerId: 154419
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 49b
+        tcgplayerId: 152906
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 49c
+        tcgplayerId: 154420
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 49d
+        tcgplayerId: 154421
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 49e
+        tcgplayerId: 154422
+      - id: UST
+        premium: true
+        proxy: false
+        scryfallVariant: 49f
+        tcgplayerId: 154423
+    tokens:
+      1/1 colorless Gnome artifact creature: 1
+      2/2 black Rogue creature with menace: 1
+  Volatile Chimera:
+    sets:
+      - id: CN2
+        premium: true
+        proxy: false
+  Waste Land:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CMB1
+    tokens:
+      Wastes land: 1
+  Water Gun Balloon Game:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+      - premium: true
+        proxy: false
+        scryfallId: UNF
+    tokens:
+      5/5 pink Giant Teddy Bear creature: 8
+  Weight Advantage:
+    sets:
+      - id: CN2
+        premium: false
+        proxy: false
+  Wet Willie of the Damned:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  What the...?!:
+    sets:
+      - id: Unglued 2
+        premium: false
+        proxy: true
+  When Fluffy Bunnies Attack:
+    sets:
+      - id: UNH
+        premium: false
+        proxy: false
+      - id: UNH
+        premium: true
+        proxy: false
+        scryfallVariant: 67★
+  White Sale:
+    sets:
+      - id: Unglued 2
+        premium: false
+        proxy: true
+  Who // What // When // Where // Why:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Who's That Praetor?:
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+    tokens:
+      Ebon Praetor: 1
+      Elesh Norn, Mother of Machines: 1
+      Jin-Gitaxias, Progress Tyrant: 1
+      Sheoldred, the Apocalypse: 1
+      Urabrask, Heretic Praetor: 1
+      Vorinclex, Monstrous Raider: 1
+  Wordmail:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+  World-Bottling Kit:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Worldknit:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: CNS
+  Wrenn and One:
+    emblems:
+      - At the beginning of your precombat main phase, add {G} for each creature you control.
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+    tokens:
+      1/1 green Squirrel creature: 2
+  Yet Another Aether Vortex:
+    sets:
+      - id: UND
+        premium: true
+        proxy: false
+        scryfallId: ULST
+  You Compleat Me:
+    emblems:
+      - |
+        Pay 2 life: Add one mana of any color.
+        At the beginning of your upkeep, you draw a card and you lose 1 life."
+    sets:
+      - id: MB2
+        premium: false
+        proxy: false
+  Zephyr Gull:
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: ANB
+  Zombie Fanboy:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  Zzzyxas's Abyss:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+  ____:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
+sets:
+  Arabian Nights:
+    scryfallId: ARN
+  Arena:
+    scryfallId: ANB
+  Arena League 2004:
+    scryfallId: PAL04
+  Astral:
+    scryfallId: PAST
+    source: https://web.archive.org/web/20230203135623/https://magic.wizards.com/en/news/feature/astral-cards-2009-02-12
+  Celebration:
+    scryfallId: PCEL
+  Chronicles:
+    scryfallId: CHR
+  Conspiracy:
+    scryfallId: CNS
+  "Conspiracy: Take the Crown":
+    id: CN2
+  "Draft Weekend: Unstable":
+    scryfallId: PUST
+    source: https://wpn.wizards.com/en/news/10-cards-make-unstable-amazing
+  "Duel Decks: Elspeth vs. Tezzeret":
+    scryfallId: DDF
+  Extra Pulled:
+    source: https://www.magiclibrarities.net/629-rarities-the-duelist-fantasy-cards-english-cards-extra-pulled-1998-1999.html
+  Fourth Edition:
+    scryfallId: 4ED
+  Guru:
+    scryfallId: PGRU
+  Happy Holidays:
+    scryfallId: HHO
+  Happy Holidays 2014:
+    id: H14
+    scryfallId: HHO
+  Happy Holidays 2015:
+    id: H15
+    scryfallId: HHO
+  Happy Holidays 2016:
+    id: H16
+    scryfallId: HHO
+  Happy Holidays 2017:
+    id: H17
+    scryfallId: HHO
+  Happy Holidays 2018:
+    id: H18
+    scryfallId: HHO
+  Happy Holidays 2019:
+    id: H19
+    scryfallId: HHO
+  Happy Holidays 2020:
+    id: H20
+    scryfallId: HHO
+  Happy Holidays 2021:
+    id: H21
+    scryfallId: HHO
+  Happy Holidays 2022:
+    id: H22
+    scryfallId: HHO
+  Happy Holidays 2023:
+    id: H23
+    scryfallId: HHO
+  Happy Holidays 2024:
+    id: H24
+    scryfallId: HHO
+  HasCon 2017:
+    id: H17
+  Heroes of the Realm 2017:
+    id: HTR
+    scryfallId: PH17
+  Heroes of the Realm 2018:
+    id: H18
+    scryfallId: PH18
+  Heroes of the Realm 2019:
+    id: H19
+    scryfallId: PH19
+  Heroes of the Realm 2020:
+    id: H20
+    scryfallId: PH20
+  Homelands:
+    scryfallId: HML
+  Ice Age:
+    scryfallId: ICE
+  Judge Gift Cards 2017:
+    id: J17
+  "Jumpstart: Historic Horizons":
+    scryfallId: J21
+  Legends:
+    scryfallId: LEG
+  Magic Online Avatars:
+    scryfallId: PMOA
+  Magic Online Promos:
+    scryfallId: PRM
+  MagicFest 2025:
+    scryfallId: PF25
+  Mystery Booster:
+    scryfallId: CMB1
+  Mystery Booster 2:
+    id: MB2
+  "Ponies: The Gathering":
+    id: PTG
+  Revised Edition:
+    scryfallId: 3ED
+  Secret Lair Drop:
+    id: SLD
+  Sixth Edition:
+    scryfallId: 6ED
+  The List:
+    scryfallId: ULST
+  The Sorcerer's Apprentice:
+    source: https://web.archive.org/web/20221209104755/https://magic.wizards.com/en/news/feature/sorcerers-apprentice-2010-07-12
+  Unfinity:
+    id: UNF
+  Unglued:
+    scryfallId: UGL
+  "Unglued 2: The Obligatory Sequel":
+    source: https://mtg.fandom.com/wiki/Unglued_2:_The_Obligatory_Sequel
+  Unhinged:
+    scryfallId: UNH
+  Unhinged Promos:
+    scryfallId: PUNH
+  Unsanctioned:
+    id: UND
+  Unstable:
+    id: UST
+  Zendikar Expeditions:
+    id: EXP
