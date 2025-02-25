@@ -14,17 +14,21 @@ describe('cards', (): void => {
   it('should match the expected schema', (): void => {
     z.strictObject({
       cards: z.record(z.strictObject({
-        banned: z.boolean().or(z.literal('optional')).optional(),
+        banned: z.string().optional(),
         emblems: z.array(z.string()).optional(),
+        markers: z.record(z.number()).optional(),
         oracle: z.string().optional(),
         sets: z.array(z.strictObject({
+          banned: z.string().optional(),
           collectorNumber: z.number().optional(),
           count: z.number().optional(),
           id: z.string().optional(),
+          mana: z.string().optional(),
+          oracle: z.string().optional(),
           premium: z.boolean(),
-          proxy: z.union([z.boolean(), z.literal('optional')]),
+          proxy: z.union([z.boolean(), z.literal('This card may be proxied due to its racist depiction, text, or combination thereof.')]),
           scryfallId: z.string().optional(),
-          scryfallVariant: z.string().optional(),
+          scryfallVariant: z.union([z.number(), z.string()]).optional(),
           tcgplayerId: z.number().optional(),
         })),
         source: z.string().optional(),
@@ -60,7 +64,17 @@ See: https://scryfall.com/search?q=include%3Aextras+${encodeURIComponent(cardNam
     const setEntries = Object.entries(cards.sets);
     assert(isRecordEntries(setEntries), 'Expected cards to be objects.');
     for (const [setName, { id, scryfallId }] of setEntries) {
-      setIds.add(id ?? scryfallId ?? setName);
+      if (typeof id !== 'undefined') {
+        setIds.add(id);
+      }
+
+      if (typeof scryfallId !== 'undefined') {
+        setIds.add(scryfallId);
+      }
+
+      if (typeof id === 'undefined' && typeof scryfallId === 'undefined') {
+        setIds.add(setName);
+      }
     }
 
     expect(cardSetIds).toEqual(setIds);

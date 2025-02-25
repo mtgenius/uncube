@@ -40,7 +40,7 @@ cards:
     sets:
       - premium: true
         proxy: false
-        set: ULST
+        scryfallId: ULST
   Adorable Kitten:
     sets:
       - id: UST
@@ -76,7 +76,7 @@ cards:
       - id: ULST
         premium: true
         proxy: false
-  All-Star Kicker:sss
+  All-Star Kicker:
     sets:
       - premium: false
         proxy: false
@@ -238,6 +238,8 @@ cards:
         id: UNF
         premium: true
         proxy: false
+    tokens:
+      1/1 white Clown Robot artifact creature: 2
   Avacyn's Collar, the Symbol of Her Church:
     sets:
       - premium: false
@@ -555,6 +557,12 @@ cards:
         scryfallId: PH17
     tokens:
       2/2 red Gremlin creature: 2
+  Chaos Confetti:
+    banned: The uncube should not require manual dexterity.
+    sets:
+      - id: UGL
+        premium: false
+        proxy: false
   Chaos Wrap:
     banned: |
       Do not encourage players to damage the uncube's sleeves.
@@ -792,7 +800,7 @@ cards:
         scryfallId: 3ED
   Dead Bunny Isle:
     sets:
-      - id: Unglued 2
+      - id: "Unglued 2: The Obligatory Sequel"
         premium: false
         proxy: true
   Deal Broker:
@@ -1027,7 +1035,7 @@ cards:
         scryfallId: CMB1
   Endangered Species Act:
     sets:
-      - id: Unglued 2
+      - id: "Unglued 2: The Obligatory Sequel"
         premium: false
         proxy: true
   Enraged Killbot:
@@ -1325,7 +1333,7 @@ cards:
         scryfallId: HHO
   Fungus Park:
     sets:
-      - id: Unglued 2
+      - id: "Unglued 2: The Obligatory Sequel"
         premium: false
         proxy: true
   GO TO JAIL:
@@ -1473,6 +1481,13 @@ cards:
       - id: UNH
         premium: true
         proxy: false
+  Goblin Sleigh Ride:
+    banned: The uncube should not require manual dexterity.
+    sets:
+      - id: H15
+        premium: true
+        proxy: false
+        scryfallId: HHO
   Goblin Tutor:
     sets:
       - count: 2
@@ -1638,7 +1653,7 @@ cards:
         id: UNF
         premium: true
         proxy: false
-      - collectorNumber: TODO
+      - collectorNumber: 503
         id: UNF
         premium: true
         proxy: false
@@ -1658,6 +1673,12 @@ cards:
       - premium: false
         proxy: false
         scryfallId: MB2
+  Heroes of Kamigawa:
+    banned: It would be too expensive to open so many Kamigawa booster packs.
+    sets:
+      - premium: false
+        proxy: true
+        scryfallId: H22
   High Troller:
     sets:
       - premium: false
@@ -2076,11 +2097,11 @@ cards:
       2/2 white Knight creature: 1
   Katerina of Myra's Marvels:
     sets:
-      - collectNumber: 302
+      - collectorNumber: 302
         premium: true
         proxy: false
         scryfallId: UNF
-      - collectNumber: 496
+      - collectorNumber: 496
         premium: true
         proxy: false
         scryfallId: UNF
@@ -2184,28 +2205,28 @@ cards:
       - id: UST
         premium: false
         proxy: false
-        scryfallId: 12a
+        scryfallVariant: 12a
       - id: UST
         premium: false
         proxy: false
-        scryfallId: 12b
+        scryfallVariant: 12b
       - banned: Open mouths are too difficult to identify in artwork.
         id: UST
         premium: false
         proxy: false
-        scryfallId: 12c
+        scryfallVariant: 12c
       - id: UST
         premium: false
         proxy: false
-        scryfallId: 12d
+        scryfallVariant: 12d
       - id: UST
         premium: false
         proxy: false
-        scryfallId: 12e
+        scryfallVariant: 12e
       - id: UST
         premium: false
         proxy: false
-        scryfallId: 12f
+        scryfallVariant: 12f
   Knight of the Widget:
     sets:
       - id: UST
@@ -2488,7 +2509,7 @@ cards:
       Maestros' Totally Safe Hideout: 3
   Maggot Farm:
     sets:
-      - id: Unglued 2
+      - id: "Unglued 2: The Obligatory Sequel"
         premium: false
         proxy: true
   Magic Guru:
@@ -2645,6 +2666,13 @@ cards:
       - premium: false
         proxy: false
         scryfallId: UNH
+  Mishra's Toy Workshop:
+    banned: Uncube should not require toys.
+    sets:
+      - id: H14
+        premium: true
+        proxy: false
+        scryfallId: HHO
   Miss Demeanor:
     sets:
       - id: UGL
@@ -2713,7 +2741,7 @@ cards:
         scryfallId: MB2
   Mucus Valley:
     sets:
-      - id: Unglued 2
+      - id: "Unglued 2: The Obligatory Sequel"
         premium: false
         proxy: true
   Muraganda Eldrazi:
@@ -3028,6 +3056,18 @@ cards:
         scryfallId: CMB1
     tokens:
       1/1 black Snake creature with deathtouch: 2
+  Pietra, Crafter of Clowns:
+    sets:
+      - collectorNumber: 462
+        id: UNF
+        premium: true
+        proxy: false
+      - collectorNumber: 519
+        id: UNF
+        premium: true
+        proxy: false
+    tokens:
+      1/1 white Clown Robot artifact creature: 2
   Pinkie Pie:
     sets:
       - premium: false
@@ -3086,7 +3126,7 @@ cards:
         scryfallId: MB2
   Pool of Goo:
     sets:
-      - id: Unglued 2
+      - id: "Unglued 2: The Obligatory Sequel"
         premium: false
         proxy: true
   Poultrygeist:
@@ -3533,7 +3573,7 @@ cards:
         scryfallId: HBG
   Skeletons in the Closet:
     sets:
-      - id: Unglued 2
+      - id: "Unglued 2: The Obligatory Sequel"
         premium: false
         proxy: true
   Sliv-Mizzet, Hivemind:
@@ -3874,66 +3914,6 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
-  TL;DR:
-    sets:
-      - premium: false
-        proxy: false
-        scryfallId: MB2
-  Toddler's Rage:
-    sets:
-      - premium: false
-        proxy: false
-        scryfallId: MB2
-  Wowzer, the Aspirational:
-    sets:
-      - premium: false
-        proxy: false
-        scryfallId: MB2
-  Under-Construction Skyscraper:
-    sets:
-      - premium: false
-        proxy: false
-        scryfallId: MB2
-  Tax Taker:
-    sets:
-      - premium: false
-        proxy: false
-        scryfallId: MB2
-  Terry Pin, Turboturtle:
-    sets:
-      - premium: false
-        proxy: false
-        scryfallId: MB2
-  Two by Four:
-    sets:
-      - premium: false
-        proxy: false
-        scryfallId: MB2
-  Vuzzle Spaceship:
-    sets:
-      - premium: false
-        proxy: false
-        scryfallId: MB2
-  Wisedrafter's Will:
-    sets:
-      - premium: false
-        proxy: false
-        scryfallId: MB2
-  Wormhole Warp:
-    sets:
-      - premium: false
-        proxy: false
-        scryfallId: MB2
-  Wrath of Leknif:
-    sets:
-      - premium: false
-        proxy: false
-        scryfallId: MB2
-  Yawgmoth's Day Planner:
-    sets:
-      - premium: false
-        proxy: false
-        scryfallId: MB2
   Super Secret Tech:
     sets:
       - premium: true
@@ -4004,6 +3984,11 @@ cards:
         id: UNF
         premium: false
         proxy: false
+  TL;DR:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Tactical Advantage:
     sets:
       - premium: false
@@ -4043,6 +4028,11 @@ cards:
       - id: Extra Pulled
         premium: false
         proxy: true
+  Tax Taker:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Team Spirit:
     sets:
       - id: UGL
@@ -4064,6 +4054,11 @@ cards:
         proxy: false
         scryfallId: 4ED
   Temur Elevator:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Terry Pin, Turboturtle:
     sets:
       - premium: false
         proxy: false
@@ -4150,6 +4145,13 @@ cards:
       - premium: false
         proxy: false
         scryfallId: MB2
+  Thopter Pie Network:
+    banned: Do not encourage players to eat food near the uncube.
+    sets:
+      - id: H16
+        premium: true
+        proxy: false
+        scryfallId: HHO
   Three-Headed Goblin:
     sets:
       - id: UST
@@ -4192,6 +4194,11 @@ cards:
       - id: UND
         premium: false
         proxy: false
+  Toddler's Rage:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Togglodyte:
     sets:
       - premium: true
@@ -4255,6 +4262,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Two by Four:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Uktabi Kong:
     sets:
       - premium: true
@@ -4262,6 +4274,11 @@ cards:
         scryfallId: UNH
     tokens:
       1/1 green Ape creature: 2
+  Under-Construction Skyscraper:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Underdark Beholder:
     sets:
       - premium: false
@@ -4468,6 +4485,11 @@ cards:
         id: UNF
         premium: true
         proxy: false
+  Vuzzle Spaceship:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Wall of Fortune:
     sets:
       - id: UST
@@ -4530,7 +4552,7 @@ cards:
         scryfallId: CMB1
   What the...?!:
     sets:
-      - id: Unglued 2
+      - id: "Unglued 2: The Obligatory Sequel"
         premium: false
         proxy: true
   When Fluffy Bunnies Attack:
@@ -4544,7 +4566,7 @@ cards:
         scryfallVariant: 67★
   White Sale:
     sets:
-      - id: Unglued 2
+      - id: "Unglued 2: The Obligatory Sequel"
         premium: false
         proxy: true
   Who // What // When // Where // Why:
@@ -4610,6 +4632,11 @@ cards:
       - premium: false
         proxy: true
         scryfallId: HBG
+  Wisedrafter's Will:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Witty Demon:
     sets:
       - premium: false
@@ -4635,6 +4662,21 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CNS
+  Wormhole Warp:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Wowzer, the Aspirational:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Wrath of Leknif:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Wrath of Sod:
     sets:
       - premium: false
@@ -4706,6 +4748,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Yawgmoth's Day Planner:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Yawgmoth's Testament:
     sets:
       - premium: false
@@ -4789,8 +4836,6 @@ cards:
       - id: UST
         premium: true
         proxy: false
-  tokens:
-    1/1 white Clown Robot artifact creature: 2
 sets:
   "Alchemy Horizons: Baldur's Gate":
     scryfallId: HBG
