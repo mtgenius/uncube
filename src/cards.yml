@@ -66,11 +66,21 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Alberix, the Trade Planet:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Alexander Clamilton:
     sets:
       - id: ULST
         premium: true
         proxy: false
+  All-Star Kicker:sss
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Alora, Cheerful Mastermind:
     sets:
       - premium: false
@@ -149,6 +159,11 @@ cards:
         id: UNF
         premium: true
         proxy: false
+  Anax and Cymede & Kynaios and Tiro:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Angelic Rocket:
     sets:
       - id: UST
@@ -187,6 +202,11 @@ cards:
       - id: CN2
         premium: true
         proxy: false
+  Arcanum Things:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Artful Looter:
     sets:
       - premium: true
@@ -218,6 +238,11 @@ cards:
         id: UNF
         premium: true
         proxy: false
+  Avacyn's Collar, the Symbol of Her Church:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Avatar of Me:
     sets:
       - id: UND
@@ -356,6 +381,16 @@ cards:
         premium: true
         proxy: false
         scryfallId: HHO
+  Bolshack Dragon:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Boltfire:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Bombardment:
     sets:
       - premium: false
@@ -405,6 +440,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CNS
+  Brigid, Who's Seem Some Stuff:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Bronze Calendar:
     sets:
       - id: UGL
@@ -463,16 +503,31 @@ cards:
         proxy: false
     tokens:
       1/1 colorless Gnome artifact creature: 2
+  Call from the Grave:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Caller of the Untamed:
     sets:
       - id: CN2
         premium: true
         proxy: false
+  Can't Quite Recall:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Carnivorous Death Parrot:
     sets:
       - premium: true
         proxy: false
         scryfallId: UNH
+  Catch of the Day:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Celestine Cave Witch:
     sets:
       - premium: false
@@ -481,6 +536,11 @@ cards:
     tokens:
       1/1 black Insect creature: 2
       'black Aura Curse enchantment with "Enchant player" and "At the beginning of your upkeep, you lose 1 life."': 3
+  Champion of the Hareish:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Champions of Archery:
     sets:
       - id: H19
@@ -504,6 +564,16 @@ cards:
         premium: true
         proxy: true
         scryfallId: HHO
+  Chatzuk, Mighty Guitarist:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Chea, Friend to Maybe Too Many:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Cheap Ass:
     sets:
       - premium: true
@@ -594,9 +664,9 @@ cards:
         scryfallId: LEG
   Cleaver Blow:
     sets:
-      - id: MB2
-        premium: false
+      - premium: false
         proxy: false
+        scryfallId: MB2
     tokens:
       1/1 white Spirit creature with flying: 1
   Clocknapper:
@@ -661,11 +731,21 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Convention Maro:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Corrupted Key:
     sets:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Creepy Crawler:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Crow Storm:
     sets:
       - id: UST
@@ -700,6 +780,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Dairy Cow:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Darkpact:
     sets:
       - premium: false
@@ -727,6 +812,11 @@ cards:
         premium: true
         proxy: false
         scryfallId: HHO
+  Defender of the Queue:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Delighted Killbot:
     sets:
       - id: UST
@@ -804,6 +894,11 @@ cards:
         id: UNF
         premium: true
         proxy: false
+  Don't Worry About It:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Double Header:
     sets:
       - premium: true
@@ -829,6 +924,11 @@ cards:
       - id: UST
         premium: true
         proxy: false
+  Duelists' Convocation International:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Duh:
     sets:
       - premium: false
@@ -955,6 +1055,11 @@ cards:
       - premium: true
         proxy: false
         scryfallId: UNH
+  Essence of Ajani:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Euroakus:
     sets:
       - id: H20
@@ -1075,6 +1180,11 @@ cards:
       - id: UST
         premium: true
         proxy: false
+  Fetching Garden:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   First Come First Served:
     sets:
       - premium: true
@@ -1095,6 +1205,16 @@ cards:
       - premium: true
         proxy: false
         scryfallId: UNH
+  Flanking Licid:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Flavor Disaster:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Flock of Rabid Sheep:
     sets:
       - premium: false
@@ -1181,6 +1301,13 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Friarball:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+    tokens:
+      2/2 white Monk creature: 2
   Frogkin Kidnapper:
     sets:
       - premium: false
@@ -1287,11 +1414,21 @@ cards:
       - premium: true
         proxy: false
         scryfallId: HHO
+  Glade of the Pump Spells:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Gleemox:
     sets:
       - premium: false
         proxy: true
         scryfallId: PRM
+  Glimpse, the Unthinkable:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Gnome-Made Engine:
     sets:
       - id: UST
@@ -1299,6 +1436,11 @@ cards:
         proxy: false
     tokens:
       1/1 colorless Gnome artifact creature: 2
+  Gobland:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Goblin Bookie:
     sets:
       - id: UGL
@@ -1465,6 +1607,11 @@ cards:
         id: UNF
         premium: true
         proxy: false
+  Halving Season:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Hammer Helper:
     sets:
       - id: UST
@@ -1506,6 +1653,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: UNH
+  Heart of a Duelist:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   High Troller:
     sets:
       - premium: false
@@ -1516,6 +1668,11 @@ cards:
       - id: CN2
         premium: false
         proxy: false
+  Hish of the Snake Cult:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Hoisted Hireling:
     sets:
       - id: UST
@@ -1598,6 +1755,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CNS
+  Immersturm Battlefield:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Imoen, Occult Trickster:
     sets:
       - premium: false
@@ -1640,9 +1802,9 @@ cards:
         proxy: false
   Indicate:
     sets:
-      - id: MB2
-        premium: false
+      - premium: false
         proxy: false
+        scryfallId: MB2
   Ineffable Blessing:
     sets:
       - id: UST
@@ -1701,6 +1863,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Intangible Vibes:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Interplanar Brushwagg:
     sets:
       - premium: false
@@ -1844,6 +2011,15 @@ cards:
       - id: UGL
         premium: false
         proxy: false
+  Jund 'Em Out:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+    tokens:
+      Bloodbraid Elf: 2
+      Liliana of the Veil: 2
+      Tarmogoyf: 2
   Just Desserts:
     sets:
       - id: UST
@@ -1918,6 +2094,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Keeper of the Crown // Coronation of the Wilds:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Keeper of the Secret Lair:
     sets:
       - id: H19
@@ -1988,6 +2169,11 @@ cards:
       - premium: false
         proxy: true
         scryfallId: HBG
+  Knight of Lost Causes:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Knight of the Hokey Pokey:
     sets:
       - id: UGL
@@ -2027,9 +2213,9 @@ cards:
         proxy: false
   Kozilek, Compleated:
     sets:
-      - id: MB2
-        premium: false
+      - premium: false
         proxy: false
+        scryfallId: MB2
   Krark's Other Thumb:
     sets:
       - id: UST
@@ -2143,6 +2329,16 @@ cards:
       - id: UGL
         premium: false
         proxy: false
+  Lich's Duel Mastery:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Lifening Elemental:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Lightning Colt:
     sets:
       - premium: false
@@ -2158,6 +2354,11 @@ cards:
         id: UNF
         premium: true
         proxy: false
+  Liliana's Other Contract:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Little Girl:
     sets:
       - premium: false
@@ -2252,6 +2453,16 @@ cards:
         scryfallId: HBG
     tokens:
       1/1 white Soldier creature: 2
+  Lutri, Pauper Otter:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Luxior, Ignited:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   M'Odo, the Gnarled Oracle:
     sets:
       - id: HTR
@@ -2263,6 +2474,11 @@ cards:
       - id: UST
         premium: true
         proxy: false
+  Madlands:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Maestros' Totally Safe Hideout:
     sets:
       - id: MB2
@@ -2292,6 +2508,11 @@ cards:
       - premium: true
         proxy: false
         scryfallId: UNH
+  Magus of the Chains:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Main Event Horizon:
     sets:
       - collectorNumber: 305
@@ -2328,12 +2549,12 @@ cards:
         premium: false
         proxy: false
     tokens:
-      "Lorthos, the Tidemaker": 1
+      Lorthos, the Tidemaker: 1
   Marchesa's Surprise Party:
     sets:
-      - id: MB2
-        premium: false
+      - premium: false
         proxy: false
+        scryfallId: MB2
   Maro's Gone Nuts:
     sets:
       - premium: false
@@ -2354,6 +2575,11 @@ cards:
       - id: UST
         premium: true
         proxy: false
+  Meandered Towershell:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Meddling Kids:
     sets:
       - premium: true
@@ -2389,6 +2615,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Microscope:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Mine, Mine, Mine!:
     sets:
       - id: UGL
@@ -2475,11 +2706,21 @@ cards:
       - premium: true
         proxy: true
         scryfallId: UNH
+  Mox Poison:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Mucus Valley:
     sets:
       - id: Unglued 2
         premium: false
         proxy: true
+  Muraganda Eldrazi:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Muzzio's Preparations:
     sets:
       - premium: false
@@ -2496,11 +2737,21 @@ cards:
         premium: true
         proxy: true
         scryfallId: PH19
+  Narod, the Beige Flower:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Natural Unity:
     sets:
       - id: CN2
         premium: false
         proxy: false
+  Naturalize 2:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Naughty // Nice:
     sets:
       - premium: true
@@ -2517,6 +2768,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: UNH
+  New Master of Arms:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Night of the Flying Merfolk:
     sets:
       - id: MB2
@@ -2534,11 +2790,21 @@ cards:
       - premium: false
         proxy: true
         scryfallId: ANB
+  No-Regrets Egret:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Noble Banneret:
     sets:
       - id: CN2
         premium: true
         proxy: false
+  Noble Ox:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Nocturno of Myra's Marvels:
     sets:
       - collectorNumber: 368
@@ -2587,6 +2853,11 @@ cards:
       - id: UST
         premium: true
         proxy: false
+  Oddric, Lunar Marquis:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Old Fogey:
     sets:
       - premium: false
@@ -2602,6 +2873,11 @@ cards:
       - id: UST
         premium: true
         proxy: false
+  Omenpath to Naya:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Omniclown Colossus:
     sets:
       - collectorNumber: 402
@@ -2611,9 +2887,9 @@ cards:
         proxy: false
   Omnipresent Impostor:
     sets:
-      - id: MB2
-        premium: false
+      - premium: false
         proxy: false
+        scryfallId: MB2
   Once More with Feeling:
     sets:
       - id: UGL
@@ -2641,6 +2917,11 @@ cards:
       - id: Extra Pulled
         premium: false
         proxy: true
+  Orb of Origin:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Ordinary Pony:
     sets:
       - id: UST
@@ -2676,6 +2957,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CNS
+  Panglacial Shinobi:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Paper Tiger:
     sets:
       - id: UGL
@@ -2710,6 +2996,11 @@ cards:
         scryfallId: PMOA
     tokens:
       Arrest: 6
+  Penumbra Umbra:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Persecute Artist:
     sets:
       - premium: true
@@ -2725,6 +3016,11 @@ cards:
       - id: UST
         premium: true
         proxy: false
+  Phyrexian Seedling:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Pick Your Poison:
     sets:
       - premium: false
@@ -2750,6 +3046,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Plain Walker:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Plane-Merge Elf:
     sets:
       - premium: false
@@ -2757,6 +3058,16 @@ cards:
         scryfallId: CMB1
     tokens:
       1/1 green Elf Warrior creature: 2
+  Planeswalkerificate:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Plant a Sapling // Fully-Grown Treefolk:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Plot Armor:
     sets:
       - collectorNumber: 438
@@ -2768,6 +3079,11 @@ cards:
       - id: UNH
         premium: true
         proxy: false
+  Pokey, the Scallywagg:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Pool of Goo:
     sets:
       - id: Unglued 2
@@ -2809,6 +3125,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Processing Plant:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Proper Laboratory Attire:
     sets:
       - id: UST
@@ -2829,6 +3150,18 @@ cards:
       - premium: true
         proxy: false
         scryfallId: UNH
+  Pyromancy 101:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Questing Cosplayer:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+    tokens:
+      Questing Role: 1
   Question Elemental?:
     sets:
       - id: UNH
@@ -2975,6 +3308,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Rin and Seri, Inseparabler:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   River's Favor:
     sets:
       - premium: false
@@ -3009,9 +3347,9 @@ cards:
         scryfallId: CMB1
   Rule with an Even Hand:
     sets:
-      - id: MB2
-        premium: false
+      - premium: false
         proxy: false
+        scryfallId: MB2
   Rules Lawyer:
     sets:
       - id: J17
@@ -3020,6 +3358,11 @@ cards:
       - id: UST
         premium: true
         proxy: false
+  Runed Terror:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   S.N.E.A.K. Dispatcher:
     sets:
       - id: UST
@@ -3077,6 +3420,11 @@ cards:
         id: UNF
         premium: true
         proxy: false
+  Search Elemental:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Season's Beatings:
     sets:
       - premium: true
@@ -3207,6 +3555,16 @@ cards:
         scryfallId: PMOA
     tokens:
       1/1 colorless Sliver creature: 2
+  Sliver of Hope:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Slumbering Waterways:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Sly Spy:
     sets:
       - id: UST
@@ -3253,6 +3611,11 @@ cards:
       - id: CN2
         premium: true
         proxy: false
+  Snap Judgment:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Snickering Squirrel:
     sets:
       - id: UST
@@ -3356,6 +3719,11 @@ cards:
       - id: UST
         premium: true
         proxy: false
+  Spuzzem Strategist:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Spy Eye:
     sets:
       - id: UST
@@ -3422,6 +3790,11 @@ cards:
         scryfallId: CMB1
     tokens:
       1/1 white Warrior creature with vigilance: 2
+  Starting Town NPC:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Staying Power:
     sets:
       - premium: true
@@ -3447,6 +3820,11 @@ cards:
       - premium: true
         proxy: false
         scryfallId: HHO
+  Stone Drake:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Stone-Throwing Devils:
     banned: This card may be banned due to its racist depiction, text, or combination thereof.
     sets:
@@ -3463,6 +3841,11 @@ cards:
       - id: UND
         premium: false
         proxy: false
+  Subgoyf:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Subversive Acolyte:
     sets:
       - premium: false
@@ -3491,6 +3874,66 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  TL;DR:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Toddler's Rage:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Wowzer, the Aspirational:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Under-Construction Skyscraper:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Tax Taker:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Terry Pin, Turboturtle:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Two by Four:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Vuzzle Spaceship:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Wisedrafter's Will:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Wormhole Warp:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Wrath of Leknif:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+  Yawgmoth's Day Planner:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Super Secret Tech:
     sets:
       - premium: true
@@ -3605,6 +4048,11 @@ cards:
       - id: UGL
         premium: false
         proxy: false
+  Teferi, Druid of Argoth:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Temp of the Damned:
     sets:
       - id: UGL
@@ -3615,6 +4063,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: 4ED
+  Temur Elevator:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Teysa, Orzhov Scion:
     sets:
       - premium: false
@@ -3641,6 +4094,11 @@ cards:
         premium: true
         proxy: true
         scryfallId: PH19
+  The Colossal Dreadmaw:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   The Fallen Apart:
     sets:
       - premium: true
@@ -3687,6 +4145,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: UGL
+  There // They're // Their:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Three-Headed Goblin:
     sets:
       - id: UST
@@ -3734,6 +4197,11 @@ cards:
       - premium: true
         proxy: false
         scryfallId: UNH
+  Toofer, Keeper of the Full Grip:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Topdeck the Halls:
     sets:
       - id: H20
@@ -3840,6 +4308,11 @@ cards:
       - id: UST
         premium: false
         proxy: false
+  Valuetown // Take a Trip to...:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Vazal, the Compleat:
     sets:
       - premium: false
@@ -4167,6 +4640,15 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Wreen and One:
+    emblems:
+      - At the beginning of your precombat main phase, add {G} for each creature you control.
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
+    tokens:
+      1/1 green Squirrel creature: 2
   Wrenn and One:
     emblems:
       - At the beginning of your precombat main phase, add {G} for each creature you control.
@@ -4252,6 +4734,11 @@ cards:
       - premium: false
         proxy: false
         scryfallId: CMB1
+  Your Wish Is My Command:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Zephyr Gull:
     sets:
       - premium: false
@@ -4262,6 +4749,11 @@ cards:
       - premium: true
         proxy: false
         scryfallId: UNH
+  Zone of Flame:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: MB2
   Zyym, Mesmeric Lord:
     sets:
       - premium: false
