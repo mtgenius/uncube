@@ -13,9 +13,9 @@ cards:
         scryfallId: CMB1
   AWOL:
     sets:
-      - id: UNH
-        premium: false
+      - premium: false
         proxy: false
+        scryfallId: UNH
   Aardwolf's Advantage:
     sets:
       - collectorNumber: 383
@@ -3327,9 +3327,9 @@ cards:
         scryfallId: UNH
   Richard Garfield, Ph.D.:
     sets:
-      - id: ULST
-        premium: true
+      - premium: true
         proxy: false
+        scryfallId: ULST
       - id: UNH
         premium: false
         proxy: false
