@@ -18,6 +18,7 @@ describe('cards', (): void => {
         emblems: z.array(z.string()).optional(),
         oracle: z.string().optional(),
         sets: z.array(z.strictObject({
+          collectorNumber: z.number().optional(),
           count: z.number().optional(),
           id: z.string().optional(),
           premium: z.boolean(),
