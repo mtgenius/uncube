@@ -16,6 +16,9 @@ cards:
       - premium: false
         proxy: false
         scryfallId: UNH
+      - premium: true
+        proxy: false
+        scryfallId: UNH
   Aardwolf's Advantage:
     sets:
       - collectorNumber: 383
@@ -44,7 +47,7 @@ cards:
   Adorable Kitten:
     sets:
       - id: UST
-        premium: false
+        premium: true
         proxy: false
   Adriana's Valor:
     sets:
@@ -89,7 +92,7 @@ cards:
     tokens:
       1/1 white Soldier creature: 2
   Alora, Cheerful Scout:
-    banned: Do not perpetually modify cards in the uncube.
+    banned: PERPETUAL
     sets:
       - premium: false
         proxy: true
@@ -102,13 +105,13 @@ cards:
     tokens:
       Treasure: 2
   Alora, Cheerful Thief:
-    banned: Do not perpetually modify cards in the uncube.
+    banned: PERPETUAL
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Alora, Rogue Companion:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -138,7 +141,7 @@ cards:
         proxy: false
         scryfallVariant: 3d
   Ambergris, Citadel Agent:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -240,6 +243,11 @@ cards:
         proxy: false
     tokens:
       1/1 white Clown Robot artifact creature: 2
+  Assquatch:
+    sets:
+      - premium: true
+        proxy: false
+        scryfallId: UNH
   Avacyn's Collar, the Symbol of Her Church:
     sets:
       - premium: false
@@ -375,7 +383,7 @@ cards:
   Blurry Beeble:
     sets:
       - id: UST
-        premium: false
+        premium: true
         proxy: false
   Bog Humbugs:
     sets:
@@ -558,15 +566,15 @@ cards:
     tokens:
       2/2 red Gremlin creature: 2
   Chaos Confetti:
-    banned: The uncube should not require manual dexterity.
+    banned: DEXTERITY
     sets:
       - id: UGL
         premium: false
         proxy: false
   Chaos Wrap:
-    banned: |
-      Do not encourage players to damage the uncube's sleeves.
-      Do not encourage players to remove uncube cards from their sleeves.
+    banned:
+      - DAMAGE_SLEEVES
+      - REMOVE_SLEEVES
     sets:
       - id: H22
         premium: true
@@ -589,7 +597,7 @@ cards:
         scryfallId: UNH
   Cheatyface:
     sets:
-      - premium: false
+      - premium: true
         proxy: false
         scryfallId: UNH
   Checks and Balances:
@@ -665,10 +673,10 @@ cards:
         premium: false
         proxy: false
   Cleanse:
-    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    banned: RACISM
     sets:
       - premium: false
-        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        proxy: RACISM
         scryfallId: LEG
   Cleaver Blow:
     sets:
@@ -762,16 +770,16 @@ cards:
     tokens:
       1/2 blue Bird creature with flying named Storm Crow: 2
   Crusade:
-    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    banned: RACISM
     sets:
       - premium: false
-        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        proxy: RACISM
         scryfallId: 4ED
       - premium: false
-        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        proxy: RACISM
         scryfallId: 6ED
       - premium: false
-        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        proxy: RACISM
         scryfallId: DDF
   Curious Killbot:
     sets:
@@ -986,7 +994,7 @@ cards:
         premium: false
         proxy: false
   Eggnogger's 'Stache:
-    banned: Do not encourage players to drink beverages near the uncube.
+    banned: CONSUME
     sets:
       - id: H24
         premium: true
@@ -1342,7 +1350,7 @@ cards:
         premium: false
         proxy: false
   Gale, Conduit of the Arcane:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -1355,7 +1363,7 @@ cards:
     tokens:
       1/1 white Pegasus creature with flying: 2
   Gale, Storm Conduit:
-    banned: Do not perpetually modify cards in the uncube.
+    banned: PERPETUAL
     sets:
       - premium: false
         proxy: true
@@ -1367,7 +1375,7 @@ cards:
         proxy: false
         scryfallVariant: 82a
         tcgplayerId: 152909
-      - banned: The uncube does not contain enough Contraptions to support this card.
+      - banned: CONTRAPTION
         id: UST
         premium: true
         proxy: false
@@ -1427,6 +1435,14 @@ cards:
       - premium: false
         proxy: false
         scryfallId: MB2
+  Gleemax:
+    sets:
+      - premium: false
+        proxy: false
+        scryfallId: UNH
+      - premium: true
+        proxy: true
+        scryfallId: UNH
   Gleemox:
     sets:
       - premium: false
@@ -1482,7 +1498,7 @@ cards:
         premium: true
         proxy: false
   Goblin Sleigh Ride:
-    banned: The uncube should not require manual dexterity.
+    banned: DEXTERITY
     sets:
       - id: H15
         premium: true
@@ -1581,37 +1597,37 @@ cards:
         premium: true
         proxy: false
   Gut, Bestial Fanatic:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Gut, Brutal Fanatic:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Gut, Devious Fanatic:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Gut, Fanatical Priestess:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Gut, Furious Fanatic:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Gut, Zealous Fanatic:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -1645,7 +1661,7 @@ cards:
   Hangman:
     sets:
       - id: UST
-        premium: false
+        premium: true
         proxy: false
   Hardy of Myra's Marvels:
     sets:
@@ -1674,7 +1690,7 @@ cards:
         proxy: false
         scryfallId: MB2
   Heroes of Kamigawa:
-    banned: It would be too expensive to open so many Kamigawa booster packs.
+    banned: KAMIGAWA_COST
     sets:
       - premium: false
         proxy: true
@@ -1789,7 +1805,7 @@ cards:
     tokens:
       2/2 black Zombie creature: 2
   Imoen, Trickster Friend:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -1806,10 +1822,10 @@ cards:
         premium: true
         proxy: false
   Imprison:
-    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    banned: RACISM
     sets:
       - premium: false
-        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        proxy: RACISM
         scryfallId: LEG
   Incendiary Dissent:
     sets:
@@ -1895,10 +1911,10 @@ cards:
         proxy: false
         scryfallId: CMB1
   Invoke Prejudice:
-    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    banned: RACISM
     sets:
       - premium: false
-        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        proxy: RACISM
         scryfallId: LEG
   Inzerva, Master of Insights:
     emblems:
@@ -1941,39 +1957,39 @@ cards:
         premium: true
         proxy: false
   Jaheira, Harper Emissary:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Jaheira, Heroic Harper:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Jaheira, Insightful Harper:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Jaheira, Merciful Harper:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Jaheira, Ruthless Harper:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Jaheira, Stirring Harper:
-    banned: |
-      Physical cards cannot specialize.
-      Do not perpetually modify cards in the uncube.
+    banned:
+      - PERPETUAL
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -2017,10 +2033,10 @@ cards:
         proxy: false
         scryfallId: CHR
   Jihad:
-    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    banned: RACISM
     sets:
       - premium: false
-        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        proxy: RACISM
         scryfallId: ARN
   Johnny, Combo Player:
     sets:
@@ -2047,48 +2063,48 @@ cards:
         premium: true
         proxy: false
   Karlach, Raging Tiefling:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Karlach, Tiefling Berserker:
-    banned: |
-      Physical cards cannot specialize.
-      Do not perpetually modify cards in the uncube.
+    banned:
+      - PERPETUAL
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Karlach, Tiefling Guardian:
-    banned: |
-      Physical cards cannot specialize.
-      Do not perpetually modify cards in the uncube.
+    banned:
+      - PERPETUAL
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Karlach, Tiefling Punisher:
-    banned: |
-      Physical cards cannot specialize.
-      Do not perpetually modify cards in the uncube.
+    banned:
+      - PERPETUAL
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Karlach, Tiefling Spellrager:
-    banned: |
-      Physical cards cannot specialize.
-      Do not perpetually modify cards in the uncube.
-      Seeking cards is mechanically burdensome in paper.
+    banned:
+      - PERPETUAL
+      - SEEK
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Karlach, Tiefling Zealot:
-    banned: |
-      Physical cards cannot specialize.
-      Do not perpetually modify cards in the uncube.
+    banned:
+      - PERPETUAL
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -2156,21 +2172,21 @@ cards:
         premium: true
         proxy: false
   Klement, Death Acolyte:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Klement, Knowledge Acolyte:
-    banned: |
-      Physical cards cannot specialize.
-      Seeking cards is mechanically burdensome in paper.
+    banned:
+      - SEEK
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Klement, Life Acolyte:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -2183,9 +2199,9 @@ cards:
     tokens:
       4/4 green Ox creature: 1
   Klement, Novice Acolyte:
-    banned: |
-      Physical cards cannot specialize.
-      Do not perpetually modify cards in the uncube.
+    banned:
+      - PERPETUAL
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -2203,28 +2219,28 @@ cards:
   Knight of the Kitchen Sink:
     sets:
       - id: UST
-        premium: false
-        proxy: false
+        premium: true
+        proxy: true
         scryfallVariant: 12a
       - id: UST
-        premium: false
+        premium: true
         proxy: false
         scryfallVariant: 12b
       - banned: Open mouths are too difficult to identify in artwork.
         id: UST
-        premium: false
+        premium: true
         proxy: false
         scryfallVariant: 12c
       - id: UST
-        premium: false
+        premium: true
         proxy: false
         scryfallVariant: 12d
       - id: UST
-        premium: false
+        premium: true
         proxy: false
         scryfallVariant: 12e
       - id: UST
-        premium: false
+        premium: true
         proxy: false
         scryfallVariant: 12f
   Knight of the Widget:
@@ -2255,7 +2271,7 @@ cards:
     tokens:
       Krosan Adaptation: 2
   Labro Bot:
-    banned: The uncube does not contain enough host cards or cards with augment to support this card.
+    banned: HOST
     sets:
       - id: UST
         premium: true
@@ -2266,27 +2282,27 @@ cards:
         premium: true
         proxy: false
   Lae'zel, Blessed Warrior:
-    banned: Seeking cards is mechanically burdensome in paper.
+    banned: SEEK
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Lae'zel, Githyanki Warrior:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Lae'zel, Illithid Thrall:
-    banned: |
-      Tracking conjured cards is burdensome.
-      Selecting random creature cards from a library is burdensome.
+    banned:
+      - CONJURE
+      - RANDOM_CREATURE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Lae'zel, Primal Warrior:
-    banned: Do not perpetually modify cards in the uncube.
+    banned: PERPETUAL
     sets:
       - premium: false
         proxy: true
@@ -2382,7 +2398,7 @@ cards:
         scryfallId: MB2
   Little Girl:
     sets:
-      - premium: false
+      - premium: true
         proxy: false
         scryfallId: UNH
   Lobe Lobber:
@@ -2424,37 +2440,37 @@ cards:
         proxy: false
         scryfallId: CMB1
   Lukamina, Bear Form:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Lukamina, Crocodile Form:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Lukamina, Hawk Form:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Lukamina, Moon Druid:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Lukamina, Scorpion Form:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Lukamina, Wolf Form:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -2462,7 +2478,7 @@ cards:
     tokens:
       2/2 green Wolf creature: 2
   Lulu, Forgetful Hollyphant:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -2667,7 +2683,7 @@ cards:
         proxy: false
         scryfallId: UNH
   Mishra's Toy Workshop:
-    banned: Uncube should not require toys.
+    banned: TOYS
     sets:
       - id: H14
         premium: true
@@ -2699,7 +2715,7 @@ cards:
         scryfallId: UNH
   Mons's Goblin Waiter:
     sets:
-      - premium: false
+      - premium: true
         proxy: false
         scryfallId: UNH
   More or Less:
@@ -3140,10 +3156,10 @@ cards:
         proxy: false
         scryfallId: CNS
   Pradesh Gypsies:
-    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    banned: RACISM
     sets:
       - premium: false
-        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        proxy: RACISM
         scryfallId: 6ED
   Princess Twilight Sparkle:
     sets:
@@ -3212,7 +3228,7 @@ cards:
         proxy: false
         scryfallVariant: 43★
   Questionable Cuisine:
-    banned: This card is not accessible to visually-impaired players.
+    banned: VISUAL_ACCESSIBILITY
     sets:
       - id: UST
         premium: true
@@ -3255,15 +3271,15 @@ cards:
     tokens:
       1/1 blue Faerie Dragon creature with flying: 2
   Rasaad, Monk of Selûne:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Rasaad, Radiant Monk:
-    banned: |
-      Physical cards cannot specialize.
-      Do not perpetually modify cards in the uncube.
+    banned:
+      - PERPETUAL
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -3411,7 +3427,7 @@ cards:
   S.N.O.T.:
     sets:
       - count: 4
-        premium: false
+        premium: true
         proxy: false
         scryfallId: UNH
   Sarah's Wings:
@@ -3420,16 +3436,16 @@ cards:
         proxy: false
         scryfallId: CMB1
   Sarevok the Usurper:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Sarevok, Deadly Usurper:
-    banned: |
-      Physical cards cannot specialize.
-      Seeking cards is mechanically burdensome in paper.
-      Tracking conjured cards is burdensome.
+    banned:
+      - CONJURE
+      - SEEK
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -3502,6 +3518,8 @@ cards:
     emblems:
       - At the beginning of your upkeep, pay {U}{B}{R}. If you don't, you lose the game.
       - You can cast nonland cards from your sideboard.
+    planes:
+      - Pools of Becoming
     sets:
       - premium: false
         proxy: false
@@ -3531,7 +3549,7 @@ cards:
     tokens:
       2/2 white Knight creature: 2
   Shadowheart, Sharran Cleric:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -3566,7 +3584,7 @@ cards:
         proxy: false
         scryfallId: UNH
   Skanos, Dragon Vassal:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -3659,7 +3677,7 @@ cards:
   Snickering Squirrel:
     sets:
       - id: UST
-        premium: false
+        premium: true
         proxy: false
   Snow Mercy:
     sets:
@@ -3669,7 +3687,7 @@ cards:
   Socketed Sprocketer:
     sets:
       - id: UST
-        premium: false
+        premium: true
         proxy: false
   Sol, Advocate Eternal:
     sets:
@@ -3780,7 +3798,7 @@ cards:
         proxy: false
         scryfallId: CMB1
   Squirrel Dealer:
-    banned: Playing should not require a person outside the game.
+    banned: OUTSIDE
     sets:
       - id: UST
         premium: false
@@ -3866,10 +3884,10 @@ cards:
         proxy: false
         scryfallId: MB2
   Stone-Throwing Devils:
-    banned: This card may be banned due to its racist depiction, text, or combination thereof.
+    banned: RACISM
     sets:
       - premium: false
-        proxy: This card may be proxied due to its racist depiction, text, or combination thereof.
+        proxy: RACISM
         scryfallId: ARN
   Strategy, Schmategy:
     sets:
@@ -3982,8 +4000,9 @@ cards:
     sets:
       - collectorNumber: 317
         id: UNF
-        premium: false
+        premium: true
         proxy: false
+        tcgplayerId: 288033
   TL;DR:
     sets:
       - premium: false
@@ -4058,6 +4077,15 @@ cards:
       - premium: false
         proxy: false
         scryfallId: MB2
+  Tenacious Pup:
+    sets:
+      - id: MB2
+        premium: true
+        proxy: true
+        tcgplayerId: 563281
+      - premium: false
+        proxy: true
+        scryfallId: YMID
   Terry Pin, Turboturtle:
     sets:
       - premium: false
@@ -4146,7 +4174,7 @@ cards:
         proxy: false
         scryfallId: MB2
   Thopter Pie Network:
-    banned: Do not encourage players to eat food near the uncube.
+    banned: CONSUME
     sets:
       - id: H16
         premium: true
@@ -4176,7 +4204,7 @@ cards:
         premium: true
         proxy: false
   "Time Walk Variant #23":
-    banned: Do not encourage players to sacrifice a kidney.
+    banned: KIDNEY
     sets:
       - id: Extra Pulled
         premium: false
@@ -4250,13 +4278,15 @@ cards:
   Truss, Chief Engineer:
     sets:
       - id: UNF
-        premium: false
+        premium: true
         proxy: false
-        scryfallVariant: 181
+        scryfallVariant: 467
+        tcgplayerId: 287346
       - id: UNF
-        premium: false
+        premium: true
         proxy: false
-        scryfallVariant: 272
+        scryfallVariant: 523
+        tcgplayerId: 287349
   Truth or Dare:
     sets:
       - premium: false
@@ -4337,7 +4367,7 @@ cards:
         scryfallId: CMB1
   Very Cryptic Command:
     sets:
-      - banned: The uncube does not contain enough Contraptions to support this card.
+      - banned: CONTRAPTION
         id: UST
         premium: true
         proxy: false
@@ -4372,90 +4402,90 @@ cards:
       1/1 colorless Gnome artifact creature: 1
       2/2 black Rogue creature with menace: 1
   Vhal, Eager Scholar:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Vhal, Scholar of Creation:
-    banned: |
-      Physical cards cannot specialize.
-      Seeking cards is mechanically burdensome in paper.
+    banned:
+      - SEEK
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Vhal, Scholar of Elements:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Vhal, Scholar of Mortality:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Vhal, Scholar of Prophecy:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Vhal, Scholar of Tactics:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Viconia, Disciple of Arcana:
-    banned: |
-      Physical cards cannot specialize.
-      Tracking conjured cards is burdensome.
-      Do not perpetually modify cards in the uncube.
+    banned:
+      - CONJURE
+      - PERPETUAL
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Viconia, Disciple of Blood:
-    banned: |
-      Physical cards cannot specialize.
-      Tracking conjured cards is burdensome.
-      Do not perpetually modify cards in the uncube.
+    banned:
+      - CONJURE
+      - PERPETUAL
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Viconia, Disciple of Rebirth:
-    banned: |
-      Physical cards cannot specialize.
-      Tracking conjured cards is burdensome.
-      Do not perpetually modify cards in the uncube.
+    banned:
+      - CONJURE
+      - PERPETUAL
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Viconia, Disciple of Strength:
-    banned: |
-      Physical cards cannot specialize.
-      Tracking conjured cards is burdensome.
-      Do not perpetually modify cards in the uncube.
+    banned:
+      - CONJURE
+      - PERPETUAL
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Viconia, Disciple of Violence:
-    banned: |
-      Physical cards cannot specialize.
-      Tracking conjured cards is burdensome.
-      Do not perpetually modify cards in the uncube.
+    banned:
+      - CONJURE
+      - PERPETUAL
+      - SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Viconia, Nightsinger's Disciple:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -4597,37 +4627,37 @@ cards:
         premium: true
         proxy: false
   Wilson, Ardent Bear:
-    banned: Do not perpetually modify cards in the uncube.
+    banned: PERPETUAL
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Wilson, Bear Comrade:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Wilson, Fearsome Bear:
-    banned: Do not perpetually modify cards in the uncube.
+    banned: PERPETUAL
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Wilson, Majestic Bear:
-    banned: Do not perpetually modify cards in the uncube.
+    banned: PERPETUAL
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Wilson, Subtle Bear:
-    banned: Do not perpetually modify cards in the uncube.
+    banned: PERPETUAL
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Wilson, Urbane Bear:
-    banned: Do not perpetually modify cards in the uncube.
+    banned: PERPETUAL
     sets:
       - premium: false
         proxy: true
@@ -4691,6 +4721,12 @@ cards:
         scryfallId: MB2
     tokens:
       1/1 green Squirrel creature: 2
+  Wrench-Rigger:
+    banned: CONTRAPTION
+    sets:
+      - id: UST
+        premium: true
+        proxy: false
   Wrenn and One:
     emblems:
       - At the beginning of your precombat main phase, add {G} for each creature you control.
@@ -4701,39 +4737,39 @@ cards:
     tokens:
       1/1 green Squirrel creature: 2
   Wyll of the Blade Pact:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Wyll of the Celestial Pact:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Wyll of the Elder Pact:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Wyll of the Fey Pact:
-    banned: |
-      Physical cards cannot specialize.
-      Do not perpetually modify cards in the uncube.
+    banned:
+      - SPECIALIZE
+      - PERPETUAL
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Wyll of the Fiend Pact:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
         scryfallId: HBG
   Wyll, Pact-Bound Duelist:
-    banned: Physical cards cannot specialize.
+    banned: SPECIALIZE
     sets:
       - premium: false
         proxy: true
@@ -4741,7 +4777,7 @@ cards:
   X:
     sets:
       - id: UST
-        premium: false
+        premium: true
         proxy: false
   Xyru Specter:
     sets:
@@ -4839,6 +4875,8 @@ cards:
 sets:
   "Alchemy Horizons: Baldur's Gate":
     scryfallId: HBG
+  "Alchemy: Innistrad":
+    scryfallId: YMID
   Arabian Nights:
     scryfallId: ARN
   Arena:
