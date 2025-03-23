@@ -87,4 +87,11 @@ export default [
       ],
     },
   },
+
+  {
+    rules: {
+      "max-lines-per-function": "off",
+      "max-statements": "off",
+    },
+  },
 ];

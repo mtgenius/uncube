@@ -15,5 +15,6 @@ those cards.
 ## Why are only some cards "premium"?
 
 In order to support
-[Super Secret Tech](https://scryfall.com/card/unh/141/super-secret-tech), cards
-with generic mana costs are premium if they exist as paper prints.
+[Super Secret Tech](https://scryfall.com/card/unh/141/super-secret-tech),
+creature cards and cards with generic mana costs are premium if they exist as
+paper prints.
