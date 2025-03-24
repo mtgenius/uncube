@@ -1,6 +1,5 @@
 import { isDefined, isUndefined } from 'fmrs';
 import type Card from './card.js';
-import mapSetIdToVariant from './map-set-id-to-variant.js';
 
 const ASCENDING = -1;
 const DESCENDING = 1;
@@ -44,12 +43,60 @@ export default function sortBySet(
     return DESCENDING;
   }
 
-  // Sort by Scryfall variant.
-  const variantA: number | string | undefined = mapSetIdToVariant(setIdA);
-  const variantB: number | string | undefined = mapSetIdToVariant(setIdB);
-  if (!isDefined(variantA) || !isDefined(variantB)) {
-    throw new Error(`Card "${nameA}" has duplicates in set "${setIdA.id}"`);
-  }
+  // Sort by proxy images.
+  const { type: typeA } = setIdA;
+  const { type: typeB } = setIdB;
+  switch (typeA) {
+    // Sort by collector number.
+    case 'print': {
+      const { collectorNumber: collectorNumberA } = setIdA;
 
-  return variantA.toString().localeCompare(variantB.toString());
+      if (typeA !== typeB) {
+        throw new Error(
+          `Expected duplicates to share set types for card "${nameA}" in sets "${setIdA.id}" and "${setIdB.id}"`,
+        );
+      }
+
+      const { collectorNumber: collectorNumberB } = setIdB;
+      if (!isDefined(collectorNumberA) || !isDefined(collectorNumberB)) {
+        throw new Error(
+          `Card "${nameA}" has duplicates in print set "${setIdA.id}"`,
+        );
+      }
+
+      return collectorNumberA - collectorNumberB;
+    }
+
+    // Sort by custom images.
+    case 'proxy': {
+      const { image: imageA } = setIdA;
+      if (typeA !== typeB) {
+        throw new Error(
+          `Expected duplicates to share set types for card "${nameA}" in sets "${setIdA.id}" and "${setIdB.id}"`,
+        );
+      }
+
+      const { image: imageB } = setIdB;
+      return imageA.localeCompare(imageB);
+    }
+
+    // Sort by Scryfall variant.
+    case 'scryfall': {
+      const { variant: variantA } = setIdA;
+      if (typeA !== typeB) {
+        throw new Error(
+          `Expected duplicates to share set types for card "${nameA}" in sets "${setIdA.id}" and "${setIdB.id}"`,
+        );
+      }
+
+      const { variant: variantB } = setIdB;
+      if (!isDefined(variantA) || !isDefined(variantB)) {
+        throw new Error(
+          `Card "${nameA}" has duplicates in Scryfall set "${setIdA.id}"`,
+        );
+      }
+
+      return variantA.toString().localeCompare(variantB.toString());
+    }
+  }
 }

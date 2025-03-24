@@ -46,10 +46,7 @@ export default function getCards(): readonly Card[] {
       ...card,
       setId: {
         ...setId,
-        name: setName.replace(
-          /^(?<SetName>Happy Holidays|Heroes of the Realm) 20\d\d$/u,
-          '$1',
-        ),
+        name: setName.replace(/^ (?:20\d\d|Promos)$/u, ''),
       },
     };
   };

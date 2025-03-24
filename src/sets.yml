@@ -138,5 +138,7 @@ Unsanctioned:
   id: UND
 Unstable:
   id: UST
+Vanguard Series:
+  scryfallId: PVAN
 Zendikar Expeditions:
   id: EXP
