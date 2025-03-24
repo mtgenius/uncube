@@ -1,1 +1,9 @@
-* text eol=lf
+*              text eol=lf
+*.css          text diff=css
+*.html         text diff=html
+*.jpg          binary
+*.md           text diff=markdown
+*.png          binary
+*.scss         text diff=css
+*.mse-set      binary -diff
+pnpm-lock.yaml text eol=lf -diff
