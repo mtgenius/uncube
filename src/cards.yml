@@ -4,7 +4,7 @@ White Sale:
       image: white-sale.png
       premium: false
       proxy: true
-What the...?:
+What the...?!:
   sets:
     - id: "Unglued 2: The Obligatory Sequel"
       image: what-the.png
@@ -4884,11 +4884,6 @@ Whammy Burn:
     - premium: false
       proxy: false
       scryfallId: CMB1
-What the...?!:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      premium: false
-      proxy: true
 When Fluffy Bunnies Attack:
   sets:
     - id: UNH
