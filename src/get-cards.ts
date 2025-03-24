@@ -1,9 +1,9 @@
-import { isRecord } from 'fmrs';
-import cardsYaml from './cards.yml';
+import { isRecord, isString } from 'fmrs';
+import cards from './cards.yml';
+import sets from './sets.yml';
 import type Card from './card.js';
+import sortBySet from './sort-by-set.js';
 import mapCardEntryToCards from './map-card-entry-to-cards.js';
-
-const { cards, sets } = cardsYaml;
 
 export default function getCards(): readonly Card[] {
   if (!isRecord(cards)) {
@@ -14,5 +14,37 @@ export default function getCards(): readonly Card[] {
     throw new Error('`sets` is not a record.');
   }
 
-  return Object.entries(cards).flatMap(mapCardEntryToCards);
+  const setNames = new Map<string, string>();
+  for (const [name, data] of Object.entries(sets)) {
+    if (!isRecord(data)) {
+      throw new Error(`Invalid data for set "${name}"`, { cause: data });
+    }
+
+    const { id, scryfallId, source } = data;
+    if (isString(id)) {
+      setNames.set(id, name);
+    }
+
+    if (isString(scryfallId)) {
+      setNames.set(scryfallId, name);
+    }
+
+    // Unofficial sets
+    if (!isString(id) && !isString(scryfallId) && isString(source)) {
+      setNames.set(name, name);
+    }
+  }
+
+  const mapToSetName = ({ setId, ...card }: Card): Card => ({
+    ...card,
+    setId: {
+      ...setId,
+      name: setNames.get(setId.id),
+    },
+  });
+
+  return Object.entries(cards)
+    .flatMap(mapCardEntryToCards)
+    .map(mapToSetName)
+    .sort(sortBySet);
 }

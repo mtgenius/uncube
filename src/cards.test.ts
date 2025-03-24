@@ -2,6 +2,8 @@ import { isRecord } from 'fmrs';
 import { assert, describe, expect, it } from 'vitest';
 import { z } from 'zod';
 import cards from './cards.yml';
+import { Banned } from './banned.js';
+import { Proxy } from './proxy.js';
 
 const FIRST = 0;
 const SECOND = 1;
@@ -17,30 +19,6 @@ const isRecordEntries = (
   value: unknown,
 ): value is readonly [string, Record<string, unknown>][] =>
   Array.isArray(value) && value.every(isRecordEntry);
-
-enum Banned {
-  Racism = 'RACISM',
-  Conjure = 'CONJURE',
-  Consume = 'CONSUME',
-  KamigawaCost = 'KAMIGAWA_COST',
-  Contraption = 'CONTRAPTION',
-  Kidney = 'KIDNEY',
-  Perpetual = 'PERPETUAL',
-  Outside = 'OUTSIDE',
-  Seek = 'SEEK',
-  Specialize = 'SPECIALIZE',
-  VisualAccessibility = 'VISUAL_ACCESSIBILITY',
-  Toys = 'TOYS',
-  RandomCreature = 'RANDOM_CREATURE',
-  Host = 'HOST',
-  DamageSleeves = 'DAMAGE_SLEEVES',
-  Dexterity = 'DEXTERITY',
-  RemoveSleeves = 'REMOVE_SLEEVES',
-}
-
-enum Proxy {
-  Racism = 'RACISM',
-}
 
 const BANNED_TEXT: Record<Banned, string> = {
   [Banned.Dexterity]: 'The uncube should not require manual dexterity.',

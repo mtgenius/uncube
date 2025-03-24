@@ -1,63 +1,39 @@
-import { mapToString } from 'fmrs';
+import { isString, sortEntriesByKey } from 'fmrs';
 import type Card from './card.js';
 import getCards from './get-cards.js';
-import mapSetIdToString from './map-set-id-to-string.js';
-import './index.css';
+import type { HTMLListElement } from './html-list-element.js';
+import mapCardToListItem from './map-card-to-list-item.js';
+import DefinedMap from './defined-map.js';
+import handleError from './handle-error.js';
 
-type HTMLListElement = HTMLOListElement | HTMLUListElement;
-
-const EMPTY = 0;
-const PREMIUM_ICON_SRC =
-  'https://user-images.githubusercontent.com/343837/83360751-a631d080-a338-11ea-80c6-110971103bf4.png';
+const SET_LISTS = new DefinedMap<HTMLListElement>(
+  (): HTMLListElement => window.document.createElement('ul'),
+);
 
 try {
   const cards: readonly Card[] = getCards();
 
-  const list: HTMLListElement = window.document.createElement('ul');
-  for (const { cardExtra, name, premium, proxy, setExtra, setId } of cards) {
-    const setIdStr: string = mapSetIdToString(setId);
-    const item: HTMLLIElement = window.document.createElement('li');
-
-    if (premium) {
-      const icon: HTMLImageElement = document.createElement('img');
-      icon.setAttribute('src', PREMIUM_ICON_SRC);
-      item.appendChild(icon);
-    } else {
-      item.appendChild(document.createElement('span'));
-    }
-
-    item.appendChild(document.createTextNode(' '));
-    item.appendChild(
-      document.createTextNode(
-        `[${setIdStr.substring(0, 8)}] ${name.substring(0, 16)}`,
-      ),
-    );
-
-    if (proxy) {
-      item.appendChild(document.createElement('br'));
-      item.appendChild(document.createTextNode('proxied'));
-    }
-
-    if (Object.keys(cardExtra).length > EMPTY) {
-      item.appendChild(document.createElement('br'));
-      item.appendChild(
-        document.createTextNode(Object.keys(cardExtra).join(', ')),
+  for (const card of cards) {
+    const { name } = card.setId;
+    if (!isString(name)) {
+      throw new Error(
+        `Missing set name for card "${card.name}" set "${card.setId.id}"`,
       );
     }
 
-    if (Object.keys(setExtra).length > EMPTY) {
-      item.appendChild(document.createElement('br'));
-      item.appendChild(
-        document.createTextNode(Object.keys(setExtra).join(', ')),
-      );
-    }
-
-    list.appendChild(item);
+    const list: HTMLListElement = SET_LISTS.get(name);
+    const listItem: HTMLLIElement = mapCardToListItem(card);
+    list.appendChild(listItem);
   }
 
-  window.document.body.appendChild(list);
+  for (const [setName, list] of [...SET_LISTS.entries].sort(sortEntriesByKey)) {
+    const section: HTMLElement = window.document.createElement('section');
+    const heading: HTMLHeadingElement = window.document.createElement('h2');
+    heading.appendChild(window.document.createTextNode(setName));
+    section.appendChild(heading);
+    section.appendChild(list);
+    window.document.body.appendChild(section);
+  }
 } catch (err: unknown) {
-  const message: HTMLDivElement = window.document.createElement('div');
-  message.appendChild(document.createTextNode(mapToString(err)));
-  window.document.body.appendChild(message);
+  handleError(err);
 }

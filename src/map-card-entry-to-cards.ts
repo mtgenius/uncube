@@ -1,8 +1,10 @@
-import { isBoolean, isNumber, isRecord, isString, isUndefined } from 'fmrs';
+import { isBoolean, isRecord } from 'fmrs';
 import type Card from './card.js';
 import { type SetId } from './set-id.js';
-import mapSetIdToString from './map-set-id-to-string.js';
 import isProxy from './is-proxy.js';
+import isBanned from './is-banned.js';
+import type { Banned } from './banned.js';
+import createSetId from './create-set-id.js';
 
 export default function mapCardEntryToCards([name, data]: readonly [
   string,
@@ -12,7 +14,7 @@ export default function mapCardEntryToCards([name, data]: readonly [
     throw new Error(`Invalid data for card "${name}"`, { cause: data });
   }
 
-  const { sets, ...restCard } = data;
+  const { banned, sets, ...restCard } = data;
   if (!Array.isArray(sets)) {
     throw new Error(`Expected an array of sets for card "${name}"`, {
       cause: sets,
@@ -25,6 +27,7 @@ export default function mapCardEntryToCards([name, data]: readonly [
 
   const cards: Card[] = [];
   for (const {
+    collectorNumber,
     id,
     premium,
     proxy,
@@ -32,42 +35,17 @@ export default function mapCardEntryToCards([name, data]: readonly [
     scryfallVariant,
     ...restSet
   } of sets) {
-    const getSetId = (): SetId | string => {
-      if (isString(id)) {
-        return id;
-      }
-
-      if (isString(scryfallId)) {
-        if (
-          !isNumber(scryfallVariant) &&
-          !isString(scryfallVariant) &&
-          !isUndefined(scryfallVariant)
-        ) {
-          throw new Error(
-            `Invalid Scryfall variant for card "${name}" in set "${scryfallId}"`,
-            {
-              cause: scryfallVariant,
-            },
-          );
-        }
-        return {
-          id: scryfallId,
-          type: 'scryfall',
-          variant: scryfallVariant,
-        };
-      }
-
-      throw new Error(`Invalid set ID for card "${name}"`, {
-        cause: { id, scryfallId },
-      });
-    };
-
-    const setId: SetId | string = getSetId();
+    const setId: SetId = createSetId({
+      collectorNumber,
+      id,
+      name,
+      scryfallId,
+      scryfallVariant,
+    });
 
     if (!isBoolean(premium)) {
-      const setIdStr: string = mapSetIdToString(setId);
       throw new Error(
-        `Expected to know if card "${name}" is premium in set "${setIdStr}"`,
+        `Expected to know if card "${name}" is premium in set "${setId.id}"`,
         {
           cause: premium,
         },
@@ -75,16 +53,34 @@ export default function mapCardEntryToCards([name, data]: readonly [
     }
 
     if (!isBoolean(proxy) && !isProxy(proxy)) {
-      const setIdStr: string = mapSetIdToString(setId);
       throw new Error(
-        `Expected to know if card "${name}" is proxied in set "${setIdStr}"`,
+        `Expected to know if card "${name}" is proxied in set "${setId.id}"`,
         {
           cause: premium,
         },
       );
     }
 
+    const getBanned = (): readonly Banned[] | false => {
+      if (typeof banned === 'undefined') {
+        return false;
+      }
+
+      if (isBanned(banned)) {
+        return [banned];
+      }
+
+      if (Array.isArray(banned) && banned.every(isBanned)) {
+        return banned;
+      }
+
+      throw new Error(`Invalid ban reason for "${name}" in "${setId.id}"`, {
+        cause: banned,
+      });
+    };
+
     cards.push({
+      banned: getBanned(),
       cardExtra: restCard,
       name,
       premium,
