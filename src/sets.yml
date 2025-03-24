@@ -67,6 +67,12 @@ Happy Holidays 2024:
   scryfallId: HHO
 HasCon 2017:
   id: H17
+  scryfallId: H17
+Heroes of the Realm:
+  id: HTR
+Heroes of the Realm 2016:
+  id: HTR
+  scryfallId: PHTR
 Heroes of the Realm 2017:
   id: HTR
   scryfallId: PH17
@@ -79,6 +85,9 @@ Heroes of the Realm 2019:
 Heroes of the Realm 2020:
   id: H20
   scryfallId: PH20
+Heroes of the Realm 2022:
+  id: H22
+  scryfallId: PH22
 Homelands:
   scryfallId: HML
 Ice Age:
@@ -93,6 +102,8 @@ Magic Online Avatars:
   scryfallId: PMOA
 Magic Online Promos:
   scryfallId: PRM
+MagicFest 2024:
+  scryfallId: PF24
 MagicFest 2025:
   scryfallId: PF25
 Mystery Booster 2:

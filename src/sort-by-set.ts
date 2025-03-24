@@ -1,4 +1,4 @@
-import { isDefined } from 'fmrs';
+import { isDefined, isUndefined } from 'fmrs';
 import type Card from './card.js';
 import mapSetIdToVariant from './map-set-id-to-variant.js';
 
@@ -10,8 +10,24 @@ export default function sortBySet(
   { name: nameB, premium: premiumB, setId: setIdB }: Card,
 ): number {
   // Sort by set ID.
-  if (setIdA.id !== setIdB.id) {
-    return setIdA.id.localeCompare(setIdB.id);
+  const { name: setNameA } = setIdA;
+  const { name: setNameB } = setIdB;
+  if (isUndefined(setNameA)) {
+    throw new Error(
+      `Expected set name to be defined for card "${nameA}" set "${setIdA.id}".`,
+      { cause: setIdA },
+    );
+  }
+
+  if (isUndefined(setNameB)) {
+    throw new Error(
+      `Expected set name to be defined for card "${nameB}" set "${setIdB.id}".`,
+      { cause: setIdB },
+    );
+  }
+
+  if (setNameA !== setNameB) {
+    return setNameA.localeCompare(setNameB);
   }
 
   // Sort by card name.

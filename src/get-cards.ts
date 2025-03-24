@@ -21,6 +21,7 @@ export default function getCards(): readonly Card[] {
     }
 
     const { id, scryfallId, source } = data;
+
     if (isString(id)) {
       setNames.set(id, name);
     }
@@ -35,13 +36,23 @@ export default function getCards(): readonly Card[] {
     }
   }
 
-  const mapToSetName = ({ setId, ...card }: Card): Card => ({
-    ...card,
-    setId: {
-      ...setId,
-      name: setNames.get(setId.id),
-    },
-  });
+  const mapToSetName = ({ setId, ...card }: Card): Card => {
+    const setName: string | undefined = setNames.get(setId.id);
+    if (!isString(setName)) {
+      throw new Error(`Missing set name for "${setId.id}"`);
+    }
+
+    return {
+      ...card,
+      setId: {
+        ...setId,
+        name: setName.replace(
+          /^(?<SetName>Happy Holidays|Heroes of the Realm) 20\d\d$/u,
+          '$1',
+        ),
+      },
+    };
+  };
 
   return Object.entries(cards)
     .flatMap(mapCardEntryToCards)

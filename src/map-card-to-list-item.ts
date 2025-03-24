@@ -20,15 +20,6 @@ export default function mapCardToListItem({
 }: Card): HTMLLIElement {
   const item: HTMLLIElement = window.document.createElement('li');
 
-  if (premium) {
-    const icon: HTMLImageElement = document.createElement('img');
-    icon.classList.add('premium');
-    icon.setAttribute('src', PREMIUM_ICON_SRC);
-    item.appendChild(icon);
-  } else {
-    item.appendChild(document.createElement('span'));
-  }
-
   const nameEl: HTMLSpanElement = document.createElement('span');
   nameEl.classList.add('name');
   nameEl.setAttribute('title', name);
@@ -42,7 +33,19 @@ export default function mapCardToListItem({
   item.appendChild(image);
 
   const imageSrc: string = mapCardToImageSrc({ name, setId });
-  IMAGE_QUEUE.push(image, imageSrc);
+  if (imageSrc.startsWith('https://api.scryfall.com/')) {
+    IMAGE_QUEUE.push(image, imageSrc);
+  } else {
+    image.setAttribute('src', imageSrc);
+  }
+
+  if (premium) {
+    item.appendChild(document.createElement('br'));
+    const icon: HTMLImageElement = document.createElement('img');
+    icon.classList.add('premium');
+    icon.setAttribute('src', PREMIUM_ICON_SRC);
+    item.appendChild(icon);
+  }
 
   if (proxy) {
     item.appendChild(document.createElement('br'));

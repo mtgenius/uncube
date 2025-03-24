@@ -29,6 +29,7 @@ export default function mapCardEntryToCards([name, data]: readonly [
   for (const {
     collectorNumber,
     id,
+    image,
     premium,
     proxy,
     scryfallId,
@@ -38,6 +39,7 @@ export default function mapCardEntryToCards([name, data]: readonly [
     const setId: SetId = createSetId({
       collectorNumber,
       id,
+      image,
       name,
       scryfallId,
       scryfallVariant,

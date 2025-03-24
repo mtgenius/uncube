@@ -5,6 +5,13 @@ interface PrintId {
   readonly type: 'print';
 }
 
+interface ProxyId {
+  readonly id: string;
+  readonly image: string;
+  readonly name?: string | undefined;
+  readonly type: 'proxy';
+}
+
 interface ScryfallSetId {
   readonly id: string;
   readonly name?: string | undefined;
@@ -12,4 +19,4 @@ interface ScryfallSetId {
   readonly variant?: number | string | undefined;
 }
 
-export type SetId = PrintId | ScryfallSetId;
+export type SetId = PrintId | ProxyId | ScryfallSetId;

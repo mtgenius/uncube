@@ -14,9 +14,17 @@ export default function mapCardToImageSrc({
       return `https://api.scryfall.com/cards/${encodeURIComponent(id)}/${collectorNumber}/en?format=image&version=small`;
     }
 
+    case 'proxy': {
+      const { image } = setId;
+      return `https://raw.githubusercontent.com/mtgenius/uncube/refs/heads/mb2/images/${image}`;
+    }
+
     case 'scryfall': {
       const { variant } = setId;
       if (typeof variant === 'undefined') {
+        if (id === 'PMOA') {
+          return `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(name)}%20-%20Avatar&format=image&set=${encodeURIComponent(id)}&version=small`;
+        }
         return `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(name)}&format=image&set=${encodeURIComponent(id)}&version=small`;
       }
       return `https://api.scryfall.com/cards/${encodeURIComponent(id)}/${encodeURIComponent(variant)}/en?format=image&version=small`;

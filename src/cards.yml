@@ -1,3 +1,100 @@
+Throat Wolf:
+  sets:
+    - id: Extra Pulled
+      image: throat-wolf.png
+      premium: false
+      proxy: true
+    - premium: false
+      proxy: false
+      scryfallId: CMB1
+Target Target:
+  oracle: Target permanent targeted by target spell can't be the target of spells or abilities.
+  sets:
+    - id: Extra Pulled
+      image: target-target.png
+      premium: false
+      proxy: true
+Squee Triumphant:
+  sets:
+    - id: Extra Pulled
+      image: squee-triumphant.png
+      premium: false
+      proxy: true
+Rain of Typos:
+  sets:
+    - id: Extra Pulled
+      image: rain-of-typos.png
+      premium: false
+      proxy: true
+Orb of Mellowness:
+  sets:
+    - id: Extra Pulled
+      image: orb-of-mellowness.png
+      premium: false
+      proxy: true
+Kill Me Now, Please:
+  sets:
+    - id: Extra Pulled
+      image: kill-me-now-please.png
+      premium: false
+      proxy: true
+Islands:
+  sets:
+    - id: Extra Pulled
+      image: islands.png
+      premium: false
+      proxy: true
+Insecticide:
+  sets:
+    - id: Extra Pulled
+      image: insecticide.png
+      premium: false
+      proxy: true
+Homarid Leper:
+  sets:
+    - id: Extra Pulled
+      image: homarid-leper.png
+      premium: false
+      proxy: true
+Gratuitous Babe Art:
+  sets:
+    - id: Extra Pulled
+      image: gratuitous-babe-art.png
+      premium: false
+      proxy: true
+Extra Pulled From the Headlines:
+  sets:
+    - id: Extra Pulled
+      image: extra-pulled-from-the-headlines.png
+      premium: false
+      proxy: true
+Double Dog Dare:
+  banned: UNFUN
+  sets:
+    - id: Extra Pulled
+      image: double-dog-dare.png
+      premium: false
+      proxy: true
+Armageddon (For Beginners):
+  sets:
+    - id: Extra Pulled
+      image: armageddon-for-beginners.png
+      premium: false
+      proxy: true
+Cheat 'Em and Weep:
+  banned: TIME
+  sets:
+    - id: Extra Pulled
+      image: cheat-em-and-weep.png
+      premium: false
+      proxy: true
+Amulet of Ignorance:
+  banned: DECK_SIZE_100
+  sets:
+    - id: Extra Pulled
+      image: amulet-of-ignorance.png
+      premium: false
+      proxy: true
 A Girl and Her Dogs:
   sets:
     - id: MB2
@@ -449,7 +546,7 @@ Brago's Favor:
     - premium: false
       proxy: false
       scryfallId: CNS
-Brigid, Who's Seem Some Stuff:
+Brigid, Who's Seen Some Stuff:
   sets:
     - premium: false
       proxy: false
@@ -561,7 +658,7 @@ Chandra, Gremlin Wrangler:
     - id: HTR
       premium: true
       proxy: true
-      scryfallId: PH17
+      scryfallId: PHTR
   tokens:
     2/2 red Gremlin creature: 2
 Chaos Confetti:
@@ -750,7 +847,7 @@ Convention Maro:
   sets:
     - premium: false
       proxy: false
-      scryfallId: MB2
+      scryfallId: PF24
 Corrupted Key:
   sets:
     - premium: false
@@ -959,7 +1056,7 @@ Dungeon Master:
     - id: HTR
       premium: true
       proxy: true
-      scryfallId: PH17
+      scryfallId: PHTR
   tokens:
     1/1 black Skeleton creature with "When this creature dies, each opponent gains 2 life.": 6
     1/1 blue Wizard creature with flying: 2
@@ -1577,7 +1674,8 @@ Greatest Show in the Multiverse:
       proxy: false
 Grimlock, Dinobot Leader:
   sets:
-    - premium: true
+    - id: H17
+      premium: true
       proxy: false
       scryfallId: H17
 Ground Pounder:
@@ -1693,7 +1791,7 @@ Heroes of Kamigawa:
   sets:
     - premium: false
       proxy: true
-      scryfallId: H22
+      scryfallId: PH22
 High Troller:
   sets:
     - premium: false
@@ -1722,11 +1820,6 @@ Hold the Perimeter:
   tokens:
     1/1 red Goblin creature with "This creature can't block.": 3
     1/2 white Soldier creature with defender: 1
-Homarid Leper:
-  sets:
-    - id: Extra Pulled
-      premium: false
-      proxy: true
 How Is This a Par Three?!:
   sets:
     - collectorNumber: 335
@@ -1925,11 +2018,6 @@ Inzerva, Master of Insights:
       premium: true
       proxy: true
       scryfallId: PH17
-Islands:
-  sets:
-    - id: Extra Pulled
-      premium: false
-      proxy: true
 It Came from Planet Glurg:
   sets:
     - collectorNumber: 455
@@ -2530,7 +2618,8 @@ Maggot Farm:
 Magic Guru:
   oracle: When Magic Guru enters the battlefield, its owner and the opponent it enchants each receive a prize booster pack. (Yes, to keep.)
   sets:
-    - premium: false
+    - image: magic-guru.png
+      premium: false
       proxy: true
       scryfallId: PGRU
   source: https://www.cardmarket.com/en/Magic/Cards/Magic-Guru
@@ -2955,11 +3044,6 @@ Optimus Prime, Inspiring Leader:
       premium: true
       proxy: true
       scryfallId: PH18
-Orb of Mellowness:
-  sets:
-    - id: Extra Pulled
-      premium: false
-      proxy: true
 Orb of Origin:
   sets:
     - premium: false
@@ -3237,11 +3321,6 @@ Queue of Beetles:
     - premium: false
       proxy: false
       scryfallId: CMB1
-Rain of Typos:
-  sets:
-    - id: Extra Pulled
-      premium: false
-      proxy: true
 Rainbow Dash:
   sets:
     - id: SLD
@@ -3782,11 +3861,6 @@ Spy Eye:
     - id: UST
       premium: true
       proxy: false
-Squee Triumphant:
-  sets:
-    - id: Extra Pulled
-      premium: false
-      proxy: true
 Squidnapper:
   sets:
     - premium: false
@@ -3965,6 +4039,7 @@ Sword of Dungeons & Dragons:
     - id: H17
       premium: true
       proxy: true
+      scryfallId: H17
     - id: ULST
       premium: true
       proxy: false
@@ -4028,12 +4103,6 @@ Target Minotaur:
       premium: true
       proxy: false
       scryfallVariant: 98d
-Target Target:
-  oracle: Target permanent targeted by target spell can't be the target of spells or abilities.
-  sets:
-    - id: Extra Pulled
-      premium: false
-      proxy: true
 Tax Taker:
   sets:
     - premium: false
@@ -4172,11 +4241,6 @@ Three-Headed Goblin:
     - id: UST
       premium: true
       proxy: false
-Throat Wolf:
-  sets:
-    - premium: false
-      proxy: false
-      scryfallId: CMB1
 Tibalt the Chaotic:
   sets:
     - premium: false
@@ -4689,6 +4753,12 @@ Wowzer, the Aspirational:
     - premium: false
       proxy: false
       scryfallId: MB2
+Wrath of God:
+  sets:
+    - id: Extra Pulled
+      image: wrath-of-god.png
+      premium: false
+      proxy: true
 Wrath of Leknif:
   sets:
     - premium: false
@@ -4699,15 +4769,6 @@ Wrath of Sod:
     - premium: false
       proxy: false
       scryfallId: CMB1
-Wreen and One:
-  emblems:
-    - At the beginning of your precombat main phase, add {G} for each creature you control.
-  sets:
-    - premium: false
-      proxy: false
-      scryfallId: MB2
-  tokens:
-    1/1 green Squirrel creature: 2
 Wrench-Rigger:
   banned: CONTRAPTION
   sets:
@@ -4718,9 +4779,9 @@ Wrenn and One:
   emblems:
     - At the beginning of your precombat main phase, add {G} for each creature you control.
   sets:
-    - id: MB2
-      premium: false
+    - premium: false
       proxy: false
+      scryfallId: MB2
   tokens:
     1/1 green Squirrel creature: 2
 Wyll of the Blade Pact:
