@@ -1,0 +1,11 @@
+{
+  "eslint.validate": [
+    "css",
+    "github-actions-workflow",
+    "javascript",
+    "json",
+    "typescript",
+    "yaml"
+  ],
+  "yaml.maxItemsComputed": 99000
+}

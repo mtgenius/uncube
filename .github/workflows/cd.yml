@@ -1,0 +1,28 @@
+name: CI/CD
+
+jobs:
+  cd:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - name: Install dependencies
+        run: npx pnpm install
+      - name: Build
+        run: npx pnpm run build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          clean: true
+          folder: dist/
+          single-commit: true
+
+on:
+  push:
+    branches: [main]

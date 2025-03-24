@@ -1,0 +1,144 @@
+"Alchemy Horizons: Baldur's Gate":
+  scryfallId: HBG
+"Alchemy: Innistrad":
+  scryfallId: YMID
+Arabian Nights:
+  scryfallId: ARN
+Arena:
+  scryfallId: ANB
+Arena League 2004:
+  scryfallId: PAL04
+Astral:
+  scryfallId: PAST
+  source: https://web.archive.org/web/20230203135623/https://magic.wizards.com/en/news/feature/astral-cards-2009-02-12
+Celebration:
+  scryfallId: PCEL
+Chronicles:
+  scryfallId: CHR
+Conspiracy:
+  scryfallId: CNS
+"Conspiracy: Take the Crown":
+  id: CN2
+"Draft Weekend: Unstable":
+  scryfallId: PUST
+  source: https://wpn.wizards.com/en/news/10-cards-make-unstable-amazing
+"Duel Decks: Elspeth vs. Tezzeret":
+  scryfallId: DDF
+Extra Pulled:
+  source: https://www.magiclibrarities.net/629-rarities-the-duelist-fantasy-cards-english-cards-extra-pulled-1998-1999.html
+Fourth Edition:
+  scryfallId: 4ED
+Guru:
+  scryfallId: PGRU
+Happy Holidays:
+  scryfallId: HHO
+Happy Holidays 2014:
+  id: H14
+  scryfallId: HHO
+Happy Holidays 2015:
+  id: H15
+  scryfallId: HHO
+Happy Holidays 2016:
+  id: H16
+  scryfallId: HHO
+Happy Holidays 2017:
+  id: H17
+  scryfallId: HHO
+Happy Holidays 2018:
+  id: H18
+  scryfallId: HHO
+Happy Holidays 2019:
+  id: H19
+  scryfallId: HHO
+Happy Holidays 2020:
+  id: H20
+  scryfallId: HHO
+Happy Holidays 2021:
+  id: H21
+  scryfallId: HHO
+Happy Holidays 2022:
+  id: H22
+  scryfallId: HHO
+Happy Holidays 2023:
+  id: H23
+  scryfallId: HHO
+Happy Holidays 2024:
+  id: H24
+  scryfallId: HHO
+HasCon 2017:
+  id: H17
+  scryfallId: H17
+Heroes of the Realm:
+  id: HTR
+Heroes of the Realm 2016:
+  id: HTR
+  scryfallId: PHTR
+Heroes of the Realm 2017:
+  id: HTR
+  scryfallId: PH17
+Heroes of the Realm 2018:
+  id: H18
+  scryfallId: PH18
+Heroes of the Realm 2019:
+  id: H19
+  scryfallId: PH19
+Heroes of the Realm 2020:
+  id: H20
+  scryfallId: PH20
+Heroes of the Realm 2022:
+  id: H22
+  scryfallId: PH22
+Homelands:
+  scryfallId: HML
+Ice Age:
+  scryfallId: ICE
+Judge Gift Cards 2017:
+  id: J17
+"Jumpstart: Historic Horizons":
+  scryfallId: J21
+Legends:
+  scryfallId: LEG
+Magic Online Avatars:
+  scryfallId: PMOA
+Magic Online Promos:
+  scryfallId: PRM
+MagicFest 2024:
+  scryfallId: PF24
+MagicFest 2025:
+  scryfallId: PF25
+Mystery Booster 2:
+  id: MB2
+Mystery Booster 2019:
+  scryfallId: CMB1
+Mystery Booster 2021:
+  scryfallId: CMB2
+"Ponies: The Gathering":
+  id: PTG
+Revised Edition:
+  scryfallId: 3ED
+Secret Lair Drop:
+  id: SLD
+Sixth Edition:
+  scryfallId: 6ED
+The List:
+  scryfallId: ULST
+The Sorcerer's Apprentice:
+  source: https://web.archive.org/web/20221209104755/https://magic.wizards.com/en/news/feature/sorcerers-apprentice-2010-07-12
+Unfinity:
+  id: UNF
+Unglued:
+  scryfallId: UGL
+"Unglued 2: The Obligatory Sequel":
+  source: https://mtg.fandom.com/wiki/Unglued_2:_The_Obligatory_Sequel
+Unhinged:
+  scryfallId: UNH
+Unhinged Promos:
+  scryfallId: PUNH
+Unsanctioned:
+  id: UND
+Unstable:
+  id: UST
+Vanguard Series:
+  scryfallId: PVAN
+Zendikar Expeditions:
+  id: EXP
