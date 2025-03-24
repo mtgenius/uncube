@@ -8,7 +8,7 @@ export default function sortBySet(
   { name: nameA, premium: premiumA, setId: setIdA }: Card,
   { name: nameB, premium: premiumB, setId: setIdB }: Card,
 ): number {
-  // Sort by set ID.
+  // Sort by set name.
   const { name: setNameA } = setIdA;
   const { name: setNameB } = setIdB;
   if (isUndefined(setNameA)) {
@@ -27,6 +27,13 @@ export default function sortBySet(
 
   if (setNameA !== setNameB) {
     return setNameA.localeCompare(setNameB);
+  }
+
+  // Sort by set ID, e.g. yearly and promotional sets.
+  const { id: idA } = setIdA;
+  const { id: idB } = setIdB;
+  if (idA !== idB) {
+    return idA.localeCompare(idB);
   }
 
   // Sort by card name.

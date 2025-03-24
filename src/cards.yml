@@ -4508,8 +4508,12 @@ Time Out:
       proxy: false
 "Time Walk Variant #23":
   banned: KIDNEY
+  oracle: |
+    As an additional cost to cast this spell, sacrifice a kidney.
+    Target player takes an extra turn after this one.
   sets:
     - id: Extra Pulled
+      image: time-walk-variant-23.png
       premium: false
       proxy: true
 Timmerian Fiends:

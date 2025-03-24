@@ -35,6 +35,12 @@ export default function mapCardToListItem({
   const imageSrc: string = mapCardToImageSrc({ name, setId });
   if (imageSrc.startsWith('https://api.scryfall.com/')) {
     IMAGE_QUEUE.push(image, imageSrc);
+    image.addEventListener('mouseover', (): void => {
+      IMAGE_QUEUE.push(
+        image,
+        imageSrc.replace('version=small', 'version=normal'),
+      );
+    });
   } else {
     image.setAttribute('src', imageSrc);
   }

@@ -46,7 +46,7 @@ export default function getCards(): readonly Card[] {
       ...card,
       setId: {
         ...setId,
-        name: setName.replace(/^ (?:20\d\d|Promos)$/u, ''),
+        name: setName.replace(/ (?:20\d\d|Promos)$/u, ''),
       },
     };
   };
