@@ -16,7 +16,7 @@ export default function mapCardToImageSrc({
 
     case 'proxy': {
       const { image } = setId;
-      return `https://raw.githubusercontent.com/mtgenius/uncube/refs/heads/mb2/images/${image}`;
+      return `https://raw.githubusercontent.com/mtgenius/uncube/refs/heads/main/images/${image}`;
     }
 
     case 'scryfall': {

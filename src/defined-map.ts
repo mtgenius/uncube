@@ -10,6 +10,10 @@ export default class DefinedMap<T> {
     return [...this.#map.entries()];
   }
 
+  public get values(): readonly T[] {
+    return [...this.#map.values()];
+  }
+
   public get(key: string): T {
     const item: T | undefined = this.#map.get(key);
     if (typeof item !== 'undefined') {

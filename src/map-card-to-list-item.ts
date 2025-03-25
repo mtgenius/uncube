@@ -1,25 +1,21 @@
 import type Card from './card.js';
-import ImageQueue from './image-queue.js';
 import mapCardToImageSrc from './map-card-to-image-src.js';
 import './index.scss';
+import DelayedQueue from './delayed-queue.js';
 
+const CACHE = new WeakMap<Card, HTMLLIElement>();
 const EMPTY = 0;
 const IMAGE_QUEUE_DELAY = 100;
-const IMAGE_QUEUE = new ImageQueue(IMAGE_QUEUE_DELAY);
+const IMAGE_QUEUE = new DelayedQueue(IMAGE_QUEUE_DELAY);
 
-const PREMIUM_ICON_SRC =
-  'https://user-images.githubusercontent.com/343837/83360751-a631d080-a338-11ea-80c6-110971103bf4.png';
+export default function mapCardToListItem(card: Card): HTMLLIElement {
+  const cached: HTMLLIElement | undefined = CACHE.get(card);
+  if (typeof cached !== 'undefined') {
+    return cached;
+  }
 
-export default function mapCardToListItem({
-  cardExtra,
-  name,
-  premium,
-  proxy,
-  setExtra,
-  setId,
-}: Card): HTMLLIElement {
+  const { cardExtra, name, premium, proxy, setExtra, setId } = card;
   const item: HTMLLIElement = window.document.createElement('li');
-
   const nameEl: HTMLSpanElement = document.createElement('span');
   nameEl.classList.add('name');
   nameEl.setAttribute('title', name);
@@ -28,29 +24,37 @@ export default function mapCardToListItem({
 
   const image: HTMLImageElement = document.createElement('img');
   image.classList.add('image');
+  if (premium) {
+    image.classList.add('premium');
+  }
   image.setAttribute('height', '204');
+  image.setAttribute('role', 'presentation');
   image.setAttribute('width', '146');
   item.appendChild(image);
 
   const imageSrc: string = mapCardToImageSrc({ name, setId });
+
+  // For the Scryfall API, respect the throttle limit and support zoom.
   if (imageSrc.startsWith('https://api.scryfall.com/')) {
-    IMAGE_QUEUE.push(image, imageSrc);
+    IMAGE_QUEUE.push((): void => {
+      // If a higher resolution version hasn't loaded already,
+      if (image.getAttribute('src') === null) {
+        image.setAttribute('src', imageSrc);
+      }
+    });
+
+    // On mouse over, zoom.
     image.addEventListener('mouseover', (): void => {
-      IMAGE_QUEUE.push(
-        image,
-        imageSrc.replace('version=small', 'version=normal'),
+      const imageSrcZoom: string = imageSrc.replace(
+        'version=small',
+        'version=normal',
       );
+      IMAGE_QUEUE.unshift((): void => {
+        image.setAttribute('src', imageSrcZoom);
+      });
     });
   } else {
     image.setAttribute('src', imageSrc);
-  }
-
-  if (premium) {
-    item.appendChild(document.createElement('br'));
-    const icon: HTMLImageElement = document.createElement('img');
-    icon.classList.add('premium');
-    icon.setAttribute('src', PREMIUM_ICON_SRC);
-    item.appendChild(icon);
   }
 
   if (proxy) {
