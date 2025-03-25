@@ -84,7 +84,7 @@ export default function mapCardEntryToCards([name, data]: readonly [
     cards.push({
       banned: getBanned(),
       cardExtra: restCard,
-      name,
+      name: name.replace(/\\"/gu, '"'),
       premium,
       proxy,
       setExtra: restSet,

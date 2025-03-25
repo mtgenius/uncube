@@ -1,12 +1,5 @@
 @use 'sass:math';
 
-$image-height: 204px;
-$image-width: 146px;
-$image-zoom: 1.75; // Scryfall supports up to 333%.
-
-$image-height--zoomed: $image-height * $image-zoom;
-$image-width--zoomed: $image-width * $image-zoom;
-
 @keyframes premium {
   0% {
     background-position: 100% 100%;
@@ -22,18 +15,31 @@ body {
   color: #f0f0f0;
   font-size: 16px;
   margin: 0;
+  padding-bottom: 4rem;
   text-align: center;
 }
 
 h2 {
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
+  font-family: "Noto Sans Display", sans-serif;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
+.card-item {
+  display: inline-block;
+
+  &.hidden {
+    display: none;
+  }
+}
+
 .image {
+  $image-height: 204px;
+  $image-width: 146px;
+  $image-zoom: 1.75; // Scryfall supports up to 333%.
+
   border-radius: math.percentage(math.div(13, 204));
   box-sizing: border-box;
   height: $image-height;
@@ -57,12 +63,12 @@ h2 {
     $height-offset: zoom-offset($image-height, $image-zoom);
     $width-offset: zoom-offset($image-width, $image-zoom);
 
-    height: $image-height--zoomed;
+    height: $image-height * $image-zoom;
     margin-bottom: -1 * math.ceil($height-offset);
     margin-left: -1 * math.ceil($width-offset);
     margin-right: -1 * math.floor($height-offset);
     margin-top: -1 * math.floor($width-offset);
-    width: $image-width--zoomed;
+    width: $image-width * $image-zoom;
     z-index: 2;
   }
 
@@ -99,16 +105,17 @@ h2 {
 }
 
 input {
-  font-family: Roboto, sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 1rem;
+  font-weight: 400;
   margin-top: 2rem;
   padding: 0.5rem 1rem;
 }
 
 .name {
   display: block;
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
+  font-family: "Noto Sans Display", sans-serif;
+  font-weight: 400;
   overflow: hidden;
   text-align: center;
   text-overflow: ellipsis;
@@ -131,4 +138,8 @@ ol, ul {
 
 section {
   padding: 2em;
+
+  &:not(:has(.card-item:not(.hidden))) {
+    display: none;
+  }
 }

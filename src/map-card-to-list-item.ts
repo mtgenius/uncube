@@ -2,20 +2,25 @@ import type Card from './card.js';
 import mapCardToImageSrc from './map-card-to-image-src.js';
 import './index.scss';
 import DelayedQueue from './delayed-queue.js';
+import mapCardToDatasetId from './map-card-to-dataset-id.js';
 
-const CACHE = new WeakMap<Card, HTMLLIElement>();
+const DATASET_IDS = new Set<string>();
 const EMPTY = 0;
 const IMAGE_QUEUE_DELAY = 100;
 const IMAGE_QUEUE = new DelayedQueue(IMAGE_QUEUE_DELAY);
 
 export default function mapCardToListItem(card: Card): HTMLLIElement {
-  const cached: HTMLLIElement | undefined = CACHE.get(card);
-  if (typeof cached !== 'undefined') {
-    return cached;
+  const { cardExtra, name, premium, proxy, setExtra, setId } = card;
+  const datasetId: string = mapCardToDatasetId(card);
+  if (DATASET_IDS.has(datasetId)) {
+    throw new Error(`Duplicate dataset ID: ${datasetId}`);
   }
 
-  const { cardExtra, name, premium, proxy, setExtra, setId } = card;
   const item: HTMLLIElement = window.document.createElement('li');
+  item.classList.add('card-item');
+  item.dataset['id'] = datasetId;
+  DATASET_IDS.add(datasetId);
+
   const nameEl: HTMLSpanElement = document.createElement('span');
   nameEl.classList.add('name');
   nameEl.setAttribute('title', name);
