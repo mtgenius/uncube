@@ -57,17 +57,17 @@ h2 {
 
   &:hover {
     @function zoom-offset($zoom, $size) {
-      @return math.div(($zoom - 1) * $size, 4);
+      @return -1 * math.div(($zoom - 1) * $size, 4);
     }
 
-    $height-offset: zoom-offset($image-height, $image-zoom);
-    $width-offset: zoom-offset($image-width, $image-zoom);
+    $height-zoom-offset: zoom-offset($image-height, $image-zoom);
+    $width-zoom-offset: zoom-offset($image-width, $image-zoom);
 
     height: $image-height * $image-zoom;
-    margin-bottom: -1 * math.ceil($height-offset);
-    margin-left: -1 * math.ceil($width-offset);
-    margin-right: -1 * math.floor($height-offset);
-    margin-top: -1 * math.floor($width-offset);
+    margin-bottom: math.ceil($height-zoom-offset);
+    margin-left: math.ceil($width-zoom-offset);
+    margin-right: math.floor($width-zoom-offset);
+    margin-top: math.floor($height-zoom-offset);
     width: $image-width * $image-zoom;
     z-index: 2;
   }

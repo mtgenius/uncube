@@ -515,6 +515,10 @@ Ambergris, Citadel Agent:
       proxy: true
       scryfallId: HBG
 Ambiguity:
+  oracle: |
+    Whenever a player casts a spell that would counter or a creature that was cast enters with counters, that player or creature's owner chooses one —
+    • They may counter the next spell cast.
+    • They choose a counter on a permanent and put an additional counter of that kind on that permanent.
   sets:
     - premium: true
       proxy: false
