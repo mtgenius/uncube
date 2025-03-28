@@ -1,11 +1,48 @@
 {
   "eslint.validate": [
-    "css",
     "github-actions-workflow",
+    "html",
     "javascript",
     "json",
+    "jsonc",
     "typescript",
     "yaml"
   ],
-  "yaml.maxItemsComputed": 99000
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": false,
+  "html.format.wrapLineLength": 80,
+  "stylelint.validate": [
+    "css",
+    "postcss",
+    "scss",
+  ],
+  "yaml.maxItemsComputed": 99000,
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[scss]": {
+    // Stylelint is required to recognize variables in keyframes.
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  }
 }

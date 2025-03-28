@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Beleren 2016 Small Caps";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/beleren-2016-small-caps-bold.ttf");
+}
+
+@font-face {
+  font-family: "Beleren 2016 Small Caps";
+  font-style: italic;
+  font-weight: 700;
+  src: url("./fonts/beleren-2016-small-caps-bold-italic.ttf");
+}

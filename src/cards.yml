@@ -1,3 +1,33 @@
+Pandora's Box:
+  sets:
+    - image: pandoras-box.png
+      premium: false
+      proxy: true
+      scryfallId: PAST
+Power Struggle:
+  sets:
+    - image: power-struggle.png
+      premium: false
+      proxy: true
+      scryfallId: PAST
+Prismatic Dragon:
+  sets:
+    - image: prismatic-dragon.png
+      premium: false
+      proxy: true
+      scryfallId: PAST
+Orcish Catapult:
+  sets:
+    - image: orcish-catapult.png
+      premium: false
+      proxy: true
+      scryfallId: PAST
+Goblin Polka Band:
+  sets:
+    - image: goblin-polka-band.png
+      premium: false
+      proxy: true
+      scryfallId: PAST
 White Sale:
   sets:
     - id: "Unglued 2: The Obligatory Sequel"
@@ -888,6 +918,10 @@ By Gnome Means:
     1/1 colorless Gnome artifact creature: 2
 Call from the Grave:
   sets:
+    - image: call-from-the-grave.png
+      premium: false
+      proxy: true
+      scryfallId: PAST
     - premium: false
       proxy: false
       scryfallId: MB2
@@ -1017,7 +1051,7 @@ Chronobot:
     - premium: true
       proxy: false
       scryfallId: UNH
-    - premium: true
+    - premium: false
       proxy: false
       scryfallId: PAL04
 City of Ass:
@@ -1767,7 +1801,8 @@ Garbage Elemental:
     1/1 red Goblin creature: 5
 Gem Bazaar:
   sets:
-    - premium: false
+    - image: gem-bazaar.png
+      premium: false
       proxy: true
       scryfallId: PAST
 Generated Horizons:
@@ -3156,6 +3191,14 @@ Nearby Planet:
       id: UNF
       premium: false
       proxy: false
+Necropolis of Azar:
+  sets:
+    - image: necropolis-of-azar.png
+      premium: false
+      proxy: true
+      scryfallId: PAST
+  tokens:
+    X/X black Spawn of Azar creature with swampwalk: 2
 Necro-Impotence:
   sets:
     - premium: false
@@ -3431,7 +3474,7 @@ Pietra, Crafter of Clowns:
     1/1 white Clown Robot artifact creature: 2
 Pinkie Pie:
   sets:
-    - premium: false
+    - premium: true
       proxy: false
       scryfallId: SLD
   tokens:
@@ -3585,7 +3628,8 @@ Rainbow Dash:
       proxy: false
 Rainbow Knights:
   sets:
-    - premium: false
+    - image: rainbow-knights.png
+      premium: false
       proxy: true
       scryfallId: PAST
 Rare-B-Gone:
@@ -4022,6 +4066,8 @@ Sol, Advocate Eternal:
       premium: false
       proxy: true
       scryfallId: PH18
+  tokens:
+    Clue: 2
 Solaflora, Intergalactic Icon:
   sets:
     - collectorNumber: 497

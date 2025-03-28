@@ -14,6 +14,7 @@ interface ProxyId {
 
 interface ScryfallSetId {
   readonly id: string;
+  readonly image?: string | undefined;
   readonly name?: string | undefined;
   readonly type: 'scryfall';
   readonly variant?: number | string | undefined;

@@ -1,10 +1,12 @@
-import { isBoolean, isRecord } from 'fmrs';
+import { isBoolean, isNumber, isRecord } from 'fmrs';
 import type Card from './card.js';
 import { type SetId } from './set-id.js';
 import isProxy from './is-proxy.js';
 import isBanned from './is-banned.js';
 import type { Banned } from './banned.js';
 import createSetId from './create-set-id.js';
+
+const SINGLE = 1;
 
 export default function mapCardEntryToCards([name, data]: readonly [
   string,
@@ -28,6 +30,7 @@ export default function mapCardEntryToCards([name, data]: readonly [
   const cards: Card[] = [];
   for (const {
     collectorNumber,
+    count = SINGLE,
     id,
     image,
     premium,
@@ -44,6 +47,13 @@ export default function mapCardEntryToCards([name, data]: readonly [
       scryfallId,
       scryfallVariant,
     });
+
+    if (!isNumber(count)) {
+      throw new Error(
+        `Expected count to be numeric for card "${name}" in set "${setId.id}"`,
+        { cause: count },
+      );
+    }
 
     if (!isBoolean(premium)) {
       throw new Error(
@@ -84,6 +94,7 @@ export default function mapCardEntryToCards([name, data]: readonly [
     cards.push({
       banned: getBanned(),
       cardExtra: restCard,
+      count,
       name: name.replace(/\\"/gu, '"'),
       premium,
       proxy,

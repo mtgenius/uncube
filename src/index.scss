@@ -1,5 +1,11 @@
 @use 'sass:math';
 
+$image-height: 204px;
+$image-width: 146px;
+$image-zoom: 1.75; // Scryfall supports up to 333%.
+$premium-border-width: 4px;
+$zoom-transition-duration: 250ms;
+
 @keyframes premium {
   0% {
     background-position: 100% 100%;
@@ -15,15 +21,34 @@ body {
   color: #f0f0f0;
   font-size: 16px;
   margin: 0;
+  overflow-y: scroll;
   padding-bottom: 4rem;
   text-align: center;
 }
 
+.count {
+  bottom: -1em;
+  color: #c0c0c0;
+  font-family: "Beleren Bold", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  left: 0;
+  transition-delay: 0s;
+  transition-duration: $zoom-transition-duration;
+  transition-property: opacity;
+  transition-timing-function: ease-out;
+  opacity: 100%;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+
 h2 {
-  font-family: "Noto Sans Display", sans-serif;
-  font-weight: 400;
+  font-family: "Beleren SmallCaps Bold", sans-serif;
+  font-size: 1.25em;
+  font-weight: 700;
   margin: 0;
-  padding: 0;
+  padding: 0 0 1.5em 0;
   text-align: center;
 }
 
@@ -36,10 +61,6 @@ h2 {
 }
 
 .image {
-  $image-height: 204px;
-  $image-width: 146px;
-  $image-zoom: 1.75; // Scryfall supports up to 333%.
-
   border-radius: math.percentage(math.div(13, 204));
   box-sizing: border-box;
   height: $image-height;
@@ -48,33 +69,14 @@ h2 {
   margin-right: 0;
   margin-top: 0;
   transition-delay: 0s;
-  transition-duration: 250ms;
+  transition-duration: $zoom-transition-duration;
   transition-property: height, margin-bottom, margin-left, margin-right, margin-top, width;
   transition-timing-function: ease-out;
   width: $image-width;
   position: relative;
   z-index: 1;
 
-  &:hover {
-    @function zoom-offset($zoom, $size) {
-      @return -1 * math.div(($zoom - 1) * $size, 4);
-    }
-
-    $height-zoom-offset: zoom-offset($image-height, $image-zoom);
-    $width-zoom-offset: zoom-offset($image-width, $image-zoom);
-
-    height: $image-height * $image-zoom;
-    margin-bottom: math.ceil($height-zoom-offset);
-    margin-left: math.ceil($width-zoom-offset);
-    margin-right: math.floor($width-zoom-offset);
-    margin-top: math.floor($height-zoom-offset);
-    width: $image-width * $image-zoom;
-    z-index: 2;
-  }
-
   &.premium {
-    $padding: 4px;
-
     animation-delay: 0s;
     animation-direction: normal;
     animation-duration: 1s;
@@ -96,11 +98,7 @@ h2 {
       #fd189240,
     );
     background-size: 200% 200%;
-    padding: $padding;
-
-    &:hover {
-      padding: $padding * $image-zoom;
-    }
+    padding: $premium-border-width;
   }
 }
 
@@ -108,13 +106,15 @@ input {
   font-family: "Noto Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  margin-top: 2rem;
+  margin-top: 2em;
+  margin-bottom: 2em;
   padding: 0.5rem 1rem;
 }
 
 .name {
   display: block;
-  font-family: "Noto Sans Display", sans-serif;
+  font-family: "Beleren Bold", sans-serif;
+  font-size: 0.8em;
   font-weight: 400;
   overflow: hidden;
   text-align: center;
@@ -124,20 +124,75 @@ input {
 
 ol, ul {
   display: grid;
-  gap: 1em;
+  gap: 2em;
   grid-template-columns: repeat(auto-fill, minmax(146px, 1fr));
   list-style-type: none;
   margin: 0;
   max-width: 100vw;
-  padding: 1em 2em 0 2em;
+  padding: 0;
 
   > li {
     position: relative;
+
+    &:hover {
+      > .count {
+        opacity: 0;
+      }
+
+      > .proxy {
+        opacity: 0;
+      }
+
+      > .image {
+        @function zoom-offset($zoom, $size) {
+          @return -1 * math.div(($zoom - 1) * $size, 4);
+        }
+    
+        $height-zoom-offset: zoom-offset($image-height, $image-zoom);
+        $width-zoom-offset: zoom-offset($image-width, $image-zoom);
+    
+        height: $image-height * $image-zoom;
+        margin-bottom: math.ceil($height-zoom-offset);
+        margin-left: math.ceil($width-zoom-offset);
+        margin-right: math.floor($width-zoom-offset);
+        margin-top: math.floor($height-zoom-offset);
+        width: $image-width * $image-zoom;
+        z-index: 2;
+
+        &.premium {
+          padding: $premium-border-width * $image-zoom;
+        }
+      }
+    }
   }
 }
 
+.proxy {
+  bottom: 50%;
+  display: block;
+  font-family: sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  left: 0%;
+  opacity: 0.5;
+  pointer-events: none;
+  position: absolute;
+  right: 50%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  top: 50%;
+  transform: rotate(315deg);
+  transition-delay: 0s;
+  transition-duration: $zoom-transition-duration;
+  transition-property: opacity;
+  transition-timing-function: ease-out;
+  z-index: 3;
+}
+
 section {
-  padding: 2em;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 4em;
 
   &:not(:has(.card-item:not(.hidden))) {
     display: none;

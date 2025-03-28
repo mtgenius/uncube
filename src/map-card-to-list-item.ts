@@ -1,6 +1,5 @@
 import type Card from './card.js';
 import mapCardToImageSrc from './map-card-to-image-src.js';
-import './index.scss';
 import DelayedQueue from './delayed-queue.js';
 import mapCardToDatasetId from './map-card-to-dataset-id.js';
 
@@ -8,9 +7,10 @@ const DATASET_IDS = new Set<string>();
 const EMPTY = 0;
 const IMAGE_QUEUE_DELAY = 100;
 const IMAGE_QUEUE = new DelayedQueue(IMAGE_QUEUE_DELAY);
+const SINGLE = 1;
 
 export default function mapCardToListItem(card: Card): HTMLLIElement {
-  const { cardExtra, name, premium, proxy, setExtra, setId } = card;
+  const { cardExtra, count, name, premium, proxy, setExtra, setId } = card;
   const datasetId: string = mapCardToDatasetId(card);
   if (DATASET_IDS.has(datasetId)) {
     throw new Error(`Duplicate dataset ID: ${datasetId}`);
@@ -21,25 +21,27 @@ export default function mapCardToListItem(card: Card): HTMLLIElement {
   item.dataset['id'] = datasetId;
   DATASET_IDS.add(datasetId);
 
-  const nameEl: HTMLSpanElement = document.createElement('span');
+  // Name
+  const nameEl: HTMLSpanElement = window.document.createElement('span');
   nameEl.classList.add('name');
   nameEl.setAttribute('title', name);
   nameEl.appendChild(document.createTextNode(name));
   item.appendChild(nameEl);
 
-  const image: HTMLImageElement = document.createElement('img');
+  // Image
+  const image: HTMLImageElement = window.document.createElement('img');
   image.classList.add('image');
   if (premium) {
     image.classList.add('premium');
   }
+  image.setAttribute('alt', name);
   image.setAttribute('height', '204');
   image.setAttribute('role', 'presentation');
   image.setAttribute('width', '146');
   item.appendChild(image);
 
-  const imageSrc: string = mapCardToImageSrc({ name, setId });
-
   // For the Scryfall API, respect the throttle limit and support zoom.
+  const imageSrc: string = mapCardToImageSrc({ name, setId });
   if (imageSrc.startsWith('https://api.scryfall.com/')) {
     IMAGE_QUEUE.push((): void => {
       // If a higher resolution version hasn't loaded already,
@@ -62,21 +64,34 @@ export default function mapCardToListItem(card: Card): HTMLLIElement {
     image.setAttribute('src', imageSrc);
   }
 
+  // Count
+  if (count > SINGLE) {
+    const countEl: HTMLElement = window.document.createElement('span');
+    countEl.classList.add('count');
+    countEl.innerHTML = `&times;${count} copies`;
+    item.appendChild(countEl);
+  }
+
+  // Proxy
   if (proxy) {
-    item.appendChild(document.createElement('br'));
-    item.appendChild(document.createTextNode('proxied'));
+    const proxyEl: HTMLElement = window.document.createElement('span');
+    proxyEl.classList.add('proxy');
+    proxyEl.appendChild(window.document.createTextNode('proxy'));
+    item.appendChild(proxyEl);
   }
 
   if (Object.keys(cardExtra).length > EMPTY) {
     item.appendChild(document.createElement('br'));
     item.appendChild(
-      document.createTextNode(Object.keys(cardExtra).join(', ')),
+      document.createTextNode(`Card: ${JSON.stringify(cardExtra)}`),
     );
   }
 
   if (Object.keys(setExtra).length > EMPTY) {
     item.appendChild(document.createElement('br'));
-    item.appendChild(document.createTextNode(Object.keys(setExtra).join(', ')));
+    item.appendChild(
+      document.createTextNode(`Set: ${JSON.stringify(setExtra)}`),
+    );
   }
 
   return item;
