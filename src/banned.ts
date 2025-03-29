@@ -1,4 +1,5 @@
 export enum Banned {
+  Agency = 'AGENCY',
   Conjure = 'CONJURE',
   Consume = 'CONSUME',
   Contraption = 'CONTRAPTION',
@@ -8,6 +9,7 @@ export enum Banned {
   Host = 'HOST',
   KamigawaCost = 'KAMIGAWA_COST',
   Kidney = 'KIDNEY',
+  OpenMouths = 'OPEN_MOUTHS',
   Outside = 'OUTSIDE',
   Perpetual = 'PERPETUAL',
   Racism = 'RACISM',

@@ -2615,7 +2615,7 @@ Knight of the Kitchen Sink:
       premium: true
       proxy: false
       scryfallVariant: 12b
-    - banned: Open mouths are too difficult to identify in artwork.
+    - banned: OPEN_MOUTHS
       id: UST
       premium: true
       proxy: false
@@ -4004,7 +4004,7 @@ Sly Spy:
       premium: true
       proxy: false
       scryfallVariant: 67b
-    - banned: Do not limit players' bodily agency.
+    - banned: AGENCY
       id: UST
       premium: true
       proxy: false
