@@ -1,18 +1,20 @@
 import type Card from './card.js';
-import getCardElement from './get-card-element.js';
 import isFilterMatch from './is-filter-match.js';
 
 export default function setVisibilities(
   cards: readonly Card[],
   value: string,
+  showBanned: boolean,
 ): void {
   for (const card of cards) {
-    const el: HTMLElement = getCardElement(card);
+    const matchesNameFilter: boolean =
+      value === '' || isFilterMatch(card.name, value);
+    const matchesBannedFilter: boolean = showBanned || card.banned === false;
 
-    if (isFilterMatch(card.name, value)) {
-      el.classList.remove('hidden');
+    if (matchesNameFilter && matchesBannedFilter) {
+      card.show();
     } else {
-      el.classList.add('hidden');
+      card.hide();
     }
   }
 }

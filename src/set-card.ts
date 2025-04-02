@@ -1,18 +1,18 @@
-interface PrintId {
+interface PrintCard {
   readonly collectorNumber?: number | undefined;
   readonly id: string;
   readonly name?: string | undefined;
   readonly type: 'print';
 }
 
-interface ProxyId {
+interface ProxyCard {
   readonly id: string;
   readonly image: string;
   readonly name?: string | undefined;
   readonly type: 'proxy';
 }
 
-interface ScryfallSetId {
+interface ScryfallCard {
   readonly id: string;
   readonly image?: string | undefined;
   readonly name?: string | undefined;
@@ -20,4 +20,4 @@ interface ScryfallSetId {
   readonly variant?: number | string | undefined;
 }
 
-export type SetId = PrintId | ProxyId | ScryfallSetId;
+export type SetCard = PrintCard | ProxyCard | ScryfallCard;

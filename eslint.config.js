@@ -91,6 +91,7 @@ export default [
   {
     rules: {
       complexity: 'off',
+      'max-depth': 'off',
       'max-lines-per-function': 'off',
       'max-statements': 'off',
       'no-alert': 'off',

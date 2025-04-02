@@ -36,19 +36,13 @@ export default function getCards(): readonly Card[] {
     }
   }
 
-  const mapToSetName = ({ setId, ...card }: Card): Card => {
-    const setName: string | undefined = setNames.get(setId.id);
+  const mapToSetName = (card: Card): Card => {
+    const setName: string | undefined = setNames.get(card.setCard.id);
     if (!isString(setName)) {
-      throw new Error(`Missing set name for "${setId.id}"`);
+      throw new Error(`Missing set name for "${card.setCard.id}"`);
     }
 
-    return {
-      ...card,
-      setId: {
-        ...setId,
-        name: setName.replace(/ (?:20\d\d|Promos)$/u, ''),
-      },
-    };
+    return card.setSetName(setName.replace(/ (?:20\d\d|Promos)$/u, ''));
   };
 
   return Object.entries(cards)

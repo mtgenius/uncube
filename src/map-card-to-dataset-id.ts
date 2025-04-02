@@ -3,26 +3,26 @@ import type Card from './card.js';
 export default function mapCardToDatasetId({
   name,
   premium,
-  setId,
+  setCard,
 }: Card): string {
-  const ids: (boolean | number | string)[] = [setId.id, name, premium];
-  switch (setId.type) {
+  const ids: (boolean | number | string)[] = [setCard.id, name, premium];
+  switch (setCard.type) {
     case 'print': {
-      if (typeof setId.collectorNumber !== 'undefined') {
-        ids.push(setId.collectorNumber);
+      if (typeof setCard.collectorNumber !== 'undefined') {
+        ids.push(setCard.collectorNumber);
       }
 
       break;
     }
 
     case 'proxy': {
-      ids.push(setId.image);
+      ids.push(setCard.image);
       break;
     }
 
     case 'scryfall': {
-      if (typeof setId.variant !== 'undefined') {
-        ids.push(setId.variant);
+      if (typeof setCard.variant !== 'undefined') {
+        ids.push(setCard.variant);
       }
 
       break;

@@ -1,30 +1,45 @@
+import { is } from 'fmrs';
+
+const NOT_FOUND = -1;
+const SINGLE = 1;
+
 export default class DelayedQueue {
   readonly #delay: number;
-  #executing = false;
+  #flushing = false;
   readonly #queue: VoidFunction[] = [];
 
   public constructor(delay: number) {
     this.#delay = delay;
   }
 
+  public filter(callback: VoidFunction): boolean {
+    const index: number = this.#queue.findIndex(is(callback));
+    if (index === NOT_FOUND) {
+      return false;
+    }
+
+    this.#queue.splice(index, SINGLE);
+    return true;
+  }
+
   public flush(): void {
     // If the queue is already being processed, do nothing.
-    if (this.#executing) {
+    if (this.#flushing) {
       return;
     }
 
-    this.#executing = true;
+    this.#flushing = true;
     const callback: VoidFunction | undefined = this.#queue.shift();
 
     // If the queue is empty, do nothing.
     if (typeof callback === 'undefined') {
-      this.#executing = false;
+      this.#flushing = false;
       return;
     }
 
     callback();
     window.setTimeout((): void => {
-      this.#executing = false;
+      this.#flushing = false;
       this.flush();
     }, this.#delay);
   }

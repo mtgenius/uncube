@@ -1,27 +1,29 @@
 import type Card from './card.js';
-import mapCardToImageSrc from './map-card-to-image-src.js';
-import DelayedQueue from './delayed-queue.js';
 import mapCardToDatasetId from './map-card-to-dataset-id.js';
 import mapBannedToText from './map-banned-to-text.js';
 
 const DATASET_IDS = new Set<string>();
 const EMPTY = 0;
-const IMAGE_QUEUE_DELAY = 100;
-const IMAGE_QUEUE = new DelayedQueue(IMAGE_QUEUE_DELAY);
 const SINGLE = 1;
+
+const mapTokenEntryToString = ([name, count]: readonly [
+  string,
+  number,
+]): string => `${count}× ${name}`;
 
 export default function mapCardToListItem(card: Card): HTMLLIElement {
   const {
     banned,
-    cardExtra,
     count,
+    emblems,
+    markers,
     name,
     oracle,
-    premium,
+    planes,
     proxy,
-    setExtra,
-    setId,
+    tokens,
   } = card;
+
   const datasetId: string = mapCardToDatasetId(card);
   if (DATASET_IDS.has(datasetId)) {
     throw new Error(`Duplicate dataset ID: ${datasetId}`);
@@ -40,40 +42,7 @@ export default function mapCardToListItem(card: Card): HTMLLIElement {
   item.appendChild(nameEl);
 
   // Image
-  const image: HTMLImageElement = window.document.createElement('img');
-  image.classList.add('image');
-  if (premium) {
-    image.classList.add('premium');
-  }
-  image.setAttribute('alt', name);
-  image.setAttribute('height', '204');
-  image.setAttribute('role', 'presentation');
-  image.setAttribute('width', '146');
-  item.appendChild(image);
-
-  // For the Scryfall API, respect the throttle limit and support zoom.
-  const imageSrc: string = mapCardToImageSrc({ name, setId });
-  if (imageSrc.startsWith('https://api.scryfall.com/')) {
-    IMAGE_QUEUE.push((): void => {
-      // If a higher resolution version hasn't loaded already,
-      if (image.getAttribute('src') === null) {
-        image.setAttribute('src', imageSrc);
-      }
-    });
-
-    // On mouse over, zoom.
-    image.addEventListener('mouseover', (): void => {
-      const imageSrcZoom: string = imageSrc.replace(
-        'version=small',
-        'version=normal',
-      );
-      IMAGE_QUEUE.unshift((): void => {
-        image.setAttribute('src', imageSrcZoom);
-      });
-    });
-  } else {
-    image.setAttribute('src', imageSrc);
-  }
+  item.appendChild(card.image);
 
   // Oracle text
   const clickText: string[] = [];
@@ -83,6 +52,7 @@ export default function mapCardToListItem(card: Card): HTMLLIElement {
 
   // Banned
   if (banned !== false) {
+    item.classList.add('hidden');
     const bannedEl: HTMLElement = window.document.createElement('span');
     bannedEl.classList.add('banned');
     bannedEl.appendChild(window.document.createTextNode('X'));
@@ -112,23 +82,34 @@ ${banned.map(mapBannedToText).join('\n')}`);
     item.appendChild(proxyEl);
   }
 
-  if (Object.keys(cardExtra).length > EMPTY) {
-    item.appendChild(document.createElement('br'));
-    item.appendChild(
-      document.createTextNode(`Card: ${JSON.stringify(cardExtra)}`),
-    );
+  // Emblems
+  if (typeof emblems !== 'undefined') {
+    clickText.push(`Necessary emblems:
+• ${emblems.join('\n• ')}`);
   }
 
-  if (Object.keys(setExtra).length > EMPTY) {
-    item.appendChild(document.createElement('br'));
-    item.appendChild(
-      document.createTextNode(`Set: ${JSON.stringify(setExtra)}`),
-    );
+  // Markers
+  if (typeof markers !== 'undefined') {
+    clickText.push(`Necessary markers:
+• ${markers.join('\n• ')}`);
   }
 
+  // Planes
+  if (typeof planes !== 'undefined') {
+    clickText.push(`Necessary planes:
+• ${planes.join('\n• ')}`);
+  }
+
+  // Tokens
+  if (typeof tokens !== 'undefined') {
+    clickText.push(`Necessary tokens:
+• ${Object.entries(tokens).map(mapTokenEntryToString).join('\n• ')}`);
+  }
+
+  // If it's clickable,
   if (clickText.length > EMPTY) {
-    image.classList.add('clickable');
-    image.addEventListener('click', (): void => {
+    card.image.classList.add('clickable');
+    card.image.addEventListener('click', (): void => {
       window.alert(clickText.join('\n\n'));
     });
   }

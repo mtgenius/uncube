@@ -28,8 +28,14 @@
   </head>
 
   <body>
-    <input accesskey="f" autocomplete="off" name="card-name"
-      placeholder="Filter by card name" type="text" value="" />
+    <header>
+      <input accesskey="f" autocomplete="off" name="card-name"
+        placeholder="Filter by card name" size="32" type="text" value="" />
+      <label>
+        <input name="banned" type="checkbox" />
+        Show banned cards
+      </label>
+    </header>
     <main></main>
     <script src="./src/index.ts" type="module"></script>
   </body>

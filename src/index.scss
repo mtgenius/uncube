@@ -46,6 +46,14 @@ body {
   text-align: center;
 }
 
+.card-item {
+  display: inline-block;
+
+  &.hidden {
+    display: none;
+  }
+}
+
 .clickable {
   cursor: pointer;
 }
@@ -76,12 +84,13 @@ h2 {
   text-align: center;
 }
 
-.card-item {
-  display: inline-block;
-
-  &.hidden {
-    display: none;
-  }
+header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
 }
 
 .image {
@@ -129,12 +138,18 @@ h2 {
 }
 
 input {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 1rem;
+  font-family: "Beleren SmallCaps Bold", sans-serif;
+  font-size: 1em;
   font-weight: 400;
   margin-top: 2em;
   margin-bottom: 2em;
   padding: 0.5rem 1rem;
+}
+
+label {
+  font-family: "Beleren Bold", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .name {
@@ -218,7 +233,8 @@ section {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   padding: 4em;
 
-  &:not(:has(.card-item:not(.hidden))) {
+  // If a non-token section does not contain visible cards, hide it.
+  &:not(.tokens):not(:has(.card-item:not(.hidden))) {
     display: none;
   }
 }

@@ -437,7 +437,7 @@ Abstract Iguanart:
       proxy: false
 Acornelia, Fashionable Filcher:
   markers:
-    Acorn Stash: 1
+    - Acorn Stash
   sets:
     - premium: true
       proxy: false
@@ -3395,9 +3395,15 @@ Panglacial Shinobi:
       scryfallId: MB2
 Paper Tiger:
   sets:
-    - id: UGL
+    - count: 2
+      id: UGL
       premium: false
       proxy: false
+    - count: 2
+      id: UND
+      premium: false
+      proxy: false
+      tcgplayerId: 208575
 Park Map:
   sets:
     - collectorNumber: 476
@@ -3763,9 +3769,15 @@ Robot Chicken:
     0/1 colorless Egg artifact creature: 2
 Rock Lobster:
   sets:
-    - id: UGL
+    - count: 2
+      id: UGL
       premium: false
       proxy: false
+    - count: 2
+      id: UND
+      premium: false
+      proxy: false
+      tcgplayerId: 208536
 Rocket-Powered Turbo Slug:
   sets:
     - premium: true
@@ -3847,9 +3859,15 @@ Scaled Destruction:
       scryfallId: CMB1
 Scissors Lizard:
   sets:
-    - id: UGL
+    - count: 2
+      id: UGL
       premium: false
       proxy: false
+    - count: 2
+      id: UND
+      premium: false
+      proxy: false
+      tcgplayerId: 208604
 Scooch:
   sets:
     - collectorNumber: 377
@@ -4923,7 +4941,7 @@ Well Done:
       proxy: false
 Werewhat:
   markers:
-    Day // Night: 1
+    - Day // Night
   sets:
     - id: MB2
       premium: false

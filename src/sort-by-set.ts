@@ -5,23 +5,23 @@ const ASCENDING = -1;
 const DESCENDING = 1;
 
 export default function sortBySet(
-  { name: nameA, premium: premiumA, setId: setIdA }: Card,
-  { name: nameB, premium: premiumB, setId: setIdB }: Card,
+  { name: nameA, premium: premiumA, setCard: setCardA }: Card,
+  { name: nameB, premium: premiumB, setCard: setCardB }: Card,
 ): number {
   // Sort by set name.
-  const { name: setNameA } = setIdA;
-  const { name: setNameB } = setIdB;
+  const { name: setNameA } = setCardA;
+  const { name: setNameB } = setCardB;
   if (isUndefined(setNameA)) {
     throw new Error(
-      `Expected set name to be defined for card "${nameA}" set "${setIdA.id}".`,
-      { cause: setIdA },
+      `Expected set name to be defined for card "${nameA}" set "${setCardA.id}".`,
+      { cause: setCardA },
     );
   }
 
   if (isUndefined(setNameB)) {
     throw new Error(
-      `Expected set name to be defined for card "${nameB}" set "${setIdB.id}".`,
-      { cause: setIdB },
+      `Expected set name to be defined for card "${nameB}" set "${setCardB.id}".`,
+      { cause: setCardB },
     );
   }
 
@@ -30,8 +30,8 @@ export default function sortBySet(
   }
 
   // Sort by set ID, e.g. yearly and promotional sets.
-  const { id: idA } = setIdA;
-  const { id: idB } = setIdB;
+  const { id: idA } = setCardA;
+  const { id: idB } = setCardB;
   if (idA !== idB) {
     return idA.localeCompare(idB);
   }
@@ -51,23 +51,23 @@ export default function sortBySet(
   }
 
   // Sort by proxy images.
-  const { type: typeA } = setIdA;
-  const { type: typeB } = setIdB;
+  const { type: typeA } = setCardA;
+  const { type: typeB } = setCardB;
   switch (typeA) {
     // Sort by collector number.
     case 'print': {
-      const { collectorNumber: collectorNumberA } = setIdA;
+      const { collectorNumber: collectorNumberA } = setCardA;
 
       if (typeA !== typeB) {
         throw new Error(
-          `Expected duplicates to share set types for card "${nameA}" in sets "${setIdA.id}" and "${setIdB.id}"`,
+          `Expected duplicates to share set types for card "${nameA}" in sets "${setCardA.id}" and "${setCardB.id}"`,
         );
       }
 
-      const { collectorNumber: collectorNumberB } = setIdB;
+      const { collectorNumber: collectorNumberB } = setCardB;
       if (!isDefined(collectorNumberA) || !isDefined(collectorNumberB)) {
         throw new Error(
-          `Card "${nameA}" has duplicates in print set "${setIdA.id}"`,
+          `Card "${nameA}" has duplicates in print sets "${setCardA.id}" and "${setCardB.id}"`,
         );
       }
 
@@ -76,30 +76,30 @@ export default function sortBySet(
 
     // Sort by custom images.
     case 'proxy': {
-      const { image: imageA } = setIdA;
+      const { image: imageA } = setCardA;
       if (typeA !== typeB) {
         throw new Error(
-          `Expected duplicates to share set types for card "${nameA}" in sets "${setIdA.id}" and "${setIdB.id}"`,
+          `Expected duplicates to share set types for card "${nameA}" in sets "${setCardA.id}" and "${setCardB.id}"`,
         );
       }
 
-      const { image: imageB } = setIdB;
+      const { image: imageB } = setCardB;
       return imageA.localeCompare(imageB);
     }
 
     // Sort by Scryfall variant.
     case 'scryfall': {
-      const { variant: variantA } = setIdA;
+      const { variant: variantA } = setCardA;
       if (typeA !== typeB) {
         throw new Error(
-          `Expected duplicates to share set types for card "${nameA}" in sets "${setIdA.id}" and "${setIdB.id}"`,
+          `Expected duplicates to share set types for card "${nameA}" in sets "${setCardA.id}" and "${setCardB.id}"`,
         );
       }
 
-      const { variant: variantB } = setIdB;
+      const { variant: variantB } = setCardB;
       if (!isDefined(variantA) || !isDefined(variantB)) {
         throw new Error(
-          `Card "${nameA}" has duplicates in Scryfall set "${setIdA.id}"`,
+          `Card "${nameA}" has duplicates in Scryfall set "${setCardA.id}"`,
         );
       }
 

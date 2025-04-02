@@ -1,5 +1,5 @@
 import { isDefined, isNumber, isString, isUndefined } from 'fmrs';
-import type { SetId } from './set-id.js';
+import type { SetCard } from './set-card.js';
 
 interface Options {
   readonly collectorNumber: unknown;
@@ -10,14 +10,14 @@ interface Options {
   readonly scryfallVariant: unknown;
 }
 
-export default function createSetId({
+export default function createSetCard({
   collectorNumber,
   id,
   image,
   name,
   scryfallId,
   scryfallVariant,
-}: Options): SetId {
+}: Options): SetCard {
   // If this card can only be proxied,
   if (isString(image)) {
     if (isString(id)) {

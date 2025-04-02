@@ -1,16 +1,21 @@
-import type Card from './card.js';
+import type { SetCard } from './set-card.js';
+
+interface Options {
+  readonly cardName: string;
+  readonly setCard: SetCard;
+}
 
 const RAW_GITHUB_USER_CONTENT =
   'https://raw.githubusercontent.com/mtgenius/uncube/refs/heads/main/images/';
 
-export default function mapCardToImageSrc({
-  name,
-  setId,
-}: Pick<Card, 'name' | 'setId'>): string {
-  const { id, type } = setId;
+export default function createCardImageSrc({
+  cardName,
+  setCard,
+}: Options): string {
+  const { id, type } = setCard;
   switch (type) {
     case 'print': {
-      const { collectorNumber } = setId;
+      const { collectorNumber } = setCard;
 
       // If we know the specific collect number, use it.
       if (typeof collectorNumber !== 'undefined') {
@@ -18,16 +23,16 @@ export default function mapCardToImageSrc({
       }
 
       // For all other images, search it by exact name and set code.
-      return `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(name)}&format=image&set=${encodeURIComponent(id)}&version=small`;
+      return `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(cardName)}&format=image&set=${encodeURIComponent(id)}&version=small`;
     }
 
     case 'proxy': {
-      const { image } = setId;
+      const { image } = setCard;
       return `${RAW_GITHUB_USER_CONTENT}${image}`;
     }
 
     case 'scryfall': {
-      const { image, variant } = setId;
+      const { image, variant } = setCard;
 
       // If we have a custom image, use it.
       if (typeof image !== 'undefined') {
@@ -41,11 +46,11 @@ export default function mapCardToImageSrc({
 
       // Avatars in the set PMOA have " - Avatar" appended to their name.
       if (id === 'PMOA') {
-        return `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(name)}%20-%20Avatar&format=image&set=${encodeURIComponent(id)}&version=small`;
+        return `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(cardName)}%20-%20Avatar&format=image&set=${encodeURIComponent(id)}&version=small`;
       }
 
       // For all other images, search it by exact name and set code.
-      return `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(name)}&format=image&set=${encodeURIComponent(id)}&version=small`;
+      return `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(cardName)}&format=image&set=${encodeURIComponent(id)}&version=small`;
     }
   }
 }
