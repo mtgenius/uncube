@@ -1,3 +1,60 @@
+Wish Good Luck:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
+  tokens:
+    3/1 colorless Vehicle artifact with crew 1: 1
+    Food: 1
+    Treasure: 1
+Sala, Deck Boss:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
+Goblin Crash Pilot:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
+Unforgiving Overtake:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
+Speedbrood Stalker:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
+Bail Out:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
+Deviant Skytech:
+  markers:
+    - Start your engines!
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
+  tokens:
+    1/1 colorless Thopter artifact creature with flying: 2
+Tsagan, Raider Warlord:
+  markers:
+    - Start your engines!
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
+Rising Chicane:
+  markers:
+    - Start your engines!
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
 Pandora's Box:
   sets:
     - image: pandoras-box.png
