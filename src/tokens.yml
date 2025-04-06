@@ -1,0 +1,117 @@
+0/0 white Spirit creature with flying:
+  proxy: true
+0/1 colorless Egg artifact creature:
+  proxy: true
+1/1 Attendee creature that's all colors:
+  proxy: true
+1/1 black Skeleton creature with "When this creature dies, each opponent gains 2 life.":
+  proxy: true
+1/1 black Snake creature with deathtouch:
+  proxy: false
+  tcgplayerIds:
+    - 247541
+    - 554779
+    - 554780
+    - 626037
+1/1 blue Wizard creature with flying:
+  proxy: true
+'1/1 colorless Eldrazi Sliver creature with "Sacrifice this creature: Add {C}."':
+  proxy: true
+1/1 colorless Expansion-Symbol creature:
+  proxy: 2
+1/1 colorless legendary Kicker creature with indestructible:
+  proxy: true
+1/1 colorless Spirit creature with lifelink and haste:
+  proxy: true
+1/1 green Ape creature:
+  proxy: true
+1/1 Human Wizard creature that's all colors:
+  proxy: true
+1/1 red Employee creature:
+  proxy: true
+1/1 white Athlete creature:
+  proxy: true
+1/1 white Cleric creature with lifelink:
+  proxy: true
+1/1 white legendary Dog creature:
+  proxy: 4
+1/2 red Half creature:
+  proxy: 2
+2/1 red Wizard creature:
+  proxy: 2
+2/2 black Rogue creature with hexproof:
+  proxy: true
+2/2 green Elk creature:
+  proxy: true
+2/2 green Gorilla creature:
+  proxy: 2
+2/2 green Sheep creature named Rabid Sheep:
+  proxy: true
+2/2 white Monk creature:
+  proxy: true
+3/2 red and green Spirit creature:
+  proxy: true
+3/3 colorless Construct artifact creature named Boulder:
+  proxy: true
+3/3 red Fighter creature with first strike:
+  proxy: true
+4/4 red Devil creature with haste and "When this creature dies, create a Treasure token.":
+  proxy: 4
+4/4 red Giant Bird creature:
+  proxy: true
+5/5 colorless Djinn artifact creature with flying:
+  proxy: true
+Ebon Praetor:
+  proxy: true
+Elesh Norn, Mother of Machines:
+  proxy: true
+Emrakul, the Promised End:
+  proxy: true
+Forest land:
+  proxy: true
+Jin-Gitaxias, Progress Tyrant:
+  proxy: true
+Krosan Adaptation:
+  proxy: true
+Liliana of the Veil:
+  proxy: true
+Lorthos, the Tidemaker:
+  proxy: true
+Maestros' Totally Safe Hideout:
+  proxy: true
+Mana Confluence:
+  proxy: true
+Mirrored Lotus:
+  proxy: true
+Pacifism:
+  proxy: true
+Questing Role:
+  proxy: true
+Reassembling Skeleton:
+  proxy: true
+Sheoldred, the Apocalypse:
+  proxy: true
+Deep Dish Pizza:
+  proxy: true
+Bloodbraid Elf:
+  proxy: true
+Arrest:
+  proxy: true
+black Aura Curse enchantment with "Enchant player" and "At the beginning of your upkeep, you lose 1 life.":
+  proxy: true
+Tarmogoyf:
+  proxy: false
+  tcgplayerIds:
+    - 554409
+    - 554412
+Urabrask, Heretic Praetor:
+  proxy: true
+Vorinclex, Monstrous Raider:
+  proxy: true
+Wastes land:
+  proxy: true
+X/X black Spawn of Azar creature with swampwalk:
+  proxy: true
+'4/4 black Zombie creature with "Lazotep Archway enterse the battlefield tapped." and "{T}: Add {W} or {B}." named Lazotep Archway':
+  image: lazotep-archway.png
+  proxy: true

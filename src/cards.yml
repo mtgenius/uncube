@@ -1,3 +1,409 @@
+Luc Mertens:
+  sets:
+    - image: luc-mertens.png
+      premium: false
+      proxy: true
+      scryfallId: PCEL
+  tokens:
+    1/1 colorless legendary Kicker creature with indestructible: 1
+Skyshroud Ambush:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: J21
+Pool of Vigorous Growth:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: J21
+Blacker Lotus:
+  banned: TEAR
+  sets:
+    - premium: false
+      proxy: false
+      scryfallId: UNH
+    - id: SLD
+      premium: false
+      proxy: false
+Hag of Scoured Thoughts:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Noxious Nightmares:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Mage's Doom:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Inner Weakness:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Death's Legion:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+  tokens:
+    1/1 black Skeleton creature: 2
+Hag of Dark Duress:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Ceaseless Torment:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Syphoned Breath:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Twisted Visions:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Ersta, Friend to All:
+  emblems:
+    - At the beginning of your upkeep, if you control twenty or more Wizards, you win the game.
+  sets:
+    - id: H21
+      premium: false
+      proxy: true
+      scryfallId: PH21
+  tokens:
+    1/1 Human Wizard creature that's all colors: 2
+Tasha, Unholy Archmage:
+  sets:
+    - collectorNumber: 75
+      multiverseId: 574289
+      premium: false
+      proxy: true
+      scryfallId: HBG
+    - collectorNumber: 310
+      multiverseId: 574233
+      premium: false
+      proxy: true
+      scryfallId: HBG
+Andrios, Roaming Explorer:
+  sets:
+    - id: H21
+      premium: false
+      proxy: true
+      scryfallId: PH21
+Deb Thomas:
+  sets:
+    - id: PRM
+      premium: false
+      proxy: true
+      scryfallId: PCEL
+  tokens:
+    1/1 red Employee creature: 2
+War of the Spark:
+  sets:
+    - id: H19
+      premium: false
+      proxy: true
+      scryfallId: PH19
+Treizeci, Sun of Serra:
+  sets:
+    - id: H21
+      premium: false
+      proxy: true
+      scryfallId: PH21
+  tokens:
+    Serra Angel: 2
+Byode, Inverse Sun:
+  sets:
+    - id: H21
+      premium: false
+      proxy: true
+      scryfallId: PH21
+Svega, the Unconventional:
+  sets:
+    - id: H22
+      premium: false
+      proxy: true
+      scryfallId: PH22
+  tokens:
+    1/1 Attendee creature that's all colors: 2
+Wizard from Beyond:
+  sets:
+    - id: H22
+      premium: false
+      proxy: true
+      scryfallId: PH22
+Arteeoh, Dread Scavenger:
+  sets:
+    - id: H21
+      premium: false
+      proxy: true
+      scryfallId: PH21
+Elusen, the Giving:
+  sets:
+    - id: H22
+      premium: false
+      proxy: true
+      scryfallId: PH22
+  tokens:
+    Treasure: 12
+Nira, Hellkite Duelist:
+  sets:
+    - id: HTR
+      premium: false
+      proxy: true
+      scryfallId: PHTR
+Treetop Warden:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
+Angelic Reward:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
+Feral Roar:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
+Inspiring Commander:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
+Cruel Cut:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
+Hallowed Priest:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
+Mastermind Emblem:
+  sets:
+    - image: mastermind-emblem.png
+      premium: false
+      proxy: true
+      scryfallId: ANB
+Tin Street Cadet:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
+  tokens:
+    1/1 red Goblin creature: 2
+Shadowheart, Chleric of Trickery:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Jon Irenicus, the Exile:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Lae'zel, Callous Warrior:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Ambergris, Agent of Destruction:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Klement, Tempest Acolyte:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Ambergris, Agent of Balance:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Ambergris, Agent of Progress:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Uthgardt Fury:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Gale, Temporal Conduit:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Ambergris, Agent of Tyranny:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Shadowheart, Cleric of Twilight:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Lulu, Wild Hollyphant:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Alora, Cheerful Assassin:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Imoen, Wise Trickster:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Arcane Archery:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Skanos, Black Dragon Vassal:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Imoen, Honorable Trickster:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Imoen, Chaotic Trickster:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Sarevok, Mighty Usurper:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Skanos, Green Dragon Vassal:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Stroke of Luck:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Lulu, Helpful Hollyphant:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Shadowheart, Cleric of Graves:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Sarevok, Divine Usurper:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Mind Spike:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Imoen, Wily Trickster:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Sarevok, Deceitful Usurper:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Gale, Abyssal Conduit:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Gale, Primeval Conduit:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Skanos, Red Dragon Vassal:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Skanos, Blue Dragon Vassal:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Lulu, Curious Hollyphant:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Lae'zel, Wrathful Warrior:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+  tokens:
+    1/1 white Soldier creature: 2
+Ambergris, Agent of Law:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Lulu, Vengeful Hollyphant:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Rasaad, Shadow Monk:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+  tokens:
+    4/1 black Skeleton creature with menace: 2
+Sarevok, Ferocious Usurper:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Shadowheart, Cleric of War:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Skanos, White Dragon Vassal:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Wish Good Luck:
   sets:
     - premium: false
@@ -56,12 +462,14 @@ Rising Chicane:
       proxy: true
       scryfallId: YDFT
 Pandora's Box:
+  banned: RANDOM_CREATURE_LIBRARY
   sets:
     - image: pandoras-box.png
       premium: false
       proxy: true
       scryfallId: PAST
 Power Struggle:
+  banned: RANDOM_PERMANENT
   sets:
     - image: power-struggle.png
       premium: false
@@ -74,12 +482,14 @@ Prismatic Dragon:
       proxy: true
       scryfallId: PAST
 Orcish Catapult:
+  banned: RANDOM_CREATURE
   sets:
     - image: orcish-catapult.png
       premium: false
       proxy: true
       scryfallId: PAST
 Goblin Polka Band:
+  banned: RANDOM_CREATURE
   sets:
     - image: goblin-polka-band.png
       premium: false
@@ -262,6 +672,7 @@ Jeopardy:
       premium: false
       proxy: true
 Iron Man:
+  banned: TEAR
   sets:
     - id: "Unglued 2: The Obligatory Sequel"
       image: iron-man.png
@@ -422,6 +833,7 @@ Gratuitous Babe Art:
       premium: false
       proxy: true
 Extra Pulled From the Headlines:
+  banned: CONJURE
   sets:
     - id: Extra Pulled
       image: extra-pulled-from-the-headlines.png
@@ -1018,13 +1430,13 @@ Champion of the Hareish:
 Champions of Archery:
   sets:
     - id: H19
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PH19
 Chandra, Gremlin Wrangler:
   sets:
     - id: HTR
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PHTR
   tokens:
@@ -1157,7 +1569,7 @@ Clocknapper:
 Collectigull:
   sets:
     - id: H19
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PH19
 Collector Protector:
@@ -1316,11 +1728,11 @@ Despondent Killbot:
 Diabolical Salvation:
   sets:
     - id: HTR
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PH17
   tokens:
-    4/4 red Devil creature with haste and \"When this creature dies, create a Treasure token: 4
+    4/4 red Devil creature with haste and "When this creature dies, create a Treasure token.": 4
 Dirty Rat:
   sets:
     - id: UST
@@ -1420,12 +1832,13 @@ Dumb Ass:
 Dungeon Master:
   sets:
     - id: HTR
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PHTR
   tokens:
     1/1 black Skeleton creature with "When this creature dies, each opponent gains 2 life.": 6
     1/1 blue Wizard creature with flying: 2
+    1/1 white Cleric creature with lifelink: 2
     2/2 black Rogue creature with hexproof: 2
     3/3 red Fighter creature with first strike: 2
 Dwarven Confluencer:
@@ -1537,7 +1950,7 @@ Essence of Ajani:
 Euroakus:
   sets:
     - id: H20
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PH20
   tokens:
@@ -1695,7 +2108,7 @@ Flock of Rabid Sheep:
       proxy: false
       scryfallId: UGL
   tokens:
-    2/2 green Rabid Sheep creature: 2
+    2/2 green Sheep creature named Rabid Sheep: 2
 Fluros of Myra's Marvels:
   sets:
     - collectorNumber: 332
@@ -2374,7 +2787,7 @@ Inzerva, Master of Insights:
       Whenever an opponent draws a card, this emblem deals 1 damage to them.
   sets:
     - id: HTR
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PH17
 It Came from Planet Glurg:
@@ -2568,7 +2981,7 @@ Katerina of Myra's Marvels:
       premium: true
       proxy: false
   tokens:
-    white 2/2 Cat creature with flying: 2
+    2/2 white Cat creature with flying: 2
 Kaya, Ghost Haunter:
   emblems:
     - At the beginning of your upkeep, this emblem deals 3 damage to the owner of target haunted creature.
@@ -2585,13 +2998,13 @@ Keeper of the Crown // Coronation of the Wilds:
 Keeper of the Secret Lair:
   sets:
     - id: H19
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PH19
 Kharis & the Beholder:
   sets:
     - id: H18
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PH18
   tokens:
@@ -2742,7 +3155,7 @@ Lae'zel, Githyanki Warrior:
 Lae'zel, Illithid Thrall:
   banned:
     - CONJURE
-    - RANDOM_CREATURE
+    - RANDOM_CREATURE_LIBRARY
   sets:
     - premium: false
       proxy: true
@@ -2970,9 +3383,12 @@ Maestros' Totally Safe Hideout:
   tokens:
     Maestros' Totally Safe Hideout: 3
 Magic Guru:
-  oracle: When Magic Guru enters the battlefield, its owner and the opponent it enchants each receive a prize booster pack. (Yes, to keep.)
+  oracle: |
+    Enchant player other than you
+    Enchanted player becomes a Magic Guru and gains teaching.
+    When Magic Guru enters, you and enchanted player each receive a booster pack and basic land.
   sets:
-    - image: magic-guru.png
+    - image: magic-guru--2025-04.png
       premium: false
       proxy: true
       scryfallId: PGRU
@@ -3188,7 +3604,7 @@ Mothers Yamazaki:
 Mountain Mover:
   sets:
     - id: H20
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PH20
 Mox Lotus:
@@ -3219,7 +3635,7 @@ My First Tome:
 Myntasha, Honored One:
   sets:
     - id: H19
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PH19
 Narod, the Beige Flower:
@@ -3402,7 +3818,7 @@ Opening Ceremony:
 Optimus Prime, Inspiring Leader:
   sets:
     - id: H18
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PH18
 Orb of Origin:
@@ -3726,13 +4142,6 @@ Rasaad, Radiant Monk:
     - premium: false
       proxy: true
       scryfallId: HBG
-Rasaad, Shadow Monk:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-  tokens:
-    4/1 black Skeleton creature with menace: 1
 Rasaad, Sylvan Monk:
   sets:
     - premium: false
@@ -4547,7 +4956,7 @@ The Big Top:
 The Cinematic Phoenix:
   sets:
     - id: H19
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PH19
 The Colossal Dreadmaw:
@@ -4580,12 +4989,12 @@ The Heron Moon:
 The Legend of Arena:
   sets:
     - id: H18
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PH18
       scryfallVariant: 4
     - id: H18
-      premium: true
+      premium: false
       proxy: true
       scryfallId: PH18
       scryfallVariant: 4†

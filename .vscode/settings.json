@@ -44,5 +44,6 @@
   },
   "[yaml]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  }
+  },
+  "codeQL.githubDatabase.update": "never"
 }

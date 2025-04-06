@@ -14,6 +14,9 @@ export default function createCardImageSrc({
 }: Options): string {
   const { id, type } = setCard;
   switch (type) {
+    case 'multiverse':
+      return `https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=${setCard.multiverseId}&type=card`;
+
     case 'print': {
       const { collectorNumber } = setCard;
 

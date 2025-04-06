@@ -57,6 +57,7 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
     count = SINGLE,
     id,
     image,
+    multiverseId,
     premium,
     proxy,
     scryfallId,
@@ -68,6 +69,7 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
       collectorNumber,
       id,
       image,
+      multiverseId,
       name: cardName,
       scryfallId,
       scryfallVariant,
@@ -154,6 +156,21 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
       return banned;
     };
 
+    const getMultiverseId = (): number | undefined => {
+      if (typeof multiverseId === 'undefined') {
+        return;
+      }
+
+      if (isNumber(multiverseId)) {
+        return multiverseId;
+      }
+
+      throw new Error(
+        `Expected multiverse ID to be a number for card "${cardName}" in set "${setCard.id}"`,
+        { cause: multiverseId },
+      );
+    };
+
     const getOracle = (): string | undefined => {
       if (typeof oracle === 'undefined') {
         return;
@@ -205,6 +222,7 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
         count,
         emblems: emblems as undefined,
         markers: markers as undefined,
+        multiverseId: getMultiverseId(),
         name: cardName.replace(/\\"/gu, '"'),
         oracle: getOracle(),
         planes: planes as undefined,

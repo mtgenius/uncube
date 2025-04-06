@@ -1,3 +1,11 @@
+interface MultiverseCard {
+  readonly collectorNumber?: number | undefined;
+  readonly id: string;
+  readonly multiverseId: number;
+  readonly name?: string | undefined;
+  readonly type: 'multiverse';
+}
+
 interface PrintCard {
   readonly collectorNumber?: number | undefined;
   readonly id: string;
@@ -20,4 +28,4 @@ interface ScryfallCard {
   readonly variant?: number | string | undefined;
 }
 
-export type SetCard = PrintCard | ProxyCard | ScryfallCard;
+export type SetCard = MultiverseCard | PrintCard | ProxyCard | ScryfallCard;

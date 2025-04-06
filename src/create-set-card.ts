@@ -5,6 +5,7 @@ interface Options {
   readonly collectorNumber: unknown;
   readonly id: unknown;
   readonly image: unknown;
+  readonly multiverseId: unknown;
   readonly name: string;
   readonly scryfallId: unknown;
   readonly scryfallVariant: unknown;
@@ -14,6 +15,7 @@ export default function createSetCard({
   collectorNumber,
   id,
   image,
+  multiverseId,
   name,
   scryfallId,
   scryfallVariant,
@@ -29,6 +31,36 @@ export default function createSetCard({
     }
 
     throw new Error(`Expected proxy to have an image for card "${name}"`);
+  }
+
+  // If this card has a multiverse ID,
+  if (isNumber(multiverseId)) {
+    const getCollectorNumber = (): number | undefined => {
+      if (!isNumber(collectorNumber)) {
+        return;
+      }
+      return collectorNumber;
+    };
+
+    const getId = (): string => {
+      /**
+       *   Technical debt: We should support more than just Scryfall IDs for
+       * multiverse sets.
+       */
+      if (!isString(scryfallId)) {
+        throw new Error(
+          `Expected multiverse ID to have a scryfall ID for card "${name}"`,
+        );
+      }
+      return scryfallId;
+    };
+
+    return {
+      collectorNumber: getCollectorNumber(),
+      id: getId(),
+      multiverseId,
+      type: 'multiverse',
+    };
   }
 
   // If Scryfall can be the source-of-truth for this set,

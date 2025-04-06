@@ -6,10 +6,10 @@ import DefinedMap from './defined-map.js';
 import type { HTMLListElement } from './html-list-element.js';
 import mapCardToListItem from './map-card-to-list-item.js';
 import setVisibilities from './set-visibilities.js';
-import sum from './sum.js';
+import sortTokenEntries from './sort-token-entries.js';
+import mapTokenEntryToListItems from './map-token-entry-to-list-items.js';
 
 const FIRST = 0;
-const SINGLE = 1;
 
 const BANNED_FILTER: HTMLElement = window.document
   .getElementsByName('banned')
@@ -101,20 +101,10 @@ try {
   heading.appendChild(window.document.createTextNode('Tokens'));
   section.appendChild(heading);
   const list: HTMLListElement = window.document.createElement('ul');
-  for (const [tokenName, tokenCounts] of Object.entries(tokens)) {
-    const listItem: HTMLLIElement = window.document.createElement('li');
-    if (tokenCounts.length > SINGLE) {
-      listItem.appendChild(
-        window.document.createTextNode(
-          `${sum(...tokenCounts)}× ${tokenName} (${tokenCounts.toSorted().toReversed().join('+')})`,
-        ),
-      );
-    } else {
-      listItem.appendChild(
-        window.document.createTextNode(`${sum(...tokenCounts)}× ${tokenName}`),
-      );
+  for (const tokenEntry of Object.entries(tokens).sort(sortTokenEntries)) {
+    for (const listItem of mapTokenEntryToListItems(tokenEntry)) {
+      list.appendChild(listItem);
     }
-    list.appendChild(listItem);
   }
   section.appendChild(list);
   ROOT.appendChild(section);

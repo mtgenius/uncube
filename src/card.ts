@@ -12,6 +12,7 @@ interface Options {
   readonly count: number;
   readonly emblems: readonly string[] | undefined;
   readonly markers: readonly string[] | undefined;
+  readonly multiverseId: number | undefined;
   readonly name: string;
   readonly oracle: string | undefined;
   readonly planes: readonly string[] | undefined;
@@ -33,6 +34,7 @@ export default class Card {
   public readonly emblems: readonly string[] | undefined;
   readonly #imageSrc: string;
   public readonly markers: readonly string[] | undefined;
+  public readonly multiverseId: number | undefined;
   public readonly name: string;
   public readonly oracle: string | undefined;
   public readonly planes: readonly string[] | undefined;
@@ -52,6 +54,7 @@ export default class Card {
     count,
     emblems,
     markers,
+    multiverseId,
     name,
     oracle,
     planes,
@@ -69,6 +72,7 @@ export default class Card {
     this.image = createCardImage({ name, premium });
     this.#imageSrc = createCardImageSrc({ cardName: name, setCard });
     this.markers = markers;
+    this.multiverseId = multiverseId;
     this.name = name;
     this.oracle = oracle;
     this.planes = planes;

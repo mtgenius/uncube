@@ -38,7 +38,7 @@ export default function mapCardToListItem(card: Card): HTMLLIElement {
   const nameEl: HTMLSpanElement = window.document.createElement('span');
   nameEl.classList.add('name');
   nameEl.setAttribute('title', name);
-  nameEl.appendChild(document.createTextNode(name));
+  nameEl.appendChild(window.document.createTextNode(name));
   item.appendChild(nameEl);
 
   // Image

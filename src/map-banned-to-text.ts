@@ -31,13 +31,19 @@ export default function mapBannedToText(banned: Banned): string {
     case Banned.Racism:
       return 'Physical cards cannot specialize.';
     case Banned.RandomCreature:
+      return 'Selecting random creature permanents is burdensome.';
+    case Banned.RandomCreatureLibrary:
       return 'Selecting random creature cards from a library is burdensome.';
+    case Banned.RandomPermanent:
+      return 'Selecting random permanents is burdensome.';
     case Banned.RemoveSleeves:
       return 'Do not encourage players to remove uncube cards from their sleeves.';
     case Banned.Seek:
       return 'Seeking cards is mechanically burdensome in paper.';
     case Banned.Specialize:
       return 'Physical cards cannot specialize.';
+    case Banned.Tear:
+      return 'Do not tear uncube cards into pieces.';
     case Banned.Time:
       return 'Time mechanics are not equally balanced across impairments.';
     case Banned.Toys:
