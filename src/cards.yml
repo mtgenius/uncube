@@ -1,3 +1,21 @@
+Josef Gordon-Levitt:
+  sets:
+    - image: josef-gordon-levitt.png
+      premium: false
+      proxy: true
+      scryfallId: PCEL
+Seth Rogan:
+  sets:
+    - image: seth-rogan.png
+      premium: false
+      proxy: true
+      scryfallId: PCEL
+Evan Goldberg:
+  sets:
+    - image: evan-goldberg.png
+      premium: false
+      proxy: true
+      scryfallId: PCEL
 Luc Mertens:
   sets:
     - image: luc-mertens.png

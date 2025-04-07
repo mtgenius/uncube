@@ -20,6 +20,7 @@
 1/1 colorless Expansion-Symbol creature:
   proxy: 2
 1/1 colorless legendary Kicker creature with indestructible:
+  extension: jpg
   proxy: true
 1/1 colorless Spirit creature with lifelink and haste:
   proxy: true
@@ -56,10 +57,11 @@
 3/3 red Fighter creature with first strike:
   proxy: true
 4/4 red Devil creature with haste and "When this creature dies, create a Treasure token.":
+  extension: jpg
   proxy: 4
 4/4 red Giant Bird creature:
   proxy: true
-5/5 colorless Djinn artifact creature with flying:
+5/5 colorless Djinn artifact creature with flying:  
   proxy: true
 Ebon Praetor:
   proxy: true
@@ -113,5 +115,23 @@ Wastes land:
 X/X black Spawn of Azar creature with swampwalk:
   proxy: true
 '4/4 black Zombie creature with "Lazotep Archway enterse the battlefield tapped." and "{T}: Add {W} or {B}." named Lazotep Archway':
-  image: lazotep-archway.png
+  filename: lazotep-archway
   proxy: true
+4/4 green Rhino creature with trample:
+  proxy: false
+  tcgplayerIds:
+    - 78487
+    - 191614
+    - 192403
+    - 192404
+    - 197633
+    - 249469
+    - 531339
+2/2 white Cat creature with flying:
+  proxy: false
+  tcgplayerIds:
+    - 288177
+5/5 pink Giant Teddy Bear creature:
+  proxy: false
+  tcgplayerIds:
+    - 209923
