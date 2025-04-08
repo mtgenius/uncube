@@ -22,6 +22,8 @@ export default function mapBannedToText(banned: Banned): string {
       return 'It would be too expensive to open so many Kamigawa booster packs.';
     case Banned.Kidney:
       return 'Do not encourage players to sacrifice a kidney.';
+    case Banned.LydariDruid:
+      return 'It would be burdensome to track the basic land type for each land.';
     case Banned.OpenMouths:
       return 'Open mouths are too difficult to identify in artwork.';
     case Banned.Outside:

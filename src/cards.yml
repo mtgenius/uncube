@@ -1,3 +1,357 @@
+Cindercone Smite:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YBLB
+  tokens:
+    Treasure: 1
+Eager Flameguide:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDSK
+Welcome the Darkness:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDSK
+  tokens:
+    X/X black Demon creature with flying: 1
+Unnatural Summons:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDSK
+  tokens:
+    Manifest: 2
+Harrowing Swarm:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDSK
+Ethrimik, Imagined Fiend:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDSK
+  tokens:
+    Manifest: 1
+Merfolk Tunnel-Guide:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YLCI
+Dedicated Dollmaker:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
+Radiant Smite:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YLCI
+Ominous Lockbox:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMKM
+Dunbarrow Revivalist:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
+  tokens:
+    Wicked Role: 1
+Victory of the Pyrohammer:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
+Reflection Net:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YLCI
+Intruder's Inquisition:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YOTJ
+Phantasmal Extraction:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YLCI
+Stalwart Realmwarden:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YOTJ
+Shove Aside:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMKM
+Valiant Batrider:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YLCI
+First Little Pig:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
+Draconic Debut:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
+Captivating Crossroads:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
+Sproutwatch Dryad:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMKM
+Case of the Market Melee:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMKM
+Loch Larent:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
+Underbridge Warlock:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
+Thought-String Analyst:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMKM
+Concert Kaboomist:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMKM
+Inchblade Companion:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YNEO
+  tokens:
+    Inchblade Companion: 2
+Bloodrage Alpha:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
+Captain Eberhart:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
+Angel of Eternal Dawn:
+  markers:
+    - Day // Night
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
+Forceful Cultivator:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YNEO
+Herald of Vengeance:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YSNC
+Wickerwing Effigy:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
+Sylvan Smite:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YBRO
+Assemble the Team:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YBRO
+Surgical Metamorph:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YONE
+Tezzeret's Reckoning:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YONE
+Lonely End:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YBRO
+Magmatic Scorchwing:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YONE
+Patchplate Resolute:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YBRO
+Benalish Knight-Counselor:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDMU
+Quicksilver Servitor:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YONE
+Saiba Syphoner:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YNEO
+Citystalker Connoisseur:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
+  tokens:
+    Blood: 1
+Molten Impact:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YNEO
+Patient Zero:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
+Lupine Harbingers:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
+Mothrider Cavalry:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YNEO
+Electrostatic Blast:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
+Town-Razer Tyrant:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
+Velican Dragon:
+  sets:
+    - image: velican-dragon.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+Camato Scout:
+  sets:
+    - image: camato-scout.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+Lydari Druid:
+  banned: LYDARI_DRUID
+  sets:
+    - image: lydari-druid.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+Tornellan Protector:
+  sets:
+    - image: tornellan-protector.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+Ardent Angel:
+  sets:
+    - image: ardent-angel.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+Murgish Cemetery:
+  sets:
+    - image: murgish-cemetery.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+  tokens:
+    2/2 black Zombie creature: 2
+    3/3 black Zombie creature: 2
+    4/4 black Zombie creature: 2
+    5/5 black Zombie creature: 2
+    6/6 black Zombie creature: 2
+Saji's Torrent:
+  sets:
+    - image: sajis-torrent.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+Hapato's Might:
+  sets:
+    - image: hapatos-might.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+Ashuza's Breath:
+  sets:
+    - image: ashuzas-breath.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+Lydari Elephant:
+  sets:
+    - image: lydari-elephant.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+Curse of Nazir:
+  sets:
+    - image: curse-of-nazir.png
+      premium: false
+      proxy: true
+      scryfallId: PHPR
+Shichifukujin Dragon:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: PCEL
+1996 World Champion:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: PCEL
 Josef Gordon-Levitt:
   sets:
     - image: josef-gordon-levitt.png
@@ -223,7 +577,7 @@ Tin Street Cadet:
       scryfallId: ANB
   tokens:
     1/1 red Goblin creature: 2
-Shadowheart, Chleric of Trickery:
+Shadowheart, Cleric of Trickery:
   sets:
     - premium: false
       proxy: true
@@ -1327,7 +1681,7 @@ Boulder Jockey:
       proxy: false
       scryfallId: MB2
   tokens:
-    3/3 colorless Construct artifact creature named Boulder: 2
+    Boulder: 2
 Box of Free-Range Goblins:
   sets:
     - id: UST
@@ -1663,7 +2017,7 @@ Crow Storm:
       premium: true
       proxy: false
   tokens:
-    1/2 blue Bird creature with flying named Storm Crow: 2
+    Storm Crow: 2
 Crusade:
   banned: RACISM
   sets:
@@ -2126,7 +2480,7 @@ Flock of Rabid Sheep:
       proxy: false
       scryfallId: UGL
   tokens:
-    2/2 green Sheep creature named Rabid Sheep: 2
+    Rabid Sheep: 2
 Fluros of Myra's Marvels:
   sets:
     - collectorNumber: 332
@@ -3216,7 +3570,7 @@ Lazotep Archway:
       premium: false
       proxy: false
   tokens:
-    '4/4 black Zombie creature with "Lazotep Archway enterse the battlefield tapped." and "{T}: Add {W} or {B}." named Lazotep Archway': 1
+    Lazotep Archway: 1
 Leading Performance:
   sets:
     - collectorNumber: 304
@@ -4674,7 +5028,7 @@ Squirrel Dealer:
   banned: OUTSIDE
   sets:
     - id: UST
-      premium: false
+      premium: true
       proxy: false
 Squirrel Farm:
   sets:
@@ -4990,7 +5344,7 @@ The Fallen Apart:
 The Grand Calcutron:
   sets:
     - id: UST
-      premium: false
+      premium: true
       proxy: false
 The Grand Tour:
   sets:

@@ -1,3 +1,25 @@
+"Alchemy: Duskmourn":
+  scryfallId: YDSK
+"Alchemy: Bloomburrow":
+  scryfallId: YBLB
+"Alchemy: Outlaws of Thunder Junction":
+  scryfallId: YOTJ
+"Alchemy: Murders at Karlov Manor":
+  scryfallId: YMKM
+"Alchemy: Wilds of Eldraine":
+  scryfallId: YWOE
+"Alchemy: Ixalan":
+  scryfallId: YLCI
+"Alchemy: Dominaria":
+  scryfallId: YDMU
+"Alchemy: Phyrexia":
+  scryfallId: YONE
+"Alchemy: The Brothers' War":
+  scryfallId: YBRO
+"Alchemy: New Capenna":
+  scryfallId: YSNC
+"Alchemy: Kamigawa":
+  scryfallId: YNEO
 "Alchemy: Aetherdrift":
   scryfallId: YDFT
 "Alchemy Horizons: Baldur's Gate":
@@ -147,3 +169,7 @@ Vanguard Series:
   scryfallId: PVAN
 Zendikar Expeditions:
   id: EXP
+HarperPrism:
+  scryfallId: PHPR
+Sega Dreamcast:
+  scryfallId: PSDG

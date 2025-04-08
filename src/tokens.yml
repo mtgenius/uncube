@@ -46,13 +46,13 @@
   proxy: true
 2/2 green Gorilla creature:
   proxy: 2
-2/2 green Sheep creature named Rabid Sheep:
+Rabid Sheep:
   proxy: true
 2/2 white Monk creature:
   proxy: true
 3/2 red and green Spirit creature:
   proxy: true
-3/3 colorless Construct artifact creature named Boulder:
+Boulder:
   proxy: true
 3/3 red Fighter creature with first strike:
   proxy: true
@@ -114,8 +114,7 @@ Wastes land:
   proxy: true
 X/X black Spawn of Azar creature with swampwalk:
   proxy: true
-'4/4 black Zombie creature with "Lazotep Archway enterse the battlefield tapped." and "{T}: Add {W} or {B}." named Lazotep Archway':
-  filename: lazotep-archway
+Lazotep Archway:
   proxy: true
 4/4 green Rhino creature with trample:
   proxy: false

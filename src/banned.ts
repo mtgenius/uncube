@@ -9,6 +9,7 @@ export enum Banned {
   Host = 'HOST',
   KamigawaCost = 'KAMIGAWA_COST',
   Kidney = 'KIDNEY',
+  LydariDruid = 'LYDARI_DRUID',
   OpenMouths = 'OPEN_MOUTHS',
   Outside = 'OUTSIDE',
   Perpetual = 'PERPETUAL',
