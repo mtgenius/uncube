@@ -10,6 +10,8 @@ interface Options {
   readonly src: string;
 }
 
+const FIRST = 1;
+const NONE = 0;
 const SINGLE = 1;
 
 const createListItem = ({ counts, name, src }: Options): HTMLLIElement => {
@@ -20,9 +22,13 @@ const createListItem = ({ counts, name, src }: Options): HTMLLIElement => {
   const nameEl: HTMLSpanElement = window.document.createElement('span');
   nameEl.classList.add('name');
   nameEl.setAttribute('title', name);
-  nameEl.appendChild(
-    window.document.createTextNode(`${sum(...counts)}× ${name}`),
-  );
+  if (counts.length === NONE) {
+    nameEl.innerHTML = '&nbsp;';
+  } else {
+    nameEl.appendChild(
+      window.document.createTextNode(`${sum(...counts)}× ${name}`),
+    );
+  }
   item.appendChild(nameEl);
 
   // Image
@@ -100,9 +106,16 @@ export default function mapTokenEntryToListItems([name, counts]: readonly [
 
   if (isNumber(token['proxy'])) {
     const items: HTMLLIElement[] = [];
-    for (let variant = 1; variant <= token['proxy']; variant++) {
+    for (let variant = FIRST; variant <= token['proxy']; variant++) {
+      const getCounts = (): readonly number[] => {
+        if (variant === FIRST) {
+          return counts;
+        }
+        return [];
+      };
+
       const item: HTMLLIElement = createListItem({
-        counts,
+        counts: getCounts(),
         name,
         src: createTokenImageSrc({
           extension: getExtension(),

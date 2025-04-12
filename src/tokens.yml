@@ -134,3 +134,240 @@ Lazotep Archway:
   proxy: false
   tcgplayerIds:
     - 209923
+1/1 blue Beeble creature:
+  proxy: false
+  tcgplayerIds:
+    - 209920
+    - 209921
+Blood:
+  proxy: false
+  tcgplayerIds:
+    - 252848
+    - 254911
+    - 254921
+    - 491295
+    - 491888_1
+    - 526114
+    - 545623_1
+    - 546530
+    - 554744
+    - 560904_1
+    - 610964
+    - 613976
+2/2 green Boar creature:
+  proxy: false
+  tcgplayerIds:
+    - 274070
+    - 78499
+    - 545602
+    - 545611
+    - 231663
+    - 237066
+    - 526121
+    - 554393
+    - 274320
+    - 526122
+    - 545612
+    - 237066_1
+    - 555193_1
+    - 555197
+1/1 red Brainiac creature:
+  proxy: false
+  tcgplayerIds:
+    - 153017
+3/2 green Cat creature with shroud:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 white Clown Robot artifact creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+Clue:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 colorless Construct artifact creature with defender:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 red Devil creature with "When this creature dies, it deals 1 damage to any target.":
+  proxy: false
+  tcgplayerIds:
+    - 546501
+"1/1 green Elf creature with \"{T}: Add {G}.\"":
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 green Elf Warrior creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 blue Faerie Dragon creature with flying:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+Food:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 colorless Gnome artifact creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+0/1 white Goat creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 red Goblin creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 red Goblin creature with "This creature can't block.":
+  proxy: false
+  tcgplayerIds:
+    - 546501
+4/4 gold Dragon creature with flying:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+2/2 red Gremlin creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+4/4 red Hellion creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 white Human creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 blue Human Wizard creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+Inchblade Companion:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 black Insect creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+2/2 white Knight creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+Manifest:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 blue Merfolk creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+4/4 green Ox creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 white Pegasus creature with flying:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+2/2 black Rogue creature with menace:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+Serra Angel:
+  proxy: false
+  tcgplayerIds:
+    - 1562
+1/1 black Skeleton creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+4/1 black Skeleton creature with menace:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 colorless Sliver creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 white Soldier creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/2 white Soldier creature with defender:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 colorless Spirit creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 white Spirit creature with flying:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 green Squirrel creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+Storm Crow:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 colorless Thopter artifact creature with flying:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+Treasure:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+3/1 colorless Vehicle artifact with crew 1:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+1/1 white Warrior creature with vigilance:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+Wicked Role:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+2/2 green Wolf creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+X/X black Demon creature with flying:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+2/2 black Zombie creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+3/3 black Zombie creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+4/4 black Zombie creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+5/5 black Zombie creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+6/6 black Zombie creature:
+  proxy: false
+  tcgplayerIds:
+    - 546501
+2/3 green Antelope creature with forestwalk:
+  proxy: false
+  tcgplayerIds:
+    - 546501

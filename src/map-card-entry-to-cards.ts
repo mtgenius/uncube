@@ -23,8 +23,9 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
     markers,
     oracle,
     planes,
+    rulings,
     sets,
-    source,
+    sources,
     tokens,
     ...restCard
   } = data;
@@ -186,17 +187,17 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
       );
     };
 
-    const getSource = (): string | undefined => {
-      if (typeof source === 'undefined') {
+    const getSources = (): readonly string[] | undefined => {
+      if (typeof sources === 'undefined') {
         return;
       }
 
-      if (isString(source)) {
-        return source;
+      if (Array.isArray(sources) && sources.every(isString)) {
+        return sources;
       }
 
-      throw new Error(`Expected source to be a string for card "${cardName}"`, {
-        cause: source,
+      throw new Error(`Expected sources to be strings for card "${cardName}"`, {
+        cause: sources,
       });
     };
 
@@ -228,8 +229,9 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
         planes: planes as undefined,
         premium,
         proxy,
+        rulings: rulings as undefined,
         setCard,
-        source: getSource(),
+        sources: getSources(),
         tcgplayerId: getTcgplayerId(),
         tokens: tokens as undefined,
       }),

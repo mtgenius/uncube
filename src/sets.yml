@@ -34,7 +34,8 @@ Arena League 2004:
   scryfallId: PAL04
 Astral:
   scryfallId: PAST
-  source: https://web.archive.org/web/20230203135623/https://magic.wizards.com/en/news/feature/astral-cards-2009-02-12
+  sources:
+    - https://web.archive.org/web/20230203135623/https://magic.wizards.com/en/news/feature/astral-cards-2009-02-12
 Celebration:
   scryfallId: PCEL
 Chronicles:
@@ -45,11 +46,13 @@ Conspiracy:
   id: CN2
 "Draft Weekend: Unstable":
   scryfallId: PUST
-  source: https://wpn.wizards.com/en/news/10-cards-make-unstable-amazing
+  sources:
+    - https://wpn.wizards.com/en/news/10-cards-make-unstable-amazing
 "Duel Decks: Elspeth vs. Tezzeret":
   scryfallId: DDF
 Extra Pulled:
-  source: https://www.magiclibrarities.net/629-rarities-the-duelist-fantasy-cards-english-cards-extra-pulled-1998-1999.html
+  sources:
+    - https://www.magiclibrarities.net/629-rarities-the-duelist-fantasy-cards-english-cards-extra-pulled-1998-1999.html
 Fourth Edition:
   scryfallId: 4ED
 Guru:
@@ -150,13 +153,17 @@ Sixth Edition:
 The List:
   scryfallId: ULST
 The Sorcerer's Apprentice:
-  source: https://web.archive.org/web/20221209104755/https://magic.wizards.com/en/news/feature/sorcerers-apprentice-2010-07-12
+  sources:
+    - https://web.archive.org/web/20221209104755/https://magic.wizards.com/en/news/feature/sorcerers-apprentice-2010-07-12
 Unfinity:
   id: UNF
 Unglued:
   scryfallId: UGL
 "Unglued 2: The Obligatory Sequel":
-  source: https://mtg.fandom.com/wiki/Unglued_2:_The_Obligatory_Sequel
+  sources:
+    - https://magic.wizards.com/en/news/making-magic/un-seen-2-electric-bugaloo-2014-11-10
+    - https://magic.wizards.com/en/news/making-magic/un-seen-2013-08-12
+    - https://mtg.fandom.com/wiki/Unglued_2:_The_Obligatory_Sequel
 Unhinged:
   scryfallId: UNH
 Unhinged Promos:

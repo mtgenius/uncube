@@ -488,10 +488,10 @@ War of the Spark:
       scryfallId: PH19
 Treizeci, Sun of Serra:
   sets:
-    - id: H21
+    - id: H22
       premium: false
       proxy: true
-      scryfallId: PH21
+      scryfallId: PH22
   tokens:
     Serra Angel: 2
 Byode, Inverse Sun:
@@ -2648,8 +2648,11 @@ Gem Bazaar:
       proxy: true
       scryfallId: PAST
 Generated Horizons:
+  rulings:
+    - The Forest tokens produced do not have the Basic supertype. They have the Land supertype and the Forest subtype.
   sets:
-    - premium: false
+    - artist: Daniel Holt
+      premium: false
       proxy: false
       scryfallId: CMB1
   tokens:
@@ -2899,6 +2902,8 @@ Handy Dandy Clone Machine:
       premium: true
       proxy: false
 Hangman:
+  rulings:
+    - The noted word in the artwork is not HANGMAN, because the second A is not revealed.
   sets:
     - id: UST
       premium: true
@@ -3122,6 +3127,8 @@ Infernius Spawnington III, Esq.:
       proxy: false
       scryfallId: ULST
 Infinity Elemental:
+  rulings:
+    - Infinity is treated as a nonstandard number defined as an integer higher than all other numbers, which remains unchanged if added to, subtracted to, multiplied, or divided by any other number, including infinity. https://www.tumblr.com/markrosewater/780330357448949760/is-this-a-correct-way-to-describe-infinity-in
   sets:
     - id: UST
       premium: true
@@ -3764,7 +3771,8 @@ Magic Guru:
       premium: false
       proxy: true
       scryfallId: PGRU
-  source: https://www.cardmarket.com/en/Magic/Cards/Magic-Guru
+  sources:
+    - https://www.cardmarket.com/en/Magic/Cards/Magic-Guru
 Magic Word:
   sets:
     - id: UST
@@ -5026,6 +5034,8 @@ Squidnapper:
       scryfallId: CMB1
 Squirrel Dealer:
   banned: OUTSIDE
+  rulings:
+    - A person outside the game is allowed to lie. You must trust their answer, whether or not it was honest. https://www.tumblr.com/markrosewater/780216683967201280/question-about-unrules-for-squirrel-dealer-it
   sets:
     - id: UST
       premium: true
@@ -5457,6 +5467,8 @@ Topdeck the Halls:
       proxy: false
       scryfallId: HHO
 Topsy Turvy:
+  rulings:
+    - Your "first main phase" is the one that happens second. https://www.tumblr.com/markrosewater/780139610753859584/if-i-have-topsy-turvy-out-which-main-phase-do-i
   sets:
     - premium: true
       proxy: false

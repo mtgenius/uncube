@@ -21,6 +21,7 @@ export default function mapCardToListItem(card: Card): HTMLLIElement {
     oracle,
     planes,
     proxy,
+    rulings,
     tokens,
   } = card;
 
@@ -98,6 +99,12 @@ ${banned.map(mapBannedToText).join('\n')}`);
   if (typeof planes !== 'undefined') {
     clickText.push(`Necessary planes:
 • ${planes.join('\n• ')}`);
+  }
+
+  // Rulings
+  if (typeof rulings !== 'undefined') {
+    clickText.push(`Rulings:
+• ${rulings.join('\n• ')}`);
   }
 
   // Tokens

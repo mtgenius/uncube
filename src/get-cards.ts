@@ -20,7 +20,7 @@ export default function getCards(): readonly Card[] {
       throw new Error(`Invalid data for set "${name}"`, { cause: data });
     }
 
-    const { id, scryfallId, source } = data;
+    const { id, scryfallId, sources } = data;
 
     if (isString(id)) {
       setNames.set(id, name);
@@ -31,7 +31,7 @@ export default function getCards(): readonly Card[] {
     }
 
     // Unofficial sets
-    if (!isString(id) && !isString(scryfallId) && isString(source)) {
+    if (!isString(id) && !isString(scryfallId) && Array.isArray(sources)) {
       setNames.set(name, name);
     }
   }

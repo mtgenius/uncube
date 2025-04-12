@@ -18,8 +18,9 @@ interface Options {
   readonly planes: readonly string[] | undefined;
   readonly premium: boolean;
   readonly proxy: Proxy | boolean;
+  readonly rulings: readonly string[] | undefined;
   readonly setCard: SetCard;
-  readonly source: string | undefined;
+  readonly sources: readonly string[] | undefined;
   readonly tcgplayerId: number | undefined;
   readonly tokens: Readonly<Record<string, number>> | undefined;
 }
@@ -40,8 +41,9 @@ export default class Card {
   public readonly planes: readonly string[] | undefined;
   public readonly premium: boolean;
   public readonly proxy: Proxy | boolean;
+  public readonly rulings: readonly string[] | undefined;
   #setCard: SetCard;
-  public readonly source: string | undefined;
+  public readonly sources: readonly string[] | undefined;
   public readonly tcgplayerId: number | undefined;
   public readonly tokens: Readonly<Record<string, number>> | undefined;
 
@@ -60,8 +62,9 @@ export default class Card {
     planes,
     premium,
     proxy,
+    rulings,
     setCard,
-    source,
+    sources,
     tcgplayerId,
     tokens,
   }: Options) {
@@ -78,8 +81,9 @@ export default class Card {
     this.planes = planes;
     this.premium = premium;
     this.proxy = proxy;
+    this.rulings = rulings;
     this.#setCard = setCard;
-    this.source = source;
+    this.sources = sources;
     this.tcgplayerId = tcgplayerId;
     this.tokens = tokens;
 
