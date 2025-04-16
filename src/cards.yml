@@ -2001,6 +2001,10 @@ Convention Maro:
     - premium: false
       proxy: false
       scryfallId: PF24
+  tokens:
+    green Elemental creature named Maro with "This creature's power and toughness are each equal to the number of artists among nonland, nontoken permanents you control.": 2
+    green Elemental creature named Maro with "This creature's power and toughness are each equal to the number of card types among cards in your graveyard.": 2
+    green Elemental creature named Maro with "This creature's power and toughness are each equal to the number of cards in your hand.": 2
 Corrupted Key:
   sets:
     - premium: false
@@ -2364,8 +2368,8 @@ Everythingamajig:
       proxy: false
       scryfallVariant: 147f
       tcgplayerId: 154452
-  tokens:
-    0/1 white Goat creature: 2
+      tokens:
+        0/1 white Goat creature: 2
 Evil Boros Charm:
   sets:
     - premium: false
@@ -2624,6 +2628,8 @@ Garbage Elemental:
       proxy: true
       scryfallVariant: 82c
       tcgplayerId: 154462
+      tokens:
+        1/1 red Goblin creature: 5
     - id: UST
       premium: true
       proxy: true
@@ -2639,8 +2645,6 @@ Garbage Elemental:
       proxy: false
       scryfallVariant: 82f
       tcgplayerId: 154466
-  tokens:
-    1/1 red Goblin creature: 5
 Gem Bazaar:
   sets:
     - image: gem-bazaar.png
@@ -3760,7 +3764,7 @@ Maestros' Totally Safe Hideout:
       premium: false
       proxy: false
   tokens:
-    Maestros' Totally Safe Hideout: 3
+    Maestros' Totally Safe Hideout: 1
 Magic Guru:
   oracle: |
     Enchant player other than you
@@ -5208,11 +5212,13 @@ Sword of Dungeons & Dragons:
       premium: true
       proxy: true
       scryfallId: H17
+      tokens:
+        4/4 gold Dragon creature with flying and & watermark: 2
     - id: ULST
       premium: true
       proxy: false
-  tokens:
-    4/4 gold Dragon creature with flying: 2
+      tokens:
+        4/4 gold Dragon creature with flying: 2
 Symbol Status:
   sets:
     - premium: true
@@ -5381,6 +5387,8 @@ The Legend of Arena:
       scryfallId: PH18
       scryfallVariant: 4†
       tcgplayerId: 206016
+  tokens:
+    2/1 red Human Wizard creature: 2
 The Secret Lair:
   sets:
     - id: H20
@@ -5608,6 +5616,8 @@ Very Cryptic Command:
       proxy: false
       scryfallVariant: 49c
       tcgplayerId: 154420
+      tokens:
+        1/1 colorless Gnome artifact creature: 1
     - id: UST
       premium: true
       proxy: false
@@ -5623,9 +5633,8 @@ Very Cryptic Command:
       proxy: false
       scryfallVariant: 49f
       tcgplayerId: 154423
-  tokens:
-    1/1 colorless Gnome artifact creature: 1
-    2/2 black Rogue creature with menace: 1
+      tokens:
+        2/2 black Rogue creature with menace: 1
 Vhal, Eager Scholar:
   banned: SPECIALIZE
   sets:

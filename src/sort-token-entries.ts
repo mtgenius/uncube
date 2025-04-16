@@ -1,8 +1,8 @@
 const sanitize = (name: string): string =>
   name
-    .replace(/^\d\/\d /u, '')
+    .replace(/^[\dX]\/[\dX] /u, '')
     .replace(
-      /^(?:black|blue|colorless|green|red|white)(?: and (?:black|blue|colorless|green|red|white))? /u,
+      /^(?:black|blue|colorless|gold|green|pink|red|white)(?: and (?:black|blue|colorless|green|red|white))? /u,
       '',
     )
     .replace(/^legendary /u, '');

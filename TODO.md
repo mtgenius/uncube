@@ -6,8 +6,10 @@
 
 ## Fix cards
 
-- _4/4 red Giant Bird token_ should have the name "Giant Bird" instead of
-  "Giant Chicken."
+- _2/1 red Human Wizard creature token_ should have the name "Human Wizard"
+  instead of "Wizard."
+- _4/4 red Giant Bird creature token_ should have the name "Giant Bird" instead
+  of "Giant Chicken."
 - _Arrest token_ should have its mana cost in its reminder text.
 - _Krosan Adaptation token_ should have its mana cost in its reminder text.
 - _Murgish Cemetery_ should specify the token creature type, Zombie.
@@ -16,6 +18,5 @@
 
 ## Create tokens
 
-- _2/3 green Antelope creature with forestwalk_ is missing.
-- _Inchblade Companion_ is missing its corresponding token.
-- _Serra Angel token_ is needed and should have mana cost in its reminder text.
+- Create more
+  [legendary dogs](https://scryfall.com/search?q=set%3Asld+art%3Adog&unique=art).

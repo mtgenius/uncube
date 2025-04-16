@@ -7,6 +7,7 @@ import type { Banned } from './banned.js';
 import createSetCard from './create-set-card.js';
 
 const EMPTY = 0;
+const NONE = 0;
 const SINGLE = 1;
 
 export default function mapCardEntryToCards([cardName, data]: readonly [
@@ -26,7 +27,7 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
     rulings,
     sets,
     sources,
-    tokens,
+    tokens: cardTokens,
     ...restCard
   } = data;
 
@@ -64,6 +65,7 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
     scryfallId,
     scryfallVariant,
     tcgplayerId,
+    tokens: setTokens,
     ...restSet
   } of sets) {
     const setCard: SetCard = createSetCard({
@@ -216,6 +218,54 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
       );
     };
 
+    const getTokens = (): Readonly<Record<string, number>> | undefined => {
+      const tokens: Record<string, number> = {};
+
+      if (typeof cardTokens !== 'undefined') {
+        if (!isRecord(cardTokens)) {
+          throw new Error(
+            `Expected tokens to be a record for card "${cardName}" in set "${setCard.id}"`,
+            { cause: cardTokens },
+          );
+        }
+
+        for (const [tokenName, count] of Object.entries(cardTokens)) {
+          if (!isNumber(count)) {
+            throw new Error(
+              `Expected tokens to have a count for "${tokenName}" for card "${cardName}" in set "${setCard.id}"`,
+              { cause: count },
+            );
+          }
+          tokens[tokenName] = (tokens[tokenName] ?? NONE) + count;
+        }
+      }
+
+      if (typeof setTokens !== 'undefined') {
+        if (!isRecord(setTokens)) {
+          throw new Error(
+            `Expected tokens to be a record for card "${cardName}" in set "${setCard.id}"`,
+            { cause: setTokens },
+          );
+        }
+
+        for (const [tokenName, count] of Object.entries(setTokens)) {
+          if (!isNumber(count)) {
+            throw new Error(
+              `Expected tokens to have a count for "${tokenName}" for card "${cardName}" in set "${setCard.id}"`,
+              { cause: count },
+            );
+          }
+          tokens[tokenName] = (tokens[tokenName] ?? NONE) + count;
+        }
+      }
+
+      if (Object.keys(tokens).length === EMPTY) {
+        return;
+      }
+
+      return tokens;
+    };
+
     cards.push(
       new Card({
         artist: getArtist(),
@@ -233,7 +283,7 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
         setCard,
         sources: getSources(),
         tcgplayerId: getTcgplayerId(),
-        tokens: tokens as undefined,
+        tokens: getTokens(),
       }),
     );
   }

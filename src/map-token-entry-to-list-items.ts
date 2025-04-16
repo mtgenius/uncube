@@ -25,9 +25,12 @@ const createListItem = ({ counts, name, src }: Options): HTMLLIElement => {
   if (counts.length === NONE) {
     nameEl.innerHTML = '&nbsp;';
   } else {
-    nameEl.appendChild(
-      window.document.createTextNode(`${sum(...counts)}× ${name}`),
-    );
+    const count: number = sum(...counts);
+    if (count === SINGLE) {
+      nameEl.appendChild(window.document.createTextNode(name));
+    } else {
+      nameEl.appendChild(window.document.createTextNode(`${count}× ${name}`));
+    }
   }
   item.appendChild(nameEl);
 
@@ -59,17 +62,12 @@ export default function mapTokenEntryToListItems([name, counts]: readonly [
   readonly number[],
 ]): readonly HTMLLIElement[] {
   if (!(name in tokens)) {
-    const item: HTMLLIElement = window.document.createElement('li');
-    item.appendChild(window.document.createTextNode(name));
-
-    // Throw new Error();
-    return [item];
+    throw new Error(`Expected token to have metadata: ${name}`);
   }
 
   const token: unknown = tokens[name];
   if (!isRecord(token)) {
-    // Throw new Error();
-    return [];
+    throw new Error(`Expected token metadata to be a record: ${name}`);
   }
 
   // Proxies
@@ -144,6 +142,7 @@ export default function mapTokenEntryToListItems([name, counts]: readonly [
         `Expected TCGPlayer ID to be numeric for token "${name}"`,
       );
     }
+
     return [
       createListItem({
         counts,

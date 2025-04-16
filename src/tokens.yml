@@ -176,198 +176,381 @@ Blood:
   tcgplayerIds:
     - 153017
 3/2 green Cat creature with shroud:
-  proxy: false
-  tcgplayerIds:
-    - 546501
+  extension: jpg
+  proxy: true
 1/1 white Clown Robot artifact creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 288182
+    - 288178
+    - 449781
+    - 449791
+    - 449793
+    - 449799
+    - 449805
+    - 449806
+    - 449810
+    - 449811
+    - 449814
+    - 449827
+    - 449832
+    - 449834
 Clue:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 476187
+    - 476188
 1/1 colorless Construct artifact creature with defender:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 121945
 1/1 red Devil creature with "When this creature dies, it deals 1 damage to any target.":
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 115991
+    - 188843
+    - 244134
+    - 245047
+    - 245048
+    - 245051
+    - 245052
+    - 249830_1
+    - 269787
+    - 270543
+    - 270544
+    - 270545
+    - 274123
+    - 580628
 "1/1 green Elf creature with \"{T}: Add {G}.\"":
-  proxy: false
-  tcgplayerIds:
-    - 546501
+  extension: jpg
+  proxy: true
 1/1 green Elf Warrior creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 593322
+    - 594407
+    - 593429
 1/1 blue Faerie Dragon creature with flying:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 274115
+    - 244122
 Food:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 288180
+    - 288186
+    - 449791_1
+    - 449793_1
+    - 449844_1
+    - 449846_1
+    - 449928_1
+    - 483991
 1/1 colorless Gnome artifact creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 153066
 0/1 white Goat creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 153058
 1/1 red Goblin creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 153062
+    - 209922
 1/1 red Goblin creature with "This creature can't block.":
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 121941
 4/4 gold Dragon creature with flying:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 153064
+4/4 gold Dragon creature with flying and & watermark:
+  proxy: false
+  tcgplayerIds:
+    - 145876
 2/2 red Gremlin creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 126552
 4/4 red Hellion creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 78419
+    - 104269
+    - 125840_1
 1/1 white Human creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 514013
+    - 515207_1
+    - 515208_1
+    - 535645
+    - 593290
 1/1 blue Human Wizard creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 120438
+    - 614047
 Inchblade Companion:
-  proxy: false
-  tcgplayerIds:
-    - 546501
+  proxy: true
 1/1 black Insect creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 130180
 2/2 white Knight creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 274068
 Manifest:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 173779
+    - 270063
+    - 507153
+    - 580559
+    - 197630_1
+    - 535894_1
+    - 535895_1
+    - 545609_1
+    - 545611_1
+    - 545615_1
+    - 580583_1
+    - 580585_1
+    - 580587_1
+    - 580590_1
+    - 580594_1
+    - 580598_1
+    - 580600_1
+    - 580602_1
+    - 580604_1
+    - 580634_1
+    - 580639_1
+    - 580644_1
 1/1 blue Merfolk creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 537426
+    - 526118_1
+    - 526119_1
+    - 526120_1
+    - 526121_1
+    - 537502_1
 4/4 green Ox creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 274067
+    - 274127_1
 1/1 white Pegasus creature with flying:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 197628
+    - 274105
+    - 450767
+    - 450768
+    - 231662_1
+    - 274140_1
 2/2 black Rogue creature with menace:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 153060
 Serra Angel:
-  proxy: false
-  tcgplayerIds:
-    - 1562
+  proxy: 7
 1/1 black Skeleton creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 476175
+    - 242783_1
 4/1 black Skeleton creature with menace:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 274121
+    - 274135_1
 1/1 colorless Sliver creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 78432
+    - 78526
+    - 78630
+    - 91259
+    - 506066_1
+    - 506067_1
 1/1 white Soldier creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 78506
+    - 78631
+    - 98658
+    - 100294
+    - 121935
+    - 161839
+    - 192357
+    - 192402
+    - 192361
+    - 285702
+    - 510512
+    - 521480
+    - 535645
+    - 83374_1
+    - 228304_1
+    - 535644_1
 1/2 white Soldier creature with defender:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 121936
 1/1 colorless Spirit creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 263307
+    - 263384
+    - 264087
+    - 264107
+    - 264090
+    - 125105
+    - 264119
+    - 600352
+    - 254881
+    - 600346
+    - 161836
+    - 264106
+    - 264105
+    - 188835
+    - 264121
+    - 264124
+    - 264120
+    - 555172
+    - 118779
+    - 264094
+    - 264108
+    - 264114
+    - 78633
 1/1 white Spirit creature with flying:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 152590
 1/1 green Squirrel creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 288183
+    - 449907
+    - 449911
+    - 449901
+    - 449897
+    - 449893
+    - 449892
+    - 228745
+    - 177176
 Storm Crow:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 560895
+    - 560896
+    - 288175
+    - 152431
 1/1 colorless Thopter artifact creature with flying:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 512112
+    - 537422
+    - 616283
+    - 244291
+    - 123080
+    - 263370
+    - 535668
+    - 545609
+    - 123081
+    - 242409
+    - 542571
+    - 270005
+    - 100295
+    - 123079
+    - 542570
 Treasure:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 492575
+    - 497315
+    - 492565
+    - 493258
+    - 145818
+    - 270583
+    - 269811
+    - 269819
 3/1 colorless Vehicle artifact with crew 1:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 616286
 1/1 white Warrior creature with vigilance:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 130185
+    - 131289
 Wicked Role:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 514901
+    - 516949
 2/2 green Wolf creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 273976
+    - 274325
+    - 254794
+    - 249865
+    - 78533
+    - 249856
+    - 249454
+    - 78433
+    - 207257
+    - 610983
+    - 161854
+    - 79192
+    - 188846
 X/X black Demon creature with flying:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 93610
+    - 94097
+    - 83404
+    - 78550
+    - 78619
+    - 237035
+    - 270059
+    - 450774
 2/2 black Zombie creature:
   proxy: false
   tcgplayerIds:
-    - 546501
+    - 192364
+    - 613977
+    - 192408
+    - 593360
+    - 113339
+    - 192368
+    - 270049
 3/3 black Zombie creature:
-  proxy: false
-  tcgplayerIds:
-    - 546501
+  proxy: true
 4/4 black Zombie creature:
-  proxy: false
-  tcgplayerIds:
-    - 546501
+  proxy: true
 5/5 black Zombie creature:
-  proxy: false
-  tcgplayerIds:
-    - 546501
+  proxy: true
 6/6 black Zombie creature:
-  proxy: false
-  tcgplayerIds:
-    - 546501
+  proxy: true
 2/3 green Antelope creature with forestwalk:
-  proxy: false
-  tcgplayerIds:
-    - 546501
+  extension: jpg
+  proxy: true
+green Elemental creature named Maro with "This creature's power and toughness are each equal to the number of artists among nonland, nontoken permanents you control.":
+  extension: jpg
+  filename: maro-b1
+  proxy: true
+green Elemental creature named Maro with "This creature's power and toughness are each equal to the number of card types among cards in your graveyard.":
+  extension: png
+  filename: maro-b2
+  proxy: true
+green Elemental creature named Maro with "This creature's power and toughness are each equal to the number of cards in your hand.":
+  extension: png
+  filename: maro-b3
+  proxy: true
+2/1 red Human Wizard creature:
+  proxy: 2
