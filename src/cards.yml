@@ -294,9 +294,9 @@ Tornellan Protector:
       premium: false
       proxy: true
       scryfallId: PSDG
-Ardent Angel:
+Arden Angel:
   sets:
-    - image: ardent-angel.png
+    - image: arden-angel.png
       premium: false
       proxy: true
       scryfallId: PSDG
