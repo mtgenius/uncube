@@ -6,9 +6,6 @@
 
 ## Fix cards
 
-- CMB1: _Krosan Adaptation token_ should have its mana cost in its reminder text.
-- CMB1: _Pacifism token_ should have its mana cost in its reminder text.
-- CMB1: _Reassembling Skeleton token_ should have its mana cost in its reminder text.
 - PMOA: _Arrest token_ should have its mana cost in its reminder text.
 - PSDG: _Murgish Cemetery_ should specify the token creature type, Zombie.
 
