@@ -294,9 +294,9 @@ Tornellan Protector:
       premium: false
       proxy: true
       scryfallId: PSDG
-Ardent Angel:
+Arden Angel:
   sets:
-    - image: ardent-angel.png
+    - image: arden-angel.png
       premium: false
       proxy: true
       scryfallId: PSDG
@@ -1865,6 +1865,11 @@ Chicken a la King:
     - id: UGL
       premium: false
       proxy: false
+      type: Chicken
+    - id: UND
+      premium: false
+      proxy: false
+  type: Bird Noble
 Chimney Goyf:
   sets:
     - premium: false
@@ -2559,6 +2564,11 @@ Free-Range Chicken:
     - id: UGL
       premium: false
       proxy: false
+      type: Chicken
+    - id: UND
+      premium: false
+      proxy: false
+  type: Bird
 Frenemy of the Guildpact:
   sets:
     - premium: false
@@ -3281,10 +3291,15 @@ Jihad:
       proxy: RACISM
       scryfallId: ARN
 Johnny, Combo Player:
+  notes:
+    - The cards depicted in the artwork differ per set.
   sets:
     - premium: true
       proxy: true
       scryfallId: UNH
+    - id: UND
+      premium: false
+      proxy: false
 Jumbo Imp:
   sets:
     - id: UGL
@@ -5480,7 +5495,12 @@ Topsy Turvy:
   sets:
     - premium: true
       proxy: false
+      rarity: R
       scryfallId: UNH
+    - id: UND
+      premium: false
+      proxy: false
+      rarity: U
 Toy Boat:
   sets:
     - premium: true
