@@ -3291,7 +3291,8 @@ Jihad:
       proxy: RACISM
       scryfallId: ARN
 Johnny, Combo Player:
-  note: The cards depicted in the artwork differ per set.
+  notes:
+    - The cards depicted in the artwork differ per set.
   sets:
     - premium: true
       proxy: true

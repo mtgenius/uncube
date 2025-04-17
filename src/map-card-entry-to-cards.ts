@@ -22,12 +22,14 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
     banned: cardBanned,
     emblems,
     markers,
+    notes,
     oracle,
     planes,
     rulings,
     sets,
     sources,
     tokens: cardTokens,
+    type: cardType,
     ...restCard
   } = data;
 
@@ -62,10 +64,12 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
     multiverseId,
     premium,
     proxy,
+    rarity,
     scryfallId,
     scryfallVariant,
     tcgplayerId,
     tokens: setTokens,
+    type: setType,
     ...restSet
   } of sets) {
     const setCard: SetCard = createSetCard({
@@ -157,6 +161,16 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
       }
 
       return banned;
+    };
+
+    const getErrata = (): Partial<
+      Record<'type', readonly [string, string]>
+    > => {
+      const errata: Partial<Record<'type', readonly [string, string]>> = {};
+      if (typeof cardType === 'string' && typeof setType === 'string') {
+        errata.type = [setType, cardType];
+      }
+      return errata;
     };
 
     const getMultiverseId = (): number | undefined => {
@@ -272,13 +286,16 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
         banned: getBanned(),
         count,
         emblems: emblems as undefined,
+        errata: getErrata(),
         markers: markers as undefined,
         multiverseId: getMultiverseId(),
         name: cardName.replace(/\\"/gu, '"'),
+        notes: notes as undefined,
         oracle: getOracle(),
         planes: planes as undefined,
         premium,
         proxy,
+        rarity: rarity as undefined,
         rulings: rulings as undefined,
         setCard,
         sources: getSources(),

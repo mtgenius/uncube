@@ -11,13 +11,16 @@ interface Options {
   readonly banned: readonly Banned[] | false;
   readonly count: number;
   readonly emblems: readonly string[] | undefined;
+  readonly errata: Partial<Record<'type', readonly [string, string]>>;
   readonly markers: readonly string[] | undefined;
   readonly multiverseId: number | undefined;
   readonly name: string;
+  readonly notes: readonly string[] | undefined;
   readonly oracle: string | undefined;
   readonly planes: readonly string[] | undefined;
   readonly premium: boolean;
   readonly proxy: Proxy | boolean;
+  readonly rarity: 'C' | 'M' | 'R' | 'U' | undefined;
   readonly rulings: readonly string[] | undefined;
   readonly setCard: SetCard;
   readonly sources: readonly string[] | undefined;
@@ -33,14 +36,17 @@ export default class Card {
   public readonly banned: readonly Banned[] | false;
   public readonly count: number;
   public readonly emblems: readonly string[] | undefined;
+  public readonly errata: Partial<Record<'type', readonly [string, string]>>;
   readonly #imageSrc: string;
   public readonly markers: readonly string[] | undefined;
   public readonly multiverseId: number | undefined;
   public readonly name: string;
+  public readonly notes: readonly string[];
   public readonly oracle: string | undefined;
   public readonly planes: readonly string[] | undefined;
   public readonly premium: boolean;
   public readonly proxy: Proxy | boolean;
+  public readonly rarity: 'C' | 'M' | 'R' | 'U' | undefined;
   public readonly rulings: readonly string[] | undefined;
   #setCard: SetCard;
   public readonly sources: readonly string[] | undefined;
@@ -55,13 +61,16 @@ export default class Card {
     banned,
     count,
     emblems,
+    errata,
     markers,
     multiverseId,
     name,
+    notes = [],
     oracle,
     planes,
     premium,
     proxy,
+    rarity,
     rulings,
     setCard,
     sources,
@@ -72,15 +81,18 @@ export default class Card {
     this.banned = banned;
     this.count = count;
     this.emblems = emblems;
+    this.errata = errata;
     this.image = createCardImage({ name, premium });
     this.#imageSrc = createCardImageSrc({ cardName: name, setCard });
     this.markers = markers;
     this.multiverseId = multiverseId;
     this.name = name;
+    this.notes = notes;
     this.oracle = oracle;
     this.planes = planes;
     this.premium = premium;
     this.proxy = proxy;
+    this.rarity = rarity;
     this.rulings = rulings;
     this.#setCard = setCard;
     this.sources = sources;
