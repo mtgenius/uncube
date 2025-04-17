@@ -6,8 +6,6 @@
 
 ## Fix cards
 
-- UGL: _4/4 red Giant Bird creature token_ should have the name "Giant Bird" instead
-  of "Giant Chicken."
 - CMB1: _Krosan Adaptation token_ should have its mana cost in its reminder text.
 - CMB1: _Pacifism token_ should have its mana cost in its reminder text.
 - CMB1: _Reassembling Skeleton token_ should have its mana cost in its reminder text.
