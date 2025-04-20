@@ -4,6 +4,12 @@ import type Card from './card.js';
 const ASCENDING = -1;
 const DESCENDING = 1;
 
+const sanitizeName = (name: string): string =>
+  name.toLowerCase().replace(/(?:^a |^an |^the |[^a-z0-9 ]+)/giu, '');
+
+const sortNames = (first: string, second: string): number =>
+  sanitizeName(first).localeCompare(sanitizeName(second));
+
 export default function sortBySet(
   { name: nameA, premium: premiumA, setCard: setCardA }: Card,
   { name: nameB, premium: premiumB, setCard: setCardB }: Card,
@@ -26,19 +32,19 @@ export default function sortBySet(
   }
 
   if (setNameA !== setNameB) {
-    return setNameA.localeCompare(setNameB);
+    return sortNames(setNameA, setNameB);
   }
 
   // Sort by set ID, e.g. yearly and promotional sets.
   const { id: idA } = setCardA;
   const { id: idB } = setCardB;
   if (idA !== idB) {
-    return idA.localeCompare(idB);
+    return sortNames(idA, idB);
   }
 
   // Sort by card name.
   if (nameA !== nameB) {
-    return nameA.localeCompare(nameB);
+    return sortNames(nameA, nameB);
   }
 
   // Sort by premium, e.g. Unhinged alternate foils.
@@ -54,6 +60,25 @@ export default function sortBySet(
   const { type: typeA } = setCardA;
   const { type: typeB } = setCardB;
   switch (typeA) {
+    case 'multiverse': {
+      const { multiverseId: multiverseIdA } = setCardA;
+
+      if (typeA !== typeB) {
+        throw new Error(
+          `Expected duplicates to share set types for card "${nameA}" in sets "${setCardA.id}" and "${setCardB.id}"`,
+        );
+      }
+
+      const { multiverseId: multiverseIdB } = setCardB;
+      if (multiverseIdA === multiverseIdB) {
+        throw new Error(
+          `Card "${nameA}" has multiverse duplicates in "${setCardA.id}" and "${setCardB.id}"`,
+        );
+      }
+
+      return multiverseIdA - multiverseIdB;
+    }
+
     // Sort by collector number.
     case 'print': {
       const { collectorNumber: collectorNumberA } = setCardA;

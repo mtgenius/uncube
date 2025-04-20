@@ -180,3 +180,5 @@ HarperPrism:
   scryfallId: PHPR
 Sega Dreamcast:
   scryfallId: PSDG
+Promotional:
+  id: MTG

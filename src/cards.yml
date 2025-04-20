@@ -1002,6 +1002,7 @@ Phyrexian Librarian:
       premium: false
       proxy: true
 Pet Cemetary:
+  banned: UNBALANCED
   sets:
     - id: "Unglued 2: The Obligatory Sequel"
       image: pet-cemetary.png
@@ -1074,6 +1075,8 @@ Hot Picks:
       image: hot-picks.png
       premium: false
       proxy: true
+  tokens:
+    1/1 red Goblin creature: 4
 Heads Up // Tailspin:
   sets:
     - id: "Unglued 2: The Obligatory Sequel"
@@ -1860,7 +1863,7 @@ Chicken Egg:
       scryfallId: UGL
   tokens:
     4/4 red Giant Bird creature: 2
-Chicken a la King:
+Chicken à la King:
   sets:
     - id: UGL
       premium: false
@@ -1869,6 +1872,7 @@ Chicken a la King:
     - id: UND
       premium: false
       proxy: false
+      type: Bird
   type: Bird Noble
 Chimney Goyf:
   sets:
@@ -2527,8 +2531,9 @@ Form of the Squirrel:
 Forsaken Crossroads:
   sets:
     - id: MB2
+      missing: true
       premium: true
-      proxy: true
+      proxy: false
 Fowl Play:
   sets:
     - id: UGL
@@ -2696,8 +2701,9 @@ Gleemax:
     - premium: false
       proxy: false
       scryfallId: UNH
-    - premium: true
-      proxy: true
+    - missing: true
+      premium: true
+      proxy: false
       scryfallId: UNH
 Gleemox:
   sets:
@@ -3476,8 +3482,9 @@ Knight of the Hokey Pokey:
 Knight of the Kitchen Sink:
   sets:
     - id: UST
+      missing: true
       premium: true
-      proxy: true
+      proxy: false
       scryfallVariant: 12a
     - id: UST
       premium: true
@@ -4339,6 +4346,7 @@ Pick Your Poison:
   tokens:
     1/1 black Snake creature with deathtouch: 2
 Pietra, Crafter of Clowns:
+  banned: OUTSIDE
   sets:
     - collectorNumber: 462
       id: UNF
@@ -4559,7 +4567,7 @@ Rat in the Hat:
   sets:
     - collectorNumber: 372
       id: UNF
-      premium: false
+      premium: true
       proxy: false
 Really Epic Punch:
   sets:
@@ -5325,8 +5333,9 @@ Temur Elevator:
 Tenacious Pup:
   sets:
     - id: MB2
+      missing: true
       premium: true
-      proxy: true
+      proxy: false
       tcgplayerId: 563281
     - premium: false
       proxy: true
@@ -5374,7 +5383,8 @@ The Fallen Apart:
       scryfallId: UNH
 The Grand Calcutron:
   sets:
-    - id: UST
+    - id: UST # or ULST
+      missing: true
       premium: true
       proxy: false
 The Grand Tour:
@@ -6114,3 +6124,19 @@ capital offense:
     - id: UST
       premium: true
       proxy: false
+Danny Trejo:
+  banned: UNBALANCED
+  sets:
+    - id: MTG
+      premium: false
+      proxy: true
+Shaggy Camel:
+  sets:
+    - id: UST
+      premium: true
+      proxy: false
+\"Name Sticker\" Goblin:
+  sets:
+    - id: UNF
+      premium: false
+      proxy: true

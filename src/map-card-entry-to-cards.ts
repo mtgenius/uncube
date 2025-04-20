@@ -61,6 +61,7 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
     count = SINGLE,
     id,
     image,
+    missing,
     multiverseId,
     premium,
     proxy,

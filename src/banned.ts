@@ -23,6 +23,7 @@ export enum Banned {
   Tear = 'TEAR',
   Time = 'TIME',
   Toys = 'TOYS',
+  Unbalanced = 'UNBALANCED',
   Unfun = 'UNFUN',
   VisualAccessibility = 'VISUAL_ACCESSIBILITY',
 }

@@ -50,6 +50,8 @@ export default function mapBannedToText(banned: Banned): string {
       return 'Time mechanics are not equally balanced across impairments.';
     case Banned.Toys:
       return 'Uncube should not require toys.';
+    case Banned.Unbalanced:
+      return 'This card is too powerful.';
     case Banned.VisualAccessibility:
       return 'This card is not accessible to visually-impaired players.';
     case Banned.Unfun:
