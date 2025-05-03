@@ -8,8 +8,11 @@ import mapCardToListItem from './map-card-to-list-item.js';
 import setVisibilities from './set-visibilities.js';
 import sortTokenEntries from './sort-token-entries.js';
 import mapTokenEntryToListItems from './map-token-entry-to-list-items.js';
+import reduceCardsToCount from './reduce-cards-to-count.js';
+import sum from './sum.js';
 
 const FIRST = 0;
+const NONE = 0;
 
 const BANNED_FILTER: HTMLElement = window.document
   .getElementsByName('banned')
@@ -64,8 +67,18 @@ try {
     card.setImageSrc();
   }
 
+  const metadataSection: HTMLElement = window.document.createElement('section');
+  metadataSection.classList.add('metadata');
+  metadataSection.appendChild(
+    window.document.createTextNode(
+      `${cards.reduce(reduceCardsToCount, NONE)} cards / ${Object.values(tokens).reduce((count: number, counts: readonly number[]): number => count + sum(...counts), NONE)} tokens`,
+    ),
+  );
+  ROOT.appendChild(metadataSection);
+
   for (const [setName, list] of [...SET_LISTS.entries].sort(sortEntriesByKey)) {
     const section: HTMLElement = window.document.createElement('section');
+    section.classList.add('cards');
     const heading: HTMLHeadingElement = window.document.createElement('h2');
     heading.appendChild(window.document.createTextNode(setName));
     section.appendChild(heading);

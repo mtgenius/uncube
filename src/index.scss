@@ -54,6 +54,16 @@ body {
   }
 }
 
+.cards {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 4em;
+
+  // If a non-token section does not contain visible cards, hide it.
+  &:not(.tokens):not(:has(.card-item:not(.hidden))) {
+    display: none;
+  }
+}
+
 .clickable {
   cursor: pointer;
 }
@@ -227,14 +237,4 @@ ol, ul {
   transition-property: opacity;
   transition-timing-function: ease-out;
   z-index: 3;
-}
-
-section {
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-  padding: 4em;
-
-  // If a non-token section does not contain visible cards, hide it.
-  &:not(.tokens):not(:has(.card-item:not(.hidden))) {
-    display: none;
-  }
 }

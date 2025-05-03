@@ -1,30 +1,47 @@
+"Alchemy: Tarkir":
+  displayName: Alchemy
+  scryfallId: YTDM
 "Alchemy: Duskmourn":
+  displayName: Alchemy
   scryfallId: YDSK
 "Alchemy: Bloomburrow":
+  displayName: Alchemy
   scryfallId: YBLB
 "Alchemy: Outlaws of Thunder Junction":
+  displayName: Alchemy
   scryfallId: YOTJ
 "Alchemy: Murders at Karlov Manor":
+  displayName: Alchemy
   scryfallId: YMKM
 "Alchemy: Wilds of Eldraine":
+  displayName: Alchemy
   scryfallId: YWOE
 "Alchemy: Ixalan":
+  displayName: Alchemy
   scryfallId: YLCI
 "Alchemy: Dominaria":
+  displayName: Alchemy
   scryfallId: YDMU
 "Alchemy: Phyrexia":
+  displayName: Alchemy
   scryfallId: YONE
 "Alchemy: The Brothers' War":
+  displayName: Alchemy
   scryfallId: YBRO
 "Alchemy: New Capenna":
+  displayName: Alchemy
   scryfallId: YSNC
 "Alchemy: Kamigawa":
+  displayName: Alchemy
   scryfallId: YNEO
 "Alchemy: Aetherdrift":
+  displayName: Alchemy
   scryfallId: YDFT
 "Alchemy Horizons: Baldur's Gate":
+  displayName: Alchemy
   scryfallId: HBG
 "Alchemy: Innistrad":
+  displayName: Alchemy
   scryfallId: YMID
 Arabian Nights:
   scryfallId: ARN
@@ -37,6 +54,7 @@ Astral:
   sources:
     - https://web.archive.org/web/20230203135623/https://magic.wizards.com/en/news/feature/astral-cards-2009-02-12
 Celebration:
+  displayName: Miscellaneous
   scryfallId: PCEL
 Chronicles:
   scryfallId: CHR
@@ -45,6 +63,7 @@ Conspiracy:
 "Conspiracy: Take the Crown":
   id: CN2
 "Draft Weekend: Unstable":
+  displayName: Unstable
   scryfallId: PUST
   sources:
     - https://wpn.wizards.com/en/news/10-cards-make-unstable-amazing
@@ -60,87 +79,115 @@ Guru:
 Happy Holidays:
   scryfallId: HHO
 Happy Holidays 2014:
+  displayName: Happy Holidays
   id: H14
   scryfallId: HHO
 Happy Holidays 2015:
+  displayName: Happy Holidays
   id: H15
   scryfallId: HHO
 Happy Holidays 2016:
+  displayName: Happy Holidays
   id: H16
   scryfallId: HHO
 Happy Holidays 2017:
+  displayName: Happy Holidays
   id: H17
   scryfallId: HHO
 Happy Holidays 2018:
+  displayName: Happy Holidays
   id: H18
   scryfallId: HHO
 Happy Holidays 2019:
+  displayName: Happy Holidays
   id: H19
   scryfallId: HHO
 Happy Holidays 2020:
+  displayName: Happy Holidays
   id: H20
   scryfallId: HHO
 Happy Holidays 2021:
+  displayName: Happy Holidays
   id: H21
   scryfallId: HHO
 Happy Holidays 2022:
+  displayName: Happy Holidays
   id: H22
   scryfallId: HHO
 Happy Holidays 2023:
+  displayName: Happy Holidays
   id: H23
   scryfallId: HHO
 Happy Holidays 2024:
+  displayName: Happy Holidays
   id: H24
   scryfallId: HHO
 HasCon 2017:
+  displayName: HasCon
   id: H17
   scryfallId: H17
 Heroes of the Realm:
   id: HTR
 Heroes of the Realm 2016:
+  displayName: Heroes of the Realm
   id: HTR
   scryfallId: PHTR
 Heroes of the Realm 2017:
+  displayName: Heroes of the Realm
   id: HTR
   scryfallId: PH17
 Heroes of the Realm 2018:
+  displayName: Heroes of the Realm
   id: H18
   scryfallId: PH18
 Heroes of the Realm 2019:
+  displayName: Heroes of the Realm
   id: H19
   scryfallId: PH19
 Heroes of the Realm 2020:
+  displayName: Heroes of the Realm
   id: H20
   scryfallId: PH20
 Heroes of the Realm 2021:
+  displayName: Heroes of the Realm
   id: H21
   scryfallId: PH21
 Heroes of the Realm 2022:
+  displayName: Heroes of the Realm
   id: H22
   scryfallId: PH22
 Homelands:
   scryfallId: HML
 Ice Age:
   scryfallId: ICE
+# The only uncard from Judge Gift Cards 2017 is from Unstable.
 Judge Gift Cards 2017:
+  displayName: Unstable
   id: J17
 "Jumpstart: Historic Horizons":
+  displayName: Jumpstart
   scryfallId: J21
 Legends:
   scryfallId: LEG
 Magic Online Avatars:
+  displayName: Magic Online
   scryfallId: PMOA
 Magic Online Promos:
+  displayName: Magic Online
   scryfallId: PRM
 MagicFest 2024:
+  displayName: MagicFest
   scryfallId: PF24
 MagicFest 2025:
+  displayName: MagicFest
   scryfallId: PF25
 Mystery Booster 2:
   id: MB2
 Mystery Booster 2019:
+  displayName: Mystery Booster
   scryfallId: CMB1
 Mystery Booster 2021:
+  displayName: Mystery Booster
   scryfallId: CMB2
 "Ponies: The Gathering":
   id: PTG
@@ -150,7 +197,9 @@ Secret Lair Drop:
   id: SLD
 Sixth Edition:
   scryfallId: 6ED
+# As of March 2025, all "The List" reprints are from Unsanctioned.
 The List:
+  displayName: Unsanctioned
   scryfallId: ULST
 The Sorcerer's Apprentice:
   sources:
@@ -173,6 +222,7 @@ Unsanctioned:
 Unstable:
   id: UST
 Vanguard Series:
+  displayName: Magic Online
   scryfallId: PVAN
 Zendikar Expeditions:
   id: EXP
@@ -181,4 +231,5 @@ HarperPrism:
 Sega Dreamcast:
   scryfallId: PSDG
 Promotional:
+  displayName: Miscellaneous
   id: MTG

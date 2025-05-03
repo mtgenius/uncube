@@ -6140,3 +6140,47 @@ Shaggy Camel:
     - id: UNF
       premium: false
       proxy: true
+Desert Cenote:
+  rulings:
+    - Be honest about the two colors from among cards in your hand.
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
+Thunderbond Vanguard:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
+Waystone's Guidance:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
+Draconic Fealty:
+  rulings:
+    - Be honest about the greatest mana value among cards in your hand.
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
+Swiftspear's Teachings:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
+Illuminating Lash:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
+Stonehide Ancient:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
+Xho Cai, Flickering Talon:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
