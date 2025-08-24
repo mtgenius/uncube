@@ -19,6 +19,7 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
   }
 
   const {
+    architypes,
     banned: cardBanned,
     emblems,
     markers,
@@ -61,7 +62,7 @@ export default function mapCardEntryToCards([cardName, data]: readonly [
     count = SINGLE,
     id,
     image,
-    missing,
+    missing: _missing,
     multiverseId,
     premium,
     proxy,

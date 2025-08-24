@@ -1,1246 +1,9 @@
-Cindercone Smite:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YBLB
-  tokens:
-    Treasure: 1
-Eager Flameguide:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDSK
-Welcome the Darkness:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDSK
-  tokens:
-    X/X black Demon creature with flying: 1
-Unnatural Summons:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDSK
-  tokens:
-    Manifest: 2
-Harrowing Swarm:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDSK
-Ethrimik, Imagined Fiend:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDSK
-  tokens:
-    Manifest: 1
-Merfolk Tunnel-Guide:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YLCI
-Dedicated Dollmaker:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YWOE
-Radiant Smite:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YLCI
-Ominous Lockbox:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMKM
-Dunbarrow Revivalist:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YWOE
-  tokens:
-    Wicked Role: 1
-Victory of the Pyrohammer:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YWOE
-Reflection Net:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YLCI
-Intruder's Inquisition:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YOTJ
-Phantasmal Extraction:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YLCI
-Stalwart Realmwarden:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YOTJ
-Shove Aside:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMKM
-Valiant Batrider:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YLCI
-First Little Pig:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YWOE
-Draconic Debut:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YWOE
-Captivating Crossroads:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YWOE
-Sproutwatch Dryad:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMKM
-Case of the Market Melee:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMKM
-Loch Larent:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YWOE
-Underbridge Warlock:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YWOE
-Thought-String Analyst:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMKM
-Concert Kaboomist:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMKM
-Inchblade Companion:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YNEO
-  tokens:
-    Inchblade Companion: 2
-Bloodrage Alpha:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMID
-Captain Eberhart:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMID
-Angel of Eternal Dawn:
-  markers:
-    - Day // Night
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMID
-Forceful Cultivator:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YNEO
-Herald of Vengeance:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YSNC
-Wickerwing Effigy:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMID
-Sylvan Smite:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YBRO
-Assemble the Team:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YBRO
-Surgical Metamorph:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YONE
-Tezzeret's Reckoning:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YONE
-Lonely End:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YBRO
-Magmatic Scorchwing:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YONE
-Patchplate Resolute:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YBRO
-Benalish Knight-Counselor:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDMU
-Quicksilver Servitor:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YONE
-Saiba Syphoner:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YNEO
-Citystalker Connoisseur:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMID
-  tokens:
-    Blood: 1
-Molten Impact:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YNEO
-Patient Zero:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMID
-Lupine Harbingers:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMID
-Mothrider Cavalry:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YNEO
-Electrostatic Blast:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMID
-Town-Razer Tyrant:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YMID
-Velican Dragon:
-  sets:
-    - image: velican-dragon.png
-      premium: false
-      proxy: true
-      scryfallId: PSDG
-Camato Scout:
-  sets:
-    - image: camato-scout.png
-      premium: false
-      proxy: true
-      scryfallId: PSDG
-Lydari Druid:
-  banned: LYDARI_DRUID
-  sets:
-    - image: lydari-druid.png
-      premium: false
-      proxy: true
-      scryfallId: PSDG
-Tornellan Protector:
-  sets:
-    - image: tornellan-protector.png
-      premium: false
-      proxy: true
-      scryfallId: PSDG
-Arden Angel:
-  sets:
-    - image: arden-angel.png
-      premium: false
-      proxy: true
-      scryfallId: PSDG
-Murgish Cemetery:
-  sets:
-    - image: murgish-cemetery.png
-      premium: false
-      proxy: true
-      scryfallId: PSDG
-  tokens:
-    2/2 black Zombie creature: 2
-    3/3 black Zombie creature: 2
-    4/4 black Zombie creature: 2
-    5/5 black Zombie creature: 2
-    6/6 black Zombie creature: 2
-Saji's Torrent:
-  sets:
-    - image: sajis-torrent.png
-      premium: false
-      proxy: true
-      scryfallId: PSDG
-Hapato's Might:
-  sets:
-    - image: hapatos-might.png
-      premium: false
-      proxy: true
-      scryfallId: PSDG
-Ashuza's Breath:
-  sets:
-    - image: ashuzas-breath.png
-      premium: false
-      proxy: true
-      scryfallId: PSDG
-Lydari Elephant:
-  sets:
-    - image: lydari-elephant.png
-      premium: false
-      proxy: true
-      scryfallId: PSDG
-Curse of Nazir:
-  sets:
-    - image: curse-of-nazir.png
-      premium: false
-      proxy: true
-      scryfallId: PHPR
-Shichifukujin Dragon:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: PCEL
+---
 1996 World Champion:
   sets:
     - premium: false
       proxy: true
       scryfallId: PCEL
-Josef Gordon-Levitt:
-  sets:
-    - image: josef-gordon-levitt.png
-      premium: false
-      proxy: true
-      scryfallId: PCEL
-Seth Rogan:
-  sets:
-    - image: seth-rogan.png
-      premium: false
-      proxy: true
-      scryfallId: PCEL
-Evan Goldberg:
-  sets:
-    - image: evan-goldberg.png
-      premium: false
-      proxy: true
-      scryfallId: PCEL
-Luc Mertens:
-  sets:
-    - image: luc-mertens.png
-      premium: false
-      proxy: true
-      scryfallId: PCEL
-  tokens:
-    1/1 colorless legendary Kicker creature with indestructible: 1
-Skyshroud Ambush:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: J21
-Pool of Vigorous Growth:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: J21
-Blacker Lotus:
-  banned: TEAR
-  sets:
-    - premium: false
-      proxy: false
-      scryfallId: UNH
-    - id: SLD
-      premium: false
-      proxy: false
-Hag of Scoured Thoughts:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Hag of Noxious Nightmares:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Hag of Mage's Doom:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Hag of Inner Weakness:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Hag of Death's Legion:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-  tokens:
-    1/1 black Skeleton creature: 2
-Hag of Dark Duress:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Hag of Ceaseless Torment:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Hag of Syphoned Breath:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Hag of Twisted Visions:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Ersta, Friend to All:
-  emblems:
-    - At the beginning of your upkeep, if you control twenty or more Wizards, you win the game.
-  sets:
-    - id: H21
-      premium: false
-      proxy: true
-      scryfallId: PH21
-  tokens:
-    1/1 Human Wizard creature that's all colors: 2
-Tasha, Unholy Archmage:
-  sets:
-    - collectorNumber: 75
-      multiverseId: 574289
-      premium: false
-      proxy: true
-      scryfallId: HBG
-    - collectorNumber: 310
-      multiverseId: 574233
-      premium: false
-      proxy: true
-      scryfallId: HBG
-Andrios, Roaming Explorer:
-  sets:
-    - id: H21
-      premium: false
-      proxy: true
-      scryfallId: PH21
-Deb Thomas:
-  sets:
-    - id: PRM
-      premium: false
-      proxy: true
-      scryfallId: PCEL
-  tokens:
-    1/1 red Employee creature: 2
-War of the Spark:
-  sets:
-    - id: H19
-      premium: false
-      proxy: true
-      scryfallId: PH19
-Treizeci, Sun of Serra:
-  sets:
-    - id: H22
-      premium: false
-      proxy: true
-      scryfallId: PH22
-  tokens:
-    Serra Angel: 2
-Byode, Inverse Sun:
-  sets:
-    - id: H21
-      premium: false
-      proxy: true
-      scryfallId: PH21
-Svega, the Unconventional:
-  sets:
-    - id: H22
-      premium: false
-      proxy: true
-      scryfallId: PH22
-  tokens:
-    1/1 Attendee creature that's all colors: 2
-Wizard from Beyond:
-  sets:
-    - id: H22
-      premium: false
-      proxy: true
-      scryfallId: PH22
-Arteeoh, Dread Scavenger:
-  sets:
-    - id: H21
-      premium: false
-      proxy: true
-      scryfallId: PH21
-Elusen, the Giving:
-  sets:
-    - id: H22
-      premium: false
-      proxy: true
-      scryfallId: PH22
-  tokens:
-    Treasure: 12
-Nira, Hellkite Duelist:
-  sets:
-    - id: HTR
-      premium: false
-      proxy: true
-      scryfallId: PHTR
-Treetop Warden:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: ANB
-Angelic Reward:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: ANB
-Feral Roar:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: ANB
-Inspiring Commander:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: ANB
-Cruel Cut:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: ANB
-Hallowed Priest:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: ANB
-Mastermind Emblem:
-  sets:
-    - image: mastermind-emblem.png
-      premium: false
-      proxy: true
-      scryfallId: ANB
-Tin Street Cadet:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: ANB
-  tokens:
-    1/1 red Goblin creature: 2
-Shadowheart, Cleric of Trickery:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Jon Irenicus, the Exile:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Lae'zel, Callous Warrior:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Ambergris, Agent of Destruction:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Klement, Tempest Acolyte:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Ambergris, Agent of Balance:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Ambergris, Agent of Progress:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Uthgardt Fury:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Gale, Temporal Conduit:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Ambergris, Agent of Tyranny:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Shadowheart, Cleric of Twilight:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Lulu, Wild Hollyphant:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Alora, Cheerful Assassin:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Imoen, Wise Trickster:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Arcane Archery:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Skanos, Black Dragon Vassal:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Imoen, Honorable Trickster:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Imoen, Chaotic Trickster:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Sarevok, Mighty Usurper:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Skanos, Green Dragon Vassal:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Stroke of Luck:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Lulu, Helpful Hollyphant:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Shadowheart, Cleric of Graves:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Sarevok, Divine Usurper:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Mind Spike:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Imoen, Wily Trickster:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Sarevok, Deceitful Usurper:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Gale, Abyssal Conduit:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Gale, Primeval Conduit:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Skanos, Red Dragon Vassal:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Skanos, Blue Dragon Vassal:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Lulu, Curious Hollyphant:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Lae'zel, Wrathful Warrior:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-  tokens:
-    1/1 white Soldier creature: 2
-Ambergris, Agent of Law:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Lulu, Vengeful Hollyphant:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Rasaad, Shadow Monk:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-  tokens:
-    4/1 black Skeleton creature with menace: 2
-Sarevok, Ferocious Usurper:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Shadowheart, Cleric of War:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Skanos, White Dragon Vassal:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: HBG
-Wish Good Luck:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDFT
-  tokens:
-    3/1 colorless Vehicle artifact with crew 1: 1
-    Food: 1
-    Treasure: 1
-Sala, Deck Boss:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDFT
-Goblin Crash Pilot:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDFT
-Unforgiving Overtake:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDFT
-Speedbrood Stalker:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDFT
-Bail Out:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDFT
-Deviant Skytech:
-  markers:
-    - Start your engines!
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDFT
-  tokens:
-    1/1 colorless Thopter artifact creature with flying: 2
-Tsagan, Raider Warlord:
-  markers:
-    - Start your engines!
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDFT
-Rising Chicane:
-  markers:
-    - Start your engines!
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YDFT
-Pandora's Box:
-  banned: RANDOM_CREATURE_LIBRARY
-  sets:
-    - image: pandoras-box.png
-      premium: false
-      proxy: true
-      scryfallId: PAST
-Power Struggle:
-  banned: RANDOM_PERMANENT
-  sets:
-    - image: power-struggle.png
-      premium: false
-      proxy: true
-      scryfallId: PAST
-Prismatic Dragon:
-  sets:
-    - image: prismatic-dragon.png
-      premium: false
-      proxy: true
-      scryfallId: PAST
-Orcish Catapult:
-  banned: RANDOM_CREATURE
-  sets:
-    - image: orcish-catapult.png
-      premium: false
-      proxy: true
-      scryfallId: PAST
-Goblin Polka Band:
-  banned: RANDOM_CREATURE
-  sets:
-    - image: goblin-polka-band.png
-      premium: false
-      proxy: true
-      scryfallId: PAST
-White Sale:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: white-sale.png
-      premium: false
-      proxy: true
-What the...?!:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: what-the.png
-      premium: false
-      proxy: true
-Udder Madness:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: udder-madness.png
-      premium: false
-      proxy: true
-Treehouse of Dr. Moreau:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: treehouse-of-dr-moreau.png
-      premium: false
-      proxy: true
-Time Walk on the Wild Side:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: time-walk-on-the-wild-side.png
-      premium: false
-      proxy: true
-There's No Folk Like Merfolk:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: theres-no-folk-like-merfolk.png
-      premium: false
-      proxy: true
-The Other Spatula of the Ages:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: the-other-spatula-of-the-ages.png
-      premium: false
-      proxy: true
-Some Fat Pants:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: some-fat-pants.png
-      premium: false
-      proxy: true
-Slow Djinn:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: slow-djinn.png
-      premium: false
-      proxy: true
-Slim Djinn:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: slim-djinn.png
-      premium: false
-      proxy: true
-Skeletons in the Closet:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: skeletons-in-the-closet.png
-      premium: false
-      proxy: true
-Sheep Cloning:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: sheep-cloning.png
-      premium: false
-      proxy: true
-Santawar Elves:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: santawar-elves.png
-      premium: false
-      proxy: true
-Rutabaga of the Night:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: rutabaga-of-the-night.png
-      premium: false
-      proxy: true
-Rummy Djinn:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: rummy-djinn.png
-      premium: false
-      proxy: true
-Que Serra Serra:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: que-serra-serra-1.png
-      premium: false
-      proxy: true
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: que-serra-serra-2.png
-      premium: false
-      proxy: true
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: que-serra-serra-3.png
-      premium: false
-      proxy: true
-Portal Elf:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: portal-elf.png
-      premium: false
-      proxy: true
-Pool of Goo:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: pool-of-goo.png
-      premium: false
-      proxy: true
-Poodleboy:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: poodleboy.png
-      premium: false
-      proxy: true
-Polly Wanna Crack Skulls:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: polly-wanna-crack-skulls.png
-      premium: false
-      proxy: true
-Phyrexian Librarian:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: phyrexian-librarian.png
-      premium: false
-      proxy: true
-Pet Cemetary:
-  banned: UNBALANCED
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: pet-cemetary.png
-      premium: false
-      proxy: true
-Mucus Valley:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: mucus-valley.png
-      premium: false
-      proxy: true
-Maggot Farm:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: maggot-farm.png
-      premium: false
-      proxy: true
-Mad Beetdown:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: mad-beetdown.png
-      premium: false
-      proxy: true
-Little Teapot:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: little-teapot.png
-      premium: false
-      proxy: true
-Keeper of Ipecac:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: keeper-of-ipecac.png
-      premium: false
-      proxy: true
-Jeopardy:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: jeopardy.png
-      premium: false
-      proxy: true
-Iron Man:
-  banned: TEAR
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: iron-man.png
-      premium: false
-      proxy: true
-Inner Child:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: inner-child.png
-      premium: false
-      proxy: true
-Illusionary Masking Tape:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: illusionary-masking-tape.png
-      premium: false
-      proxy: true
-Hydro Djinn:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: hydro-djinn.png
-      premium: false
-      proxy: true
-Hot Picks:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: hot-picks.png
-      premium: false
-      proxy: true
-  tokens:
-    1/1 red Goblin creature: 4
-Heads Up // Tailspin:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: heads-up-tailspin.png
-      premium: false
-      proxy: true
-Gangrene Pepper:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: gangrene-pepper.png
-      premium: false
-      proxy: true
-Fungus Park:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: fungus-park.png
-      premium: false
-      proxy: true
-Endangered Species Act:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: endangered-species-act.png
-      premium: false
-      proxy: true
-Dead Bunny Isle:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: dead-bunny-isle.png
-      premium: false
-      proxy: true
-Cotton Djinn:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: cotton-djinn.png
-      premium: false
-      proxy: true
-Broccoli:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: broccoli.png
-      premium: false
-      proxy: true
-Botulism:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: botulism.png
-      premium: false
-      proxy: true
-Bob from Accounting:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: bob-from-accounting.png
-      premium: false
-      proxy: true
-Bantam of the Opera:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: bantam-of-the-opera.png
-      premium: false
-      proxy: true
-Aerobics Instructor:
-  sets:
-    - id: "Unglued 2: The Obligatory Sequel"
-      image: aerobics-instructor.png
-      premium: false
-      proxy: true
-Throat Wolf:
-  sets:
-    - id: Extra Pulled
-      image: throat-wolf.png
-      premium: false
-      proxy: true
-    - premium: false
-      proxy: false
-      scryfallId: CMB1
-Target Target:
-  oracle: Target permanent targeted by target spell can't be the target of spells or abilities.
-  sets:
-    - id: Extra Pulled
-      image: target-target.png
-      premium: false
-      proxy: true
-Squee Triumphant:
-  sets:
-    - id: Extra Pulled
-      image: squee-triumphant.png
-      premium: false
-      proxy: true
-Rain of Typos:
-  sets:
-    - id: Extra Pulled
-      image: rain-of-typos.png
-      premium: false
-      proxy: true
-Orb of Mellowness:
-  sets:
-    - id: Extra Pulled
-      image: orb-of-mellowness.png
-      premium: false
-      proxy: true
-Kill Me Now, Please:
-  sets:
-    - id: Extra Pulled
-      image: kill-me-now-please.png
-      premium: false
-      proxy: true
-Islands:
-  sets:
-    - id: Extra Pulled
-      image: islands.png
-      premium: false
-      proxy: true
-Insecticide:
-  sets:
-    - id: Extra Pulled
-      image: insecticide.png
-      premium: false
-      proxy: true
-Homarid Leper:
-  sets:
-    - id: Extra Pulled
-      image: homarid-leper.png
-      premium: false
-      proxy: true
-Gratuitous Babe Art:
-  sets:
-    - id: Extra Pulled
-      image: gratuitous-babe-art.png
-      premium: false
-      proxy: true
-Extra Pulled From the Headlines:
-  banned: CONJURE
-  sets:
-    - id: Extra Pulled
-      image: extra-pulled-from-the-headlines.png
-      premium: false
-      proxy: true
-Double Dog Dare:
-  banned: UNFUN
-  sets:
-    - id: Extra Pulled
-      image: double-dog-dare.png
-      premium: false
-      proxy: true
-Armageddon (For Beginners):
-  sets:
-    - id: Extra Pulled
-      image: armageddon-for-beginners.png
-      premium: false
-      proxy: true
-Cheat 'Em and Weep:
-  banned: TIME
-  sets:
-    - id: Extra Pulled
-      image: cheat-em-and-weep.png
-      premium: false
-      proxy: true
-Amulet of Ignorance:
-  banned: DECK_SIZE_100
-  sets:
-    - id: Extra Pulled
-      image: amulet-of-ignorance.png
-      premium: false
-      proxy: true
 A Girl and Her Dogs:
   sets:
     - id: MB2
@@ -1301,6 +64,12 @@ Advantageous Proclamation:
     - premium: false
       proxy: false
       scryfallId: CNS
+Aerobics Instructor:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: aerobics-instructor.png
+      premium: false
+      proxy: true
 Aesthetic Consultation:
   sets:
     - premium: false
@@ -1326,7 +95,20 @@ All-Star Kicker:
     - premium: false
       proxy: false
       scryfallId: MB2
+Alora, Cheerful Assassin:
+  architypes:
+    - evasion
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Alora, Cheerful Mastermind:
+  architypes:
+    - evasion
+    - tokens
+    - creature tokens
+    - soldiers
+    - wide
   sets:
     - premium: false
       proxy: true
@@ -1340,6 +122,11 @@ Alora, Cheerful Scout:
       proxy: true
       scryfallId: HBG
 Alora, Cheerful Swashbuckler:
+  architypes:
+    - evasion
+    - treasures
+    - artifacts
+    - tokens
   sets:
     - premium: false
       proxy: true
@@ -1382,6 +169,46 @@ Amateur Auteur:
       premium: true
       proxy: false
       scryfallVariant: 3d
+Ambergris, Agent of Balance:
+  architypes:
+    - discard
+    - +1/+1 counters
+    - counters
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Ambergris, Agent of Destruction:
+  architypes:
+    - discard
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Ambergris, Agent of Law:
+  architypes:
+    - discard
+    - wide
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Ambergris, Agent of Progress:
+  architypes:
+    - discard
+    - draw
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Ambergris, Agent of Tyranny:
+  architypes:
+    - discard
+    - control
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Ambergris, Citadel Agent:
   banned: SPECIALIZE
   sets:
@@ -1397,6 +224,13 @@ Ambiguity:
     - premium: true
       proxy: false
       scryfallId: UNH
+Amulet of Ignorance:
+  banned: DECK_SIZE_100
+  sets:
+    - id: Extra Pulled
+      image: amulet-of-ignorance.png
+      premium: false
+      proxy: true
 Amulet of Quoz:
   sets:
     - premium: false
@@ -1413,6 +247,24 @@ Anax and Cymede & Kynaios and Tiro:
     - premium: false
       proxy: false
       scryfallId: MB2
+Andrios, Roaming Explorer:
+  sets:
+    - id: H21
+      premium: false
+      proxy: true
+      scryfallId: PH21
+Angel of Eternal Dawn:
+  markers:
+    - Day // Night
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
+Angelic Reward:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
 Angelic Rocket:
   sets:
     - id: UST
@@ -1446,6 +298,14 @@ Applejack:
       proxy: false
   tokens:
     Food: 2
+Arcane Archery:
+  architypes:
+    - +1/+1 counters
+    - evasion
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Arcane Savant:
   sets:
     - id: CN2
@@ -1456,6 +316,23 @@ Arcanum Things:
     - premium: false
       proxy: false
       scryfallId: MB2
+Arden Angel:
+  sets:
+    - id: SLD
+      premium: true
+      proxy: false
+Armageddon (For Beginners):
+  sets:
+    - id: Extra Pulled
+      image: armageddon-for-beginners.png
+      premium: false
+      proxy: true
+Arteeoh, Dread Scavenger:
+  sets:
+    - id: H21
+      premium: false
+      proxy: true
+      scryfallId: PH21
 Artful Looter:
   sets:
     - premium: true
@@ -1466,6 +343,12 @@ As Luck Would Have It:
     - id: UST
       premium: false
       proxy: false
+Ashuza's Breath:
+  sets:
+    - image: ashuzas-breath.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
 Ass Whuppin':
   sets:
     - premium: true
@@ -1481,6 +364,11 @@ Assemble the Rank and Vile:
       proxy: false
   tokens:
     2/2 black Zombie creature: 2
+Assemble the Team:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YBRO
 Assembled Ensemble:
   sets:
     - collectorNumber: 289
@@ -1533,6 +421,11 @@ Bad Ass:
       premium: true
       proxy: false
       scryfallVariant: 49★
+Bail Out:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
 Baloth Packhunter:
   sets:
     - count: 4
@@ -1549,6 +442,12 @@ Baneslayer Aspirant:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Bantam of the Opera:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: bantam-of-the-opera.png
+      premium: false
+      proxy: true
 Bar Entry:
   sets:
     - collectorNumber: 290
@@ -1588,6 +487,11 @@ Beast in Show:
       premium: true
       proxy: false
       scryfallVariant: 103d
+Benalish Knight-Counselor:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDMU
 Big Boa Constrictor:
   sets:
     - id: UST
@@ -1604,6 +508,15 @@ Biting Remark:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Blacker Lotus:
+  banned: TEAR
+  sets:
+    - premium: false
+      proxy: false
+      scryfallId: UNH
+    - id: SLD
+      premium: false
+      proxy: false
 Blast from the Past:
   sets:
     - premium: true
@@ -1621,6 +534,11 @@ Bloodletter:
     - premium: true
       proxy: false
       scryfallId: UNH
+Bloodrage Alpha:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
 Blufferfish:
   sets:
     - collectorNumber: 325
@@ -1632,6 +550,12 @@ Blurry Beeble:
     - id: UST
       premium: true
       proxy: false
+Bob from Accounting:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: bob-from-accounting.png
+      premium: false
+      proxy: true
 Bog Humbugs:
   sets:
     - id: H18
@@ -1678,6 +602,12 @@ Bosom Buddy:
     - premium: true
       proxy: false
       scryfallId: UNH
+Botulism:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: botulism.png
+      premium: false
+      proxy: true
 Boulder Jockey:
   sets:
     - premium: false
@@ -1702,6 +632,12 @@ Brigid, Who's Seen Some Stuff:
     - premium: false
       proxy: false
       scryfallId: MB2
+Broccoli:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: broccoli.png
+      premium: false
+      proxy: true
 Bronze Calendar:
   sets:
     - id: UGL
@@ -1760,6 +696,12 @@ By Gnome Means:
       proxy: false
   tokens:
     1/1 colorless Gnome artifact creature: 2
+Byode, Inverse Sun:
+  sets:
+    - id: H21
+      premium: false
+      proxy: true
+      scryfallId: PH21
 Call from the Grave:
   sets:
     - image: call-from-the-grave.png
@@ -1774,16 +716,37 @@ Caller of the Untamed:
     - id: CN2
       premium: true
       proxy: false
+Camato Scout:
+  sets:
+    - image: camato-scout.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
 Can't Quite Recall:
   sets:
     - premium: false
       proxy: false
       scryfallId: MB2
-Carnivorous Death Parrot:
+Captain Eberhart:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
+Captivating Crossroads:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
+Carnivorous Death-Parrot:
   sets:
     - premium: true
       proxy: false
       scryfallId: UNH
+Case of the Market Melee:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMKM
 Catch of the Day:
   sets:
     - premium: false
@@ -1796,7 +759,7 @@ Celestine Cave Witch:
       scryfallId: CMB1
   tokens:
     1/1 black Insect creature: 2
-    'black Aura Curse enchantment with "Enchant player" and "At the beginning of your upkeep, you lose 1 life."': 3
+    black Aura Curse enchantment with "Enchant player" and "At the beginning of your upkeep, you lose 1 life.": 3
 Champion of the Hareish:
   sets:
     - premium: false
@@ -1846,6 +809,13 @@ Cheap Ass:
     - premium: true
       proxy: false
       scryfallId: UNH
+Cheat 'Em and Weep:
+  banned: TIME
+  sets:
+    - id: Extra Pulled
+      image: cheat-em-and-weep.png
+      premium: false
+      proxy: true
 Cheatyface:
   sets:
     - premium: true
@@ -1896,7 +866,14 @@ Chronobot:
     - premium: false
       proxy: false
       scryfallId: CMB1
-"Circle of Protection: Art":
+Cindercone Smite:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YBLB
+  tokens:
+    Treasure: 1
+'Circle of Protection: Art':
   sets:
     - premium: true
       proxy: false
@@ -1909,6 +886,13 @@ City of Ass:
     - premium: false
       proxy: false
       scryfallId: UNH
+Citystalker Connoisseur:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
+  tokens:
+    Blood: 1
 Claire D'Loon, Joy Sculptor:
   sets:
     - collectorNumber: 451
@@ -1988,6 +972,11 @@ Concentrate:
       image: concentrate.png
       premium: false
       proxy: true
+Concert Kaboomist:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMKM
 Confront the Assault:
   sets:
     - id: ANB
@@ -2019,6 +1008,12 @@ Corrupted Key:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Cotton Djinn:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: cotton-djinn.png
+      premium: false
+      proxy: true
 Creepy Crawler:
   sets:
     - premium: false
@@ -2031,6 +1026,11 @@ Crow Storm:
       proxy: false
   tokens:
     Storm Crow: 2
+Cruel Cut:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
 Crusade:
   banned: RACISM
   sets:
@@ -2043,11 +1043,23 @@ Crusade:
     - premium: false
       proxy: RACISM
       scryfallId: DDF
+Cunning Azurescale:
+  banned: SEEK
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
 Curious Killbot:
   sets:
     - id: UST
       premium: true
       proxy: false
+Curse of Nazir:
+  sets:
+    - image: curse-of-nazir.png
+      premium: false
+      proxy: true
+      scryfallId: PHPR
 Curse of the Fire Penguin:
   sets:
     - premium: true
@@ -2063,16 +1075,36 @@ Dairy Cow:
     - premium: false
       proxy: false
       scryfallId: MB2
+Danny Trejo:
+  banned: UNBALANCED
+  sets:
+    - id: MTG
+      premium: false
+      proxy: true
 Darkpact:
   sets:
     - premium: false
       proxy: false
       scryfallId: 3ED
+Dead Bunny Isle:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: dead-bunny-isle.png
+      premium: false
+      proxy: true
 Deal Broker:
   sets:
     - premium: true
       proxy: false
       scryfallId: CNS
+Deb Thomas:
+  sets:
+    - id: PRM
+      premium: false
+      proxy: true
+      scryfallId: PCEL
+  tokens:
+    1/1 red Employee creature: 2
 Decisions, Decisions:
   sets:
     - collectorNumber: 330
@@ -2085,6 +1117,11 @@ Decorated Knight:
       premium: true
       proxy: false
       scryfallId: HHO
+Dedicated Dollmaker:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
 Defender of the Queue:
   sets:
     - premium: false
@@ -2105,11 +1142,27 @@ Denied!:
     - id: UGL
       premium: false
       proxy: false
+Desert Cenote:
+  rulings:
+    - Be honest about the two colors from among cards in your hand.
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
 Despondent Killbot:
   sets:
     - id: UST
       premium: true
       proxy: false
+Deviant Skytech:
+  markers:
+    - Start your engines!
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
+  tokens:
+    1/1 colorless Thopter artifact creature with flying: 2
 Diabolical Salvation:
   sets:
     - id: HTR
@@ -2173,6 +1226,13 @@ Don't Worry About It:
     - premium: false
       proxy: false
       scryfallId: MB2
+Double Dog Dare:
+  banned: UNFUN
+  sets:
+    - id: Extra Pulled
+      image: double-dog-dare.png
+      premium: false
+      proxy: true
 Double Header:
   sets:
     - premium: true
@@ -2183,6 +1243,18 @@ Double Stroke:
     - premium: false
       proxy: false
       scryfallId: CNS
+Draconic Debut:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
+Draconic Fealty:
+  rulings:
+    - Be honest about the greatest mana value among cards in your hand.
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
 Drake Stone:
   sets:
     - id: The Sorcerer's Apprentice
@@ -2214,6 +1286,13 @@ Dumb Ass:
     - premium: true
       proxy: false
       scryfallId: UNH
+Dunbarrow Revivalist:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
+  tokens:
+    Wicked Role: 1
 Dungeon Master:
   sets:
     - id: HTR
@@ -2238,6 +1317,11 @@ Eager Beaver:
     - id: UST
       premium: true
       proxy: false
+Eager Flameguide:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDSK
 Earl of Squirrel:
   sets:
     - id: UST
@@ -2260,6 +1344,19 @@ Eggnogger's 'Stache:
       premium: true
       proxy: true
       scryfallId: HHO
+Electrostatic Blast:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
+Elusen, the Giving:
+  sets:
+    - id: H22
+      premium: false
+      proxy: true
+      scryfallId: PH22
+  tokens:
+    Treasure: 12
 Elvish Champion:
   sets:
     - premium: false
@@ -2301,6 +1398,12 @@ Enchantmentize:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Endangered Species Act:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: endangered-species-act.png
+      premium: false
+      proxy: true
 Enraged Killbot:
   sets:
     - id: UST
@@ -2327,11 +1430,28 @@ Erase (Not the Urza's Legacy One):
     - premium: true
       proxy: false
       scryfallId: UNH
+Ersta, Friend to All:
+  emblems:
+    - At the beginning of your upkeep, if you control twenty or more Wizards, you win the game.
+  sets:
+    - id: H21
+      premium: false
+      proxy: true
+      scryfallId: PH21
+  tokens:
+    1/1 Human Wizard creature that's all colors: 2
 Essence of Ajani:
   sets:
     - premium: false
       proxy: false
       scryfallId: MB2
+Ethrimik, Imagined Fiend:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDSK
+  tokens:
+    Manifest: 1
 Euroakus:
   sets:
     - id: H20
@@ -2340,6 +1460,12 @@ Euroakus:
       scryfallId: PH20
   tokens:
     1/1 blue Human Wizard creature: 2
+Evan Goldberg:
+  sets:
+    - image: evan-goldberg.png
+      premium: false
+      proxy: true
+      scryfallId: PCEL
 Everlasting Lich:
   sets:
     - premium: false
@@ -2402,6 +1528,13 @@ Experiment Five:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Extra Pulled From the Headlines:
+  banned: CONJURE
+  sets:
+    - id: Extra Pulled
+      image: extra-pulled-from-the-headlines.png
+      premium: false
+      proxy: true
 Extremely Slow Zombie:
   sets:
     - id: UST
@@ -2452,16 +1585,26 @@ Feisty Stegosaurus:
     - id: UST
       premium: true
       proxy: false
+Feral Roar:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
 Fetching Garden:
   sets:
     - premium: false
       proxy: false
       scryfallId: MB2
-First Come First Served:
+First Come, First Served:
   sets:
     - premium: true
       proxy: false
       scryfallId: UNH
+First Little Pig:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
 Five Kids in a Trenchcoat:
   sets:
     - premium: false
@@ -2516,6 +1659,11 @@ Forbidden Orchard:
       proxy: true
   tokens:
     1/1 colorless Spirit creature: 6
+Forceful Cultivator:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YNEO
 Form of the Mulldrifter:
   sets:
     - premium: false
@@ -2601,11 +1749,24 @@ Fruitcake Elemental:
     - premium: true
       proxy: false
       scryfallId: HHO
+Fungus Park:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: fungus-park.png
+      premium: false
+      proxy: true
 GO TO JAIL:
   sets:
     - id: UST
       premium: false
       proxy: false
+Gale, Abyssal Conduit:
+  architypes:
+    - spellslinger
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Gale, Conduit of the Arcane:
   banned: SPECIALIZE
   sets:
@@ -2613,18 +1774,49 @@ Gale, Conduit of the Arcane:
       proxy: true
       scryfallId: HBG
 Gale, Holy Conduit:
+  architypes:
+    - spellslinger
+    - tokens
+    - evasion
+    - flying
+    - creatures
+    - wide
   sets:
     - premium: false
       proxy: true
       scryfallId: HBG
   tokens:
     1/1 white Pegasus creature with flying: 2
+Gale, Primeval Conduit:
+  architypes:
+    - spellslinger
+    - +1/+1 counters
+    - counters
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Gale, Storm Conduit:
   banned: PERPETUAL
   sets:
     - premium: false
       proxy: true
       scryfallId: HBG
+Gale, Temporal Conduit:
+  architypes:
+    - spellslinger
+    - draw
+    - discard
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Gangrene Pepper:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: gangrene-pepper.png
+      premium: false
+      proxy: true
 Garbage Elemental:
   sets:
     - id: UST
@@ -2737,6 +1929,11 @@ Goblin Bowling Team:
     - id: UGL
       premium: false
       proxy: false
+Goblin Crash Pilot:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
 Goblin Cruciverbalist:
   sets:
     - collectorNumber: 396
@@ -2754,6 +1951,13 @@ Goblin Haberdasher:
     - id: UST
       premium: true
       proxy: false
+Goblin Polka Band:
+  banned: RANDOM_CREATURE
+  sets:
+    - image: goblin-polka-band.png
+      premium: false
+      proxy: true
+      scryfallId: PAST
 Goblin Secret Agent:
   sets:
     - id: UNH
@@ -2811,6 +2015,12 @@ Graphic Violence:
     - premium: true
       proxy: false
       scryfallId: UNH
+Gratuitous Babe Art:
+  sets:
+    - id: Extra Pulled
+      image: gratuitous-babe-art.png
+      premium: false
+      proxy: true
 Graveyard Busybody:
   sets:
     - id: UST
@@ -2901,6 +2111,81 @@ Haberthrasher:
       id: UNF
       premium: true
       proxy: false
+Hag of Ceaseless Torment:
+  architypes:
+    - discard
+    - control
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Dark Duress:
+  architypes:
+    - discard
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Death's Legion:
+  architypes:
+    - tokens
+    - creatures
+    - wide
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+  tokens:
+    1/1 black Skeleton creature: 2
+Hag of Inner Weakness:
+  architypes:
+    - control
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Mage's Doom:
+  architypes:
+    - warlocks
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Noxious Nightmares:
+  architypes:
+    - warlocks
+    - evasion
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Scoured Thoughts:
+  architypes:
+    - mill
+    - graveyard hate
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Syphoned Breath:
+  architypes:
+    - drain
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hag of Twisted Visions:
+  architypes:
+    - scry
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Hallowed Priest:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
 Halving Season:
   sets:
     - premium: false
@@ -2928,6 +2213,12 @@ Hangman:
     - id: UST
       premium: true
       proxy: false
+Hapato's Might:
+  sets:
+    - image: hapatos-might.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
 Hardy of Myra's Marvels:
   sets:
     - collectorNumber: 427
@@ -2938,6 +2229,11 @@ Hardy of Myra's Marvels:
       id: UNF
       premium: true
       proxy: false
+Harrowing Swarm:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDSK
 Hat Trick:
   sets:
     - collectorNumber: 299
@@ -2949,11 +2245,22 @@ Head to Head:
     - premium: false
       proxy: false
       scryfallId: UNH
+Heads Up // Tailspin:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: heads-up-tailspin.png
+      premium: false
+      proxy: true
 Heart of a Duelist:
   sets:
     - premium: false
       proxy: false
       scryfallId: MB2
+Herald of Vengeance:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YSNC
 Heroes of Kamigawa:
   banned: KAMIGAWA_COST
   sets:
@@ -2988,6 +2295,20 @@ Hold the Perimeter:
   tokens:
     1/1 red Goblin creature with "This creature can't block.": 3
     1/2 white Soldier creature with defender: 1
+Homarid Leper:
+  sets:
+    - id: Extra Pulled
+      image: homarid-leper.png
+      premium: false
+      proxy: true
+Hot Picks:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: hot-picks.png
+      premium: false
+      proxy: true
+  tokens:
+    1/1 red Goblin creature: 4
 How Is This a Par Three?!:
   sets:
     - collectorNumber: 335
@@ -3014,6 +2335,12 @@ Hydradoodle:
     - id: UST
       premium: true
       proxy: false
+Hydro Djinn:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: hydro-djinn.png
+      premium: false
+      proxy: true
 Hymn of the Wilds:
   sets:
     - id: CN2
@@ -3035,6 +2362,17 @@ Ignacio of Myra's Marvels:
       id: UNF
       premium: true
       proxy: false
+Illuminating Lash:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
+Illusionary Masking Tape:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: illusionary-masking-tape.png
+      premium: false
+      proxy: true
 Illusory Thoughts:
   sets:
     - id: The Sorcerer's Apprentice
@@ -3058,7 +2396,30 @@ Immersturm Battlefield:
     - premium: false
       proxy: false
       scryfallId: MB2
+Imoen, Chaotic Trickster:
+  architypes:
+    - evasion
+    - spell slinger
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Imoen, Honorable Trickster:
+  architypes:
+    - evasion
+    - spell slinger
+    - +1/+1 counters
+    - counters
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Imoen, Occult Trickster:
+  architypes:
+    - evasion
+    - spell slinger
+    - zombies
+    - creature tokens
   sets:
     - premium: false
       proxy: true
@@ -3067,6 +2428,25 @@ Imoen, Occult Trickster:
     2/2 black Zombie creature: 2
 Imoen, Trickster Friend:
   banned: SPECIALIZE
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Imoen, Wily Trickster:
+  architypes:
+    - evasion
+    - spell slinger
+    - control
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Imoen, Wise Trickster:
+  architypes:
+    - evasion
+    - spell slinger
+    - draw
+    - ramp
   sets:
     - premium: false
       proxy: true
@@ -3093,6 +2473,13 @@ Incendiary Dissent:
     - id: CN2
       premium: false
       proxy: false
+Inchblade Companion:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YNEO
+  tokens:
+    Inchblade Companion: 2
 Incoming!:
   sets:
     - id: UGL
@@ -3158,11 +2545,28 @@ Inhumaniac:
     - id: UST
       premium: true
       proxy: false
+Inner Child:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: inner-child.png
+      premium: false
+      proxy: true
 Innocuous Insect:
   sets:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Insecticide:
+  sets:
+    - id: Extra Pulled
+      image: insecticide.png
+      premium: false
+      proxy: true
+Inspiring Commander:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
 Intangible Vibes:
   sets:
     - premium: false
@@ -3173,6 +2577,11 @@ Interplanar Brushwagg:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Intruder's Inquisition:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YOTJ
 Invoke Prejudice:
   banned: RACISM
   sets:
@@ -3189,6 +2598,19 @@ Inzerva, Master of Insights:
       premium: false
       proxy: true
       scryfallId: PH17
+Iron Man:
+  banned: TEAR
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: iron-man.png
+      premium: false
+      proxy: true
+Islands:
+  sets:
+    - id: Extra Pulled
+      image: islands.png
+      premium: false
+      proxy: true
 It Came from Planet Glurg:
   sets:
     - collectorNumber: 455
@@ -3262,6 +2684,12 @@ Jasconian Isle:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Jeopardy:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: jeopardy.png
+      premium: false
+      proxy: true
 Jermane, Pride of the Circus:
   sets:
     - collectorNumber: 430
@@ -3306,6 +2734,20 @@ Johnny, Combo Player:
     - id: UND
       premium: false
       proxy: false
+Jon Irenicus, the Exile:
+  architypes:
+    - draw
+    - mill
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Josef Gordon-Levitt:
+  sets:
+    - image: josef-gordon-levitt.png
+      premium: false
+      proxy: true
+      scryfallId: PCEL
 Jumbo Imp:
   sets:
     - id: UGL
@@ -3394,6 +2836,12 @@ Kaya, Ghost Haunter:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Keeper of Ipecac:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: keeper-of-ipecac.png
+      premium: false
+      proxy: true
 Keeper of the Crown // Coronation of the Wilds:
   sets:
     - premium: false
@@ -3418,6 +2866,12 @@ Khod, Etlan Shiis Envoy:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Kill Me Now, Please:
+  sets:
+    - id: Extra Pulled
+      image: kill-me-now-please.png
+      premium: false
+      proxy: true
 Killer Cosplay:
   sets:
     - collectorNumber: 431
@@ -3455,6 +2909,8 @@ Klement, Life Acolyte:
       proxy: true
       scryfallId: HBG
 Klement, Nature Acolyte:
+  architypes:
+    - creature tokens
   sets:
     - premium: false
       proxy: true
@@ -3465,6 +2921,13 @@ Klement, Novice Acolyte:
   banned:
     - PERPETUAL
     - SPECIALIZE
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Klement, Tempest Acolyte:
+  architypes:
+    - burn
   sets:
     - premium: false
       proxy: true
@@ -3551,6 +3014,13 @@ Lae'zel, Blessed Warrior:
     - premium: false
       proxy: true
       scryfallId: HBG
+Lae'zel, Callous Warrior:
+  architypes:
+    - reanimation
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Lae'zel, Githyanki Warrior:
   banned: SPECIALIZE
   sets:
@@ -3571,6 +3041,16 @@ Lae'zel, Primal Warrior:
     - premium: false
       proxy: true
       scryfallId: HBG
+Lae'zel, Wrathful Warrior:
+  architypes:
+    - creature tokens
+    - soldiers
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+  tokens:
+    1/1 white Soldier creature: 2
 Land Aid '04:
   sets:
     - premium: false
@@ -3607,7 +3087,6 @@ Lazotep Archway:
 Leading Performance:
   sets:
     - collectorNumber: 304
-
       id: UNF
       premium: true
       proxy: false
@@ -3665,11 +3144,27 @@ Little Girl:
     - premium: true
       proxy: false
       scryfallId: UNH
+Little Teapot:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: little-teapot.png
+      premium: false
+      proxy: true
 Lobe Lobber:
   sets:
     - id: UST
       premium: true
       proxy: false
+Loch Larent:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
+Lonely End:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YBRO
 Look at Me, I'm R&D:
   sets:
     - premium: false
@@ -3703,6 +3198,14 @@ Louvaq, the Aberrant:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Luc Mertens:
+  sets:
+    - image: luc-mertens.png
+      premium: false
+      proxy: true
+      scryfallId: PCEL
+  tokens:
+    1/1 colorless legendary Kicker creature with indestructible: 1
 Lukamina, Bear Form:
   banned: SPECIALIZE
   sets:
@@ -3741,19 +3244,60 @@ Lukamina, Wolf Form:
       scryfallId: HBG
   tokens:
     2/2 green Wolf creature: 2
+Lulu, Curious Hollyphant:
+  architypes:
+    - flying
+    - draw
+    - discard
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Lulu, Forgetful Hollyphant:
   banned: SPECIALIZE
   sets:
     - premium: false
       proxy: true
       scryfallId: HBG
+Lulu, Helpful Hollyphant:
+  architypes:
+    - flying
+    - life gain
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Lulu, Inspiring Hollyphant:
+  architypes:
+    - flying
+    - creature tokens
+    - soldiers
   sets:
     - premium: false
       proxy: true
       scryfallId: HBG
   tokens:
     1/1 white Soldier creature: 2
+Lulu, Vengeful Hollyphant:
+  architypes:
+    - flying
+    - drain
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Lulu, Wild Hollyphant:
+  architypes:
+    - flying
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Lupine Harbingers:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
 Lutri, Pauper Otter:
   sets:
     - premium: false
@@ -3764,12 +3308,31 @@ Luxior, Ignited:
     - premium: false
       proxy: false
       scryfallId: MB2
+Lydari Druid:
+  banned: LYDARI_DRUID
+  sets:
+    - image: lydari-druid.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+Lydari Elephant:
+  sets:
+    - image: lydari-elephant.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
 M'Odo, the Gnarled Oracle:
   sets:
     - id: HTR
       premium: false
       proxy: true
       scryfallId: PH17
+Mad Beetdown:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: mad-beetdown.png
+      premium: false
+      proxy: true
 Mad Science Fair Project:
   sets:
     - id: UST
@@ -3787,10 +3350,16 @@ Maestros' Totally Safe Hideout:
       proxy: false
   tokens:
     Maestros' Totally Safe Hideout: 1
+Maggot Farm:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: maggot-farm.png
+      premium: false
+      proxy: true
 Magic Guru:
   oracle: |
     Enchant player other than you
-    Enchanted player becomes a Magic Guru and gains teaching.
+    Enchanted player is a Magic Guru and gains teaching.
     When Magic Guru enters, you and enchanted player each receive a booster pack and basic land.
   sets:
     - image: magic-guru--2025-04.png
@@ -3809,6 +3378,11 @@ Magical Hacker:
     - premium: true
       proxy: false
       scryfallId: UNH
+Magmatic Scorchwing:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YONE
 Magus of the Chains:
   sets:
     - premium: false
@@ -3820,6 +3394,11 @@ Main Event Horizon:
       id: UNF
       premium: true
       proxy: false
+Man of Measure:
+  sets:
+    - premium: true
+      proxy: false
+      scryfallId: UNH
 Mana Abundance:
   sets:
     - premium: false
@@ -3839,15 +3418,10 @@ Mana Screw:
       premium: true
       proxy: false
       scryfallVariant: 123★
-    - id: "Unglued 2: The Obligatory Sequel"
+    - id: 'Unglued 2: The Obligatory Sequel'
       image: mana-screw.png
       premium: false
       proxy: true
-Man of Measure:
-  sets:
-    - premium: true
-      proxy: false
-      scryfallId: UNH
 Map to Lorthos's Temple:
   sets:
     - id: MB2
@@ -3880,6 +3454,12 @@ Masterful Ninja:
     - id: UST
       premium: true
       proxy: false
+Mastermind Emblem:
+  sets:
+    - image: mastermind-emblem.png
+      premium: false
+      proxy: true
+      scryfallId: ANB
 Meandered Towershell:
   sets:
     - premium: false
@@ -3905,11 +3485,16 @@ Memory Bank:
     - premium: false
       proxy: false
       scryfallId: CMB1
-Mer-Man:
+Mer Man:
   sets:
     - id: UST
       premium: true
       proxy: false
+Merfolk Tunnel-Guide:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YLCI
 Mesa Chicken:
   sets:
     - id: UGL
@@ -3925,6 +3510,13 @@ Microscope:
     - premium: false
       proxy: false
       scryfallId: MB2
+Mind Spike:
+  architypes:
+    - discard
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Mine, Mine, Mine!:
   sets:
     - id: UGL
@@ -3968,6 +3560,11 @@ Mobile Clone:
       id: UNF
       premium: true
       proxy: false
+Molten Impact:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YNEO
 Moniker Mage:
   sets:
     - premium: true
@@ -4007,6 +3604,11 @@ Mothers Yamazaki:
       premium: false
       proxy: false
       scryfallId: MB2
+Mothrider Cavalry:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YNEO
 Mountain Mover:
   sets:
     - id: H20
@@ -4023,11 +3625,29 @@ Mox Poison:
     - premium: false
       proxy: false
       scryfallId: MB2
+Mucus Valley:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: mucus-valley.png
+      premium: false
+      proxy: true
 Muraganda Eldrazi:
   sets:
     - premium: false
       proxy: false
       scryfallId: MB2
+Murgish Cemetery:
+  sets:
+    - image: murgish-cemetery.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+  tokens:
+    2/2 black Zombie creature: 2
+    3/3 black Zombie creature: 2
+    4/4 black Zombie creature: 2
+    5/5 black Zombie creature: 2
+    6/6 black Zombie creature: 2
 Muzzio's Preparations:
   sets:
     - premium: false
@@ -4070,6 +3690,11 @@ Nearby Planet:
       id: UNF
       premium: false
       proxy: false
+Necro-Impotence:
+  sets:
+    - premium: false
+      proxy: false
+      scryfallId: UNH
 Necropolis of Azar:
   sets:
     - image: necropolis-of-azar.png
@@ -4078,11 +3703,6 @@ Necropolis of Azar:
       scryfallId: PAST
   tokens:
     X/X black Spawn of Azar creature with swampwalk: 2
-Necro-Impotence:
-  sets:
-    - premium: false
-      proxy: false
-      scryfallId: UNH
 New Master of Arms:
   sets:
     - premium: false
@@ -4105,6 +3725,12 @@ Nimble Pilferer:
     - premium: false
       proxy: true
       scryfallId: ANB
+Nira, Hellkite Duelist:
+  sets:
+    - id: HTR
+      premium: false
+      proxy: true
+      scryfallId: PHTR
 No-Regrets Egret:
   sets:
     - premium: false
@@ -4193,10 +3819,14 @@ Omenpath to Naya:
     - premium: false
       proxy: false
       scryfallId: MB2
+Ominous Lockbox:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMKM
 Omniclown Colossus:
   sets:
     - collectorNumber: 402
-
       id: UNF
       premium: true
       proxy: false
@@ -4227,11 +3857,24 @@ Optimus Prime, Inspiring Leader:
       premium: false
       proxy: true
       scryfallId: PH18
+Orb of Mellowness:
+  sets:
+    - id: Extra Pulled
+      image: orb-of-mellowness.png
+      premium: false
+      proxy: true
 Orb of Origin:
   sets:
     - premium: false
       proxy: false
       scryfallId: MB2
+Orcish Catapult:
+  banned: RANDOM_CREATURE
+  sets:
+    - image: orcish-catapult.png
+      premium: false
+      proxy: true
+      scryfallId: PAST
 Ordinary Pony:
   sets:
     - id: UST
@@ -4267,6 +3910,13 @@ Paliano, the High City:
     - premium: false
       proxy: false
       scryfallId: CNS
+Pandora's Box:
+  banned: RANDOM_CREATURE_LIBRARY
+  sets:
+    - image: pandoras-box.png
+      premium: false
+      proxy: true
+      scryfallId: PAST
 Panglacial Shinobi:
   sets:
     - premium: false
@@ -4300,11 +3950,21 @@ Party Crasher:
     - id: UST
       premium: true
       proxy: false
+Patchplate Resolute:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YBRO
 Patient Turtle:
   sets:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Patient Zero:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
 Peacekeeper:
   sets:
     - premium: false
@@ -4312,6 +3972,12 @@ Peacekeeper:
       scryfallId: PMOA
   tokens:
     Arrest: 6
+Pearl Lake Warden:
+  banned: SEEK
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
 Penumbra Umbra:
   sets:
     - premium: false
@@ -4327,11 +3993,29 @@ Personal Decoy:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Pet Cemetary:
+  banned: UNBALANCED
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: pet-cemetary.png
+      premium: false
+      proxy: true
+Phantasmal Extraction:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YLCI
 Phoebe, Head of S.N.E.A.K.:
   sets:
     - id: UST
       premium: true
       proxy: false
+Phyrexian Librarian:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: phyrexian-librarian.png
+      premium: false
+      proxy: true
 Phyrexian Seedling:
   sets:
     - premium: false
@@ -4360,9 +4044,10 @@ Pietra, Crafter of Clowns:
     1/1 white Clown Robot artifact creature: 2
 Pinkie Pie:
   sets:
-    - premium: true
+    - id: SLD
+      missing: true
+      premium: false
       proxy: false
-      scryfallId: SLD
   tokens:
     Treasure: 2
 Pippa, Duchess of Dice:
@@ -4414,6 +4099,35 @@ Pokey, the Scallywagg:
     - premium: false
       proxy: false
       scryfallId: MB2
+Polly Wanna Crack Skulls:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: polly-wanna-crack-skulls.png
+      premium: false
+      proxy: true
+Poodleboy:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: poodleboy.png
+      premium: false
+      proxy: true
+Pool of Goo:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: pool-of-goo.png
+      premium: false
+      proxy: true
+Pool of Vigorous Growth:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: J21
+Portal Elf:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: portal-elf.png
+      premium: false
+      proxy: true
 Poultrygeist:
   sets:
     - id: UGL
@@ -4424,6 +4138,13 @@ Power Play:
     - premium: false
       proxy: false
       scryfallId: CNS
+Power Struggle:
+  banned: RANDOM_PERMANENT
+  sets:
+    - image: power-struggle.png
+      premium: false
+      proxy: true
+      scryfallId: PAST
 Pradesh Gypsies:
   banned: RACISM
   sets:
@@ -4440,6 +4161,12 @@ Priority Avenger:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Prismatic Dragon:
+  sets:
+    - image: prismatic-dragon.png
+      premium: false
+      proxy: true
+      scryfallId: PAST
 Prismatic Wardrobe:
   sets:
     - id: UGL
@@ -4480,6 +4207,20 @@ Pyromancy 101:
     - premium: false
       proxy: false
       scryfallId: MB2
+Que Serra Serra:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: que-serra-serra-1.png
+      premium: false
+      proxy: true
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: que-serra-serra-2.png
+      premium: false
+      proxy: true
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: que-serra-serra-3.png
+      premium: false
+      proxy: true
 Questing Cosplayer:
   sets:
     - premium: false
@@ -4507,6 +4248,22 @@ Queue of Beetles:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Quicksilver Servitor:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YONE
+Radiant Smite:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YLCI
+Rain of Typos:
+  sets:
+    - id: Extra Pulled
+      image: rain-of-typos.png
+      premium: false
+      proxy: true
 Rainbow Dash:
   sets:
     - id: SLD
@@ -4529,6 +4286,10 @@ Rarity:
       premium: true
       proxy: false
 Rasaad, Dragon Monk:
+  architypes:
+    - creature tokens
+    - flying
+    - dragons
   sets:
     - premium: false
       proxy: true
@@ -4549,7 +4310,19 @@ Rasaad, Radiant Monk:
     - premium: false
       proxy: true
       scryfallId: HBG
+Rasaad, Shadow Monk:
+  architypes:
+    - creature tokens
+    - evasion
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+  tokens:
+    4/1 black Skeleton creature with menace: 2
 Rasaad, Sylvan Monk:
+  architypes:
+    - creature tokens
   sets:
     - premium: false
       proxy: true
@@ -4557,6 +4330,9 @@ Rasaad, Sylvan Monk:
   tokens:
     2/2 green Boar creature: 2
 Rasaad, Warrior Monk:
+  architypes:
+    - creature tokens
+    - soldiers
   sets:
     - premium: false
       proxy: true
@@ -4590,6 +4366,11 @@ Red Herring:
       proxy: false
       scryfallId: CMB1
       scryfallVariant: 62
+Reflection Net:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YLCI
 Regicide:
   sets:
     - id: CN2
@@ -4628,6 +4409,13 @@ Rin and Seri, Inseparabler:
     - premium: false
       proxy: false
       scryfallId: MB2
+Rising Chicane:
+  markers:
+    - Start your engines!
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
 River's Favor:
   sets:
     - premium: false
@@ -4679,11 +4467,23 @@ Rules Lawyer:
     - id: UST
       premium: true
       proxy: false
+Rummy Djinn:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: rummy-djinn.png
+      premium: false
+      proxy: true
 Runed Terror:
   sets:
     - premium: false
       proxy: false
       scryfallId: MB2
+Rutabaga of the Night:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: rutabaga-of-the-night.png
+      premium: false
+      proxy: true
 S.N.E.A.K. Dispatcher:
   sets:
     - id: UST
@@ -4695,6 +4495,28 @@ S.N.O.T.:
       premium: true
       proxy: false
       scryfallId: UNH
+Saiba Syphoner:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YNEO
+Saji's Torrent:
+  sets:
+    - image: sajis-torrent.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+Sala, Deck Boss:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
+Santawar Elves:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: santawar-elves.png
+      premium: false
+      proxy: true
 Sarah's Wings:
   sets:
     - premium: false
@@ -4711,6 +4533,41 @@ Sarevok, Deadly Usurper:
     - CONJURE
     - SEEK
     - SPECIALIZE
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Sarevok, Deceitful Usurper:
+  architypes:
+    - creatures
+    - spell slinger
+    - graveyard
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Sarevok, Divine Usurper:
+  architypes:
+    - creatures
+    - graveyard
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Sarevok, Ferocious Usurper:
+  architypes:
+    - evasion
+    - creatures
+    - graveyard
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Sarevok, Mighty Usurper:
+  architypes:
+    - evasion
+    - creatures
+    - graveyard
   sets:
     - premium: false
       proxy: true
@@ -4807,29 +4664,87 @@ Sentinel Dispatch:
       scryfallId: CNS
   tokens:
     1/1 colorless Construct artifact creature with defender: 1
+Seth Rogan:
+  sets:
+    - image: seth-rogan.png
+      premium: false
+      proxy: true
+      scryfallId: PCEL
 Sex Appeal:
   sets:
     - id: UGL
       premium: false
       proxy: false
+Shadowheart, Cleric of Graves:
+  architypes:
+    - life gain
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Shadowheart, Cleric of Order:
+  architypes:
+    - creature tokens
   sets:
     - premium: false
       proxy: true
       scryfallId: HBG
   tokens:
     2/2 white Knight creature: 2
+Shadowheart, Cleric of Trickery:
+  architypes:
+    - draw
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Shadowheart, Cleric of Twilight:
+  architypes:
+    - evasion
+    - +1/+1 counters
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Shadowheart, Cleric of War:
+  architypes:
+    - burn
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Shadowheart, Sharran Cleric:
   banned: SPECIALIZE
   sets:
     - premium: false
       proxy: true
       scryfallId: HBG
+Shaggy Camel:
+  sets:
+    - id: UST
+      premium: true
+      proxy: false
+Sheep Cloning:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: sheep-cloning.png
+      premium: false
+      proxy: true
 Shellephant:
   sets:
     - id: UST
       premium: true
       proxy: false
+Shichifukujin Dragon:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: PCEL
+Shove Aside:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMKM
 Shrine Keeper:
   sets:
     - premium: false
@@ -4850,12 +4765,60 @@ Six-y Beast:
     - premium: true
       proxy: false
       scryfallId: UNH
+Skanos, Black Dragon Vassal:
+  architypes:
+    - evasion
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Skanos, Blue Dragon Vassal:
+  architypes:
+    - flying
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Skanos, Dragon Vassal:
   banned: SPECIALIZE
   sets:
     - premium: false
       proxy: true
       scryfallId: HBG
+Skanos, Green Dragon Vassal:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Skanos, Red Dragon Vassal:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Skanos, White Dragon Vassal:
+  architypes:
+    - lifelink
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Skeletons in the Closet:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: skeletons-in-the-closet.png
+      premium: false
+      proxy: true
+Skyshroud Ambush:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: J21
+Slim Djinn:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: slim-djinn.png
+      premium: false
+      proxy: true
 Sliv-Mizzet, Hivemind:
   sets:
     - premium: false
@@ -4880,6 +4843,12 @@ Sliver of Hope:
     - premium: false
       proxy: false
       scryfallId: MB2
+Slow Djinn:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: slow-djinn.png
+      premium: false
+      proxy: true
 Slumbering Waterways:
   sets:
     - premium: false
@@ -4981,6 +4950,12 @@ Some Disassembly Required:
       premium: true
       proxy: false
       scryfallId: HHO
+Some Fat Pants:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: some-fat-pants.png
+      premium: false
+      proxy: true
 Soulhunter Rakshasa:
   sets:
     - premium: false
@@ -5013,11 +4988,16 @@ Spark Fiend:
       premium: false
       proxy: false
 Spatula of the Ages:
-  oracle: "4, TAP, Sacrifice ~: You may put a silver-bordered or acorn permanent card from your hand onto the battlefield."
+  oracle: '4, TAP, Sacrifice ~: You may put a silver-bordered or acorn permanent card from your hand onto the battlefield.'
   sets:
     - id: UGL
       premium: false
       proxy: false
+Speedbrood Stalker:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
 Spelling Bee:
   sets:
     - collectorNumber: 441
@@ -5044,6 +5024,11 @@ Split Screen:
     - id: UST
       premium: true
       proxy: false
+Sproutwatch Dryad:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMKM
 Spuzzem Strategist:
   sets:
     - premium: false
@@ -5054,6 +5039,12 @@ Spy Eye:
     - id: UST
       premium: true
       proxy: false
+Squee Triumphant:
+  sets:
+    - id: Extra Pulled
+      image: squee-triumphant.png
+      premium: false
+      proxy: true
 Squidnapper:
   sets:
     - premium: false
@@ -5089,6 +5080,11 @@ Staff of the Letter Magus:
     - id: UST
       premium: true
       proxy: false
+Stalwart Realmwarden:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YOTJ
 Stamp of Approval:
   sets:
     - id: UST
@@ -5153,11 +5149,21 @@ Stone-Throwing Devils:
     - premium: false
       proxy: RACISM
       scryfallId: ARN
+Stonehide Ancient:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
 Strategy, Schmategy:
   sets:
     - id: UGL
       premium: false
       proxy: false
+Stroke of Luck:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
 Strutting Turkey:
   sets:
     - id: UND
@@ -5201,7 +5207,6 @@ Super-Duper Death Ray:
 Super-Duper Lost:
   sets:
     - collectorNumber: 345
-
       id: UNF
       premium: true
       proxy: false
@@ -5216,6 +5221,11 @@ Surgeon General Commander:
       premium: true
       proxy: false
       scryfallId: ULST
+Surgical Metamorph:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YONE
 Surprise Party:
   sets:
     - collectorNumber: 315
@@ -5224,11 +5234,24 @@ Surprise Party:
       proxy: false
   tokens:
     1/1 white Clown Robot artifact creature: 4
+Svega, the Unconventional:
+  sets:
+    - id: H22
+      premium: false
+      proxy: true
+      scryfallId: PH22
+  tokens:
+    1/1 Attendee creature that's all colors: 2
 Swarm of Locus:
   sets:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Swiftspear's Teachings:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
 Sword of Dungeons & Dragons:
   sets:
     - id: H17
@@ -5242,6 +5265,11 @@ Sword of Dungeons & Dragons:
       proxy: false
       tokens:
         4/4 gold Dragon creature with flying: 2
+Sylvan Smite:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YBRO
 Symbol Status:
   sets:
     - premium: true
@@ -5300,6 +5328,28 @@ Target Minotaur:
       premium: true
       proxy: false
       scryfallVariant: 98d
+Target Target:
+  oracle: Target permanent targeted by target spell can't be the target of spells or abilities.
+  sets:
+    - id: Extra Pulled
+      image: target-target.png
+      premium: false
+      proxy: true
+Tasha, Unholy Archmage:
+  architypes:
+    - reanimation
+    - theft
+  sets:
+    - collectorNumber: 75
+      multiverseId: 574289
+      premium: false
+      proxy: true
+      scryfallId: HBG
+    - collectorNumber: 310
+      multiverseId: 574233
+      premium: false
+      proxy: true
+      scryfallId: HBG
 Tax Taker:
   sets:
     - premium: false
@@ -5352,6 +5402,11 @@ Teysa, Orzhov Scion:
       scryfallId: PMOA
   tokens:
     1/1 white Spirit creature with flying: 2
+Tezzeret's Reckoning:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YONE
 The Big Idea:
   sets:
     - premium: true
@@ -5383,7 +5438,7 @@ The Fallen Apart:
       scryfallId: UNH
 The Grand Calcutron:
   sets:
-    - id: UST # or ULST
+    - id: UST
       missing: true
       premium: true
       proxy: false
@@ -5414,6 +5469,12 @@ The Legend of Arena:
       tcgplayerId: 206016
   tokens:
     2/1 red Human Wizard creature: 2
+The Other Spatula of the Ages:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: the-other-spatula-of-the-ages.png
+      premium: false
+      proxy: true
 The Secret Lair:
   sets:
     - id: H20
@@ -5430,6 +5491,12 @@ There // They're // Their:
     - premium: false
       proxy: false
       scryfallId: MB2
+There's No Folk Like Merfolk:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: theres-no-folk-like-merfolk.png
+      premium: false
+      proxy: true
 Thopter Pie Network:
   banned: CONSUME
   sets:
@@ -5437,25 +5504,44 @@ Thopter Pie Network:
       premium: true
       proxy: false
       scryfallId: HHO
+Thought-String Analyst:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMKM
 Three-Headed Goblin:
   sets:
     - id: UST
       premium: true
       proxy: false
+Throat Wolf:
+  sets:
+    - id: Extra Pulled
+      image: throat-wolf.png
+      premium: false
+      proxy: true
+    - premium: false
+      proxy: false
+      scryfallId: CMB1
+Thunderbond Vanguard:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
 Tibalt the Chaotic:
   sets:
     - premium: false
       proxy: false
       scryfallId: CMB1
   tokens:
-    '1/1 red Devil creature with "When this creature dies, it deals 1 damage to any target."': 2
+    1/1 red Devil creature with "When this creature dies, it deals 1 damage to any target.": 2
     4/4 red Hellion creature: 2
 Time Out:
   sets:
     - id: UST
       premium: true
       proxy: false
-"Time Walk Variant #23":
+'Time Walk Variant #23':
   banned: KIDNEY
   oracle: |
     As an additional cost to cast this spell, sacrifice a kidney.
@@ -5463,6 +5549,12 @@ Time Out:
   sets:
     - id: Extra Pulled
       image: time-walk-variant-23.png
+      premium: false
+      proxy: true
+Time Walk on the Wild Side:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: time-walk-on-the-wild-side.png
       premium: false
       proxy: true
 Timmerian Fiends:
@@ -5478,6 +5570,13 @@ Timmy, Power Gamer:
     - id: UND
       premium: false
       proxy: false
+Tin Street Cadet:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
+  tokens:
+    1/1 red Goblin creature: 2
 Toddler's Rage:
   sets:
     - premium: false
@@ -5511,6 +5610,17 @@ Topsy Turvy:
       premium: false
       proxy: false
       rarity: U
+Tornellan Protector:
+  sets:
+    - image: tornellan-protector.png
+      premium: false
+      proxy: true
+      scryfallId: PSDG
+Town-Razer Tyrant:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
 Toy Boat:
   sets:
     - premium: true
@@ -5527,6 +5637,25 @@ Treacherous Trapezist:
       id: UNF
       premium: true
       proxy: false
+Treehouse of Dr. Moreau:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: treehouse-of-dr-moreau.png
+      premium: false
+      proxy: true
+Treetop Warden:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: ANB
+Treizeci, Sun of Serra:
+  sets:
+    - id: H22
+      premium: false
+      proxy: true
+      scryfallId: PH22
+  tokens:
+    Serra Angel: 2
 Trial and Error:
   sets:
     - premium: false
@@ -5555,11 +5684,24 @@ Truth or Dare:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Tsagan, Raider Warlord:
+  markers:
+    - Start your engines!
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
 Two by Four:
   sets:
     - premium: false
       proxy: false
       scryfallId: MB2
+Udder Madness:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: udder-madness.png
+      premium: false
+      proxy: true
 Uktabi Kong:
   sets:
     - premium: true
@@ -5572,6 +5714,11 @@ Under-Construction Skyscraper:
     - premium: false
       proxy: false
       scryfallId: MB2
+Underbridge Warlock:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
 Underdark Beholder:
   sets:
     - premium: false
@@ -5587,11 +5734,23 @@ Unexpected Potential:
     - premium: false
       proxy: false
       scryfallId: CNS
+Unforgiving Overtake:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
 Unicycle:
   sets:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Unnatural Summons:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDSK
+  tokens:
+    Manifest: 2
 Urza's Contact Lenses:
   sets:
     - id: UGL
@@ -5618,6 +5777,18 @@ Urza, Academy Headmaster:
     - id: UST
       premium: false
       proxy: false
+Uthgardt Fury:
+  architypes:
+    - burn
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: HBG
+Valiant Batrider:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YLCI
 Valuetown // Take a Trip to...:
   sets:
     - premium: false
@@ -5628,6 +5799,11 @@ Vazal, the Compleat:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Velukan Dragon:
+  sets:
+    - premium: true
+      proxy: false
+      scryfallId: MB2
 Very Cryptic Command:
   sets:
     - banned: CONTRAPTION
@@ -5665,6 +5841,14 @@ Very Cryptic Command:
       tcgplayerId: 154423
       tokens:
         2/2 black Rogue creature with menace: 1
+Vexyr, Ich-Tekik's Heir:
+  banned: SEEK
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YONE
+  tokens:
+    3/3 colorless Phyrexian Golem artifact creature: 2
 Vhal, Eager Scholar:
   banned: SPECIALIZE
   sets:
@@ -5754,6 +5938,11 @@ Viconia, Nightsinger's Disciple:
     - premium: false
       proxy: true
       scryfallId: HBG
+Victory of the Pyrohammer:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YWOE
 Visitor from Planet Q:
   sets:
     - premium: false
@@ -5789,6 +5978,13 @@ Wall of Fortune:
     - id: UST
       premium: true
       proxy: false
+War of the Spark:
+  banned: WAR_OF_THE_SPARK
+  sets:
+    - id: H19
+      premium: false
+      proxy: true
+      scryfallId: PH19
 Waste Land:
   sets:
     - premium: false
@@ -5812,6 +6008,13 @@ Watermarket:
     - id: UST
       premium: false
       proxy: false
+Waystone's Guidance:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
+  tokens:
+    1/1 red Warrior creature: 2
 Weaponized Scrap:
   sets:
     - premium: false
@@ -5822,6 +6025,13 @@ Weight Advantage:
     - id: CN2
       premium: false
       proxy: false
+Welcome the Darkness:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDSK
+  tokens:
+    X/X black Demon creature with flying: 1
 Well Done:
   sets:
     - collectorNumber: 414
@@ -5845,6 +6055,12 @@ Whammy Burn:
     - premium: false
       proxy: false
       scryfallId: CMB1
+What the...?!:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: what-the.png
+      premium: false
+      proxy: true
 When Fluffy Bunnies Attack:
   sets:
     - id: UNH
@@ -5854,6 +6070,12 @@ When Fluffy Bunnies Attack:
       premium: true
       proxy: false
       scryfallVariant: 67★
+White Sale:
+  sets:
+    - id: 'Unglued 2: The Obligatory Sequel'
+      image: white-sale.png
+      premium: false
+      proxy: true
 Who // What // When // Where // Why:
   sets:
     - premium: true
@@ -5871,6 +6093,11 @@ Who's That Praetor?:
     Sheoldred, the Apocalypse: 1
     Urabrask, Heretic Praetor: 1
     Vorinclex, Monstrous Raider: 1
+Wickerwing Effigy:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YMID
 Wild Crocodile:
   sets:
     - id: UST
@@ -5922,11 +6149,26 @@ Wisedrafter's Will:
     - premium: false
       proxy: false
       scryfallId: MB2
+Wish Good Luck:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YDFT
+  tokens:
+    3/1 colorless Vehicle artifact with crew 1: 1
+    Food: 1
+    Treasure: 1
 Witty Demon:
   sets:
     - premium: false
       proxy: false
       scryfallId: CMB1
+Wizard from Beyond:
+  sets:
+    - id: H22
+      premium: false
+      proxy: true
+      scryfallId: PH22
 Wizened Arbiter:
   sets:
     - premium: false
@@ -6031,6 +6273,11 @@ X:
     - id: UST
       premium: true
       proxy: false
+Xho Cai, Flickering Talon:
+  sets:
+    - premium: false
+      proxy: true
+      scryfallId: YTDM
 Xyru Specter:
   sets:
     - premium: false
@@ -6114,6 +6361,11 @@ Zzzyxas's Abyss:
       id: UNF
       premium: true
       proxy: false
+\"Name Sticker\" Goblin:
+  sets:
+    - id: UNF
+      premium: false
+      proxy: true
 _____:
   sets:
     - premium: true
@@ -6124,63 +6376,3 @@ capital offense:
     - id: UST
       premium: true
       proxy: false
-Danny Trejo:
-  banned: UNBALANCED
-  sets:
-    - id: MTG
-      premium: false
-      proxy: true
-Shaggy Camel:
-  sets:
-    - id: UST
-      premium: true
-      proxy: false
-\"Name Sticker\" Goblin:
-  sets:
-    - id: UNF
-      premium: false
-      proxy: true
-Desert Cenote:
-  rulings:
-    - Be honest about the two colors from among cards in your hand.
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YTDM
-Thunderbond Vanguard:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YTDM
-Waystone's Guidance:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YTDM
-Draconic Fealty:
-  rulings:
-    - Be honest about the greatest mana value among cards in your hand.
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YTDM
-Swiftspear's Teachings:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YTDM
-Illuminating Lash:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YTDM
-Stonehide Ancient:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YTDM
-Xho Cai, Flickering Talon:
-  sets:
-    - premium: false
-      proxy: true
-      scryfallId: YTDM

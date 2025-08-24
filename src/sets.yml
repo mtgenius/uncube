@@ -216,6 +216,7 @@ Unglued:
 Unhinged:
   scryfallId: UNH
 Unhinged Promos:
+  displayName: Unhinged
   scryfallId: PUNH
 Unsanctioned:
   id: UND

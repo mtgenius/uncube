@@ -1,2 +1,4 @@
-- `pnpm install`
-- `pnpm run dev`
+# Contributing
+
+- `npm install`
+- `npm start`

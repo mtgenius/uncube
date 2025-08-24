@@ -6,10 +6,10 @@ cards that are only legal in the Cube Draft format, primarily focused on
 [silver-bordered cards](http://mtg.gamepedia.com/Silver-bordered).
 
 _This_ uncube, in addition to silver-bordered cards, contains
-[unreleased _Magic: the Gathering_ artwork](https://github.com/mtgenius/uncube/tree/master/artwork),
-[cards from unreleased and digital-only sets](https://github.com/mtgenius/uncube/tree/master/cards),
-[emblems](https://github.com/mtgenius/uncube/tree/master/emblems) for those
-cards, and [tokens](https://github.com/mtgenius/uncube/tree/master/tokens) for
+[unreleased _Magic: the Gathering_ artwork](https://github.com/mtgenius/uncube/tree/main/artwork),
+[cards from unreleased and digital-only sets](https://github.com/mtgenius/uncube/tree/main/cards),
+[emblems](https://github.com/mtgenius/uncube/tree/main/emblems) for those
+cards, and [tokens](https://github.com/mtgenius/uncube/tree/main/tokens) for
 those cards.
 
 ## Why are only some cards "premium"?

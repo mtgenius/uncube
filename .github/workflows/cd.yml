@@ -10,11 +10,12 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
+          cache: npm
           node-version: latest
       - name: Install dependencies
-        run: npx pnpm install
+        run: npm install
       - name: Build
-        run: npx pnpm run build
+        run: npm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:

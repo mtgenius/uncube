@@ -1,4 +1,5 @@
 import config from '@quisido/eslint-config';
+import tsPlugin from '@typescript-eslint/eslint-plugin';
 import ymlPlugin from 'eslint-plugin-yml';
 import ymlPrettier from 'eslint-plugin-yml/lib/configs/prettier.js';
 import ymlStandard from 'eslint-plugin-yml/lib/configs/standard.js';
@@ -89,13 +90,31 @@ export default [
   },
 
   {
+    plugins: {
+      '@typescript-eslint': tsPlugin,
+    },
+
     rules: {
+      'capitalized-comments': 'off',
       complexity: 'off',
       'max-depth': 'off',
       'max-lines': 'off',
       'max-lines-per-function': 'off',
       'max-statements': 'off',
       'no-alert': 'off',
+
+      '@typescript-eslint/no-unused-vars': [
+        'error',
+        {
+          args: 'all',
+          argsIgnorePattern: '^_',
+          caughtErrors: 'all',
+          caughtErrorsIgnorePattern: '^_',
+          destructuredArrayIgnorePattern: '^_',
+          ignoreRestSiblings: true,
+          // varsIgnorePattern: '^_',
+        },
+      ],
     },
   },
 ];

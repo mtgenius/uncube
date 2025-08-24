@@ -54,6 +54,8 @@ export default function mapBannedToText(banned: Banned): string {
       return 'This card is too powerful.';
     case Banned.VisualAccessibility:
       return 'This card is not accessible to visually-impaired players.';
+    case Banned.WarOfTheSpark:
+      return 'There are not enough War of the Spark planeswalkers, War of the Spark zombies, or Bolas permanents to support this card.';
     case Banned.Unfun:
       return 'This card, by definition, is encouraging players not to enjoy themselves.';
   }

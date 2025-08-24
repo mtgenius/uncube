@@ -26,4 +26,5 @@ export enum Banned {
   Unbalanced = 'UNBALANCED',
   Unfun = 'UNFUN',
   VisualAccessibility = 'VISUAL_ACCESSIBILITY',
+  WarOfTheSpark = 'WAR_OF_THE_SPARK',
 }

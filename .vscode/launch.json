@@ -5,8 +5,8 @@
       "experimentalNetworking": "off",
       "name": "Develop",
       "request": "launch",
-      "runtimeArgs": ["run", "dev"],
-      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["start"],
+      "runtimeExecutable": "npm",
       "skipFiles": ["<node_internals>/**"],
       "type": "node"
     }

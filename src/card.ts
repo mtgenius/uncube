@@ -28,7 +28,7 @@ interface Options {
   readonly tokens: Readonly<Record<string, number>> | undefined;
 }
 
-const SCRYFALL_API_DELAY = 100;
+const SCRYFALL_API_DELAY = 200;
 const SCRYFALL_API_DELAYED_QUEUE = new DelayedQueue(SCRYFALL_API_DELAY);
 
 export default class Card {

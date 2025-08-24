@@ -38,6 +38,10 @@
   proxy: 13
 1/2 red Half creature:
   proxy: 2
+1/1 red Warrior creature:
+  proxy: false
+  tcgplayerIds:
+    - 626094_1
 2/1 red Wizard creature:
   proxy: 2
 2/2 black Rogue creature with hexproof:

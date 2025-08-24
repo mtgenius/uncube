@@ -1,0 +1,46 @@
+is:fullart
+type:land
+-layout:modal_dfc
+-layout:transform
+-type:basic
+(
+  o:landcycling OR o:search OR produces:wubrg OR
+  (
+    o:plains OR o:island OR o:swamp OR o:mountain OR o:forest OR
+    type:plains OR type:island OR type:swamp OR type:mountain OR type:forest
+  )
+)
+-"Archway of Innovation"
+-"Arena of Glory"
+-"Boseiju, Who Endures"
+-"Cabal Coffers"
+-"Castle Ardenvale"
+-"Cavern of Souls"
+-"Command Tower"
+-"Cori Mountain Monastery"
+-"Cryptic Spires"
+-"Dalkovan Encampment"
+-"Exotic Orchard"
+-"Gemstone Caverns"
+-"Great Arashin City"
+-"Inventors' Fair"
+-"Kishla Village"
+-"Lotus Field"
+-"Maze's End"
+-"Meteor Crater"
+-"Mistrise Village"
+-"Path of Ancestry"
+-"Plaza of Heroes"
+-"Power Depot"
+-"Reflecting Pool"
+-"Secluded Courtyard"
+-"Shifting Woodland"
+-"Spymaster's Vault"
+-"The Grey Havens"
+-"Three Tree City"
+-Urborg
+-"Urborg, Tomb of Yawgmoth"
+-"Urza's Saga"
+-"Valakut, the Molten Pinnacle"
+-"Voldaren Estate"
+-"Yavimaya, Cradle of Growth"

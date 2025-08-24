@@ -10,6 +10,7 @@ import sortTokenEntries from './sort-token-entries.js';
 import mapTokenEntryToListItems from './map-token-entry-to-list-items.js';
 import reduceCardsToCount from './reduce-cards-to-count.js';
 import sum from './sum.js';
+import isCardBanned from './is-card-banned.js';
 
 const FIRST = 0;
 const NONE = 0;
@@ -71,7 +72,7 @@ try {
   metadataSection.classList.add('metadata');
   metadataSection.appendChild(
     window.document.createTextNode(
-      `${cards.reduce(reduceCardsToCount, NONE)} cards / ${Object.values(tokens).reduce((count: number, counts: readonly number[]): number => count + sum(...counts), NONE)} tokens`,
+      `${cards.reduce(reduceCardsToCount, NONE)} cards (+ ${cards.filter(isCardBanned).length} banned) / ${Object.values(tokens).reduce((count: number, counts: readonly number[]): number => count + sum(...counts), NONE)} tokens`,
     ),
   );
   ROOT.appendChild(metadataSection);
